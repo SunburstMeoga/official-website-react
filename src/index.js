@@ -1,10 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Home from '@/pages/home'
-import '@/index.css'
+import './index.css'
+import { RouterProvider } from 'react-router-dom';
+import router from './router';
+import TopBar from './components/TopBar';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Home />
+    <>
+      <TopBar></TopBar>
+      <RouterProvider router={router}></RouterProvider>
+    </>
   </React.StrictMode>
 );
