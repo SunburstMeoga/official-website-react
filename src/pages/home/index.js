@@ -81,8 +81,8 @@ const Home = () => {
                             </p>
                             <p className="mb-10">
                                 This initiative enables global
-                                <p>enterprises to participate in the</p>
-                                <p>digital financial system more easily</p>
+                                enterprises to participate in the
+                                digital financial system more easily
                                 and efficiently,
                             </p>
                             <p>
@@ -91,7 +91,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className="relative w-full">
+                    <div className="relative w-full mt-10">
                         <div className="w-10/12 absolute">
                             <img alt="" src="/images/ellipse-2.png"></img>
                         </div>
