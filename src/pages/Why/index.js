@@ -1,14 +1,21 @@
 import React from "react";
-
+import { useNavigate } from "react-router-dom";
 const Why = () => {
+    const navigator = useNavigate()
+    function toHome() {
+        navigator('/')
+    }
+    function toHow() {
+        navigator('/how')
+    }
     return (
         <>
             <div className="image-bg bg-why-2image image-bg-tp-1025 bg-no-repeat bg-contain bg-white-opaity-80 flex flex-col items-center relative">
                 <div className="absolute flex flex-col items-center text-2xl w-full why-button-group" >
-                    <div className="green-button py-3 w-8/12 rounded mb-2">
+                    <div className="green-button py-3 w-8/12 rounded mb-2" onClick={() => toHome()}>
                         Home
                     </div>
-                    <div className="orange-button py-3 w-8/12 rounded">
+                    <div className="orange-button py-3 w-8/12 rounded" onClick={() => toHow()}>
                         How 3AT Works
                     </div>
                 </div>

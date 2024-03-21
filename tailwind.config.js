@@ -17,7 +17,10 @@ module.exports = {
         'home-2image': "url('/public/images/home-bg-2.png')",
         'home-3image': "url('/public/images/features.png')",
         'why-1image': "url('/public/images/why-bg-1.png')",
-        'why-2image': "url('/public/images/Mobile_why choos 3at.png')",
+        'why-2image': "url('/public/images/Mobile_why-choos-3at.png')",
+        'how-1image': "url('/public/images/Mobile_how-3at-works.png')",
+
+
       }
     },
   },

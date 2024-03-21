@@ -1,6 +1,14 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+    const navigator = useNavigate()
+    function toWhy() {
+        navigator('/why')
+    }
+    function toHow() {
+        navigator('/how')
+    }
     return (
         <div className="pt-20">
             <div className="image-bg bg-home-1image image-bg-tp-120 bg-no-repeat bg-contain bg-white-opaity-80 flex flex-col items-center relative">
@@ -27,10 +35,10 @@ const Home = () => {
             </div>
 
             <div className="flex flex-col items-center text-2xl mt-40 w-full mb-20" >
-                <div className="green-button py-3 w-8/12 rounded mb-2">
+                <div className="green-button py-3 w-8/12 rounded mb-2" onClick={() => toWhy()}>
                     Why Choose 3AT
                 </div>
-                <div className="orange-button py-3 w-8/12 rounded">
+                <div className="orange-button py-3 w-8/12 rounded" onClick={() => toHow()}>
                     How 3AT Works
                 </div>
             </div>
