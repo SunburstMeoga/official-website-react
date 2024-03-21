@@ -11,5 +11,37 @@ img {
 .image-bg:before {
     content: "";
     display: block;
+
+}
+
+.image-bg-tp-120 {
     padding-top: 120%;
+}
+
+.image-bg-tp-760 {
+    padding-top: 760%;
+    /* border: 1px solid red; */
+}
+
+.image-bg-tp-247 {
+    padding-top: 247%;
+    border: 1px solid red;
+}
+
+.text-gradient {
+    background-image: linear-gradient(to right, #2FCD82, #EC652B, #2FCD82);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.green-button {
+    text-align: center;
+    background-color: #2FCD82;
+    color: white;
+}
+
+.orange-button {
+    text-align: center;
+    background-color: #EC652B;
+    color: white;
 }

@@ -7,11 +7,15 @@ module.exports = {
     extend: {
       colors: {
         'user-black': '#36485C',
-        'white-opaity-80': 'rgba(255,255,255,0.8)'
+        'white-opaity-80': 'rgba(255,255,255,1)',
+        'word-gray': '#003D6C',
+        'primary-green': '#2FCD82',
+        'primary-orange': '#EC652B'
       },
       backgroundImage: {
-        'home-1': "url('/public/images/home-bg-1.png')",
-
+        'home-1image': "url('/public/images/home-bg-1.png')",
+        'home-2image': "url('/public/images/home-bg-2.png')",
+        'home-3image': "url('/public/images/features.png')"
       }
     },
   },
