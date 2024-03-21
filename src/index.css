@@ -20,12 +20,30 @@ img {
 
 .image-bg-tp-760 {
     padding-top: 760%;
+}
+
+.image-bg-tp-157 {
+    padding-top: 157%;
     /* border: 1px solid red; */
 }
 
+
 .image-bg-tp-247 {
     padding-top: 247%;
-    border: 1px solid red;
+}
+
+.image-bg-tp-1025 {
+    padding-top: 1025%;
+}
+
+.why-button-group {
+    top: 18%;
+}
+
+.ellipse-1 {
+    position: absolute;
+    top: 1240px;
+
 }
 
 .text-gradient {

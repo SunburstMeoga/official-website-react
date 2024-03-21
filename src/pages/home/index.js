@@ -2,11 +2,11 @@ import React from "react";
 
 const Home = () => {
     return (
-        <>
-            <div className="mt-10 image-bg bg-home-1image image-bg-tp-120 bg-no-repeat bg-contain bg-white-opaity-80 flex flex-col items-center relative">
+        <div className="pt-20">
+            <div className="image-bg bg-home-1image image-bg-tp-120 bg-no-repeat bg-contain bg-white-opaity-80 flex flex-col items-center relative">
                 <div className="absolute w-full bg-white-opaity-80"></div>
                 <div className="w-1/2 absolute -top-4">
-                    <img src="/images/logo.png"></img>
+                    <img alt="" src="/images/logo.png"></img>
                 </div>
                 <div className="flex flex-col items-center text-word-gray text-5xl font-bold absolute -bottom-6">
                     <div className="mb-2">
@@ -16,7 +16,7 @@ const Home = () => {
                         Trustworthy
                     </div>
                 </div>
-                <div className="flex flex-col items-center text-word-gray text-5xl font-bold absolute text-gradient pb-1 -bottom-32">
+                <div className="flex flex-col items-center text-5xl font-bold absolute text-gradient pb-1 -bottom-32">
                     <div className="mb-2">
                         Digital Fiat
                     </div>
@@ -50,7 +50,7 @@ const Home = () => {
             <div className="image-bg bg-home-2image image-bg-tp-760 bg-no-repeat bg-contain flex flex-col items-center relative mb-20">
                 <div className="absolute top-16 flex flex-col items-center justify-start">
                     <div className="w-9/12 mb-8">
-                        <img src="/images/d2b.png"></img>
+                        <img alt="" src="/images/d2b.png"></img>
                     </div>
 
                     <div className="text-word-gray text-2xl flex justify-center items-center w-full mb-36">
@@ -85,21 +85,21 @@ const Home = () => {
 
                     <div className="relative w-full">
                         <div className="w-10/12 absolute">
-                            <img src="/images/ellipse-2.png"></img>
+                            <img alt="" src="/images/ellipse-2.png"></img>
                         </div>
                         <div className="w-full -mt-10">
-                            <img src="/images/features.png"></img>
+                            <img alt="" src="/images/features.png"></img>
                         </div>
                         <div className="w-full -mt-10">
-                            <img src="/images/team.png"></img>
+                            <img alt="" src="/images/team.png"></img>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="w-full mb-20">
-                <img src="/images/FAQs.png"></img>
+                <img alt="" src="/images/FAQs.png"></img>
             </div>
-        </>
+        </div>
     )
 }
 
