@@ -40,6 +40,11 @@ img {
     padding-top: 920%;
 }
 
+.image-bg-tp-220 {
+    padding-top: 220%;
+    /* border: 1px solid red; */
+}
+
 .why-button-group {
     top: 18%;
 }
@@ -65,10 +70,13 @@ img {
     text-align: center;
     background-color: #2FCD82;
     color: white;
+    cursor: pointer;
 }
 
 .orange-button {
     text-align: center;
     background-color: #EC652B;
     color: white;
+    cursor: pointer;
+
 }
