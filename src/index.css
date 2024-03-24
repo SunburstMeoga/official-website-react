@@ -15,34 +15,38 @@ img {
 }
 
 .image-bg-tp-120 {
-    padding-top: 120%;
+    padding-bottom: 120%;
 }
 
 .image-bg-tp-760 {
-    padding-top: 760%;
+    padding-bottom: 760%;
 }
 
 .image-bg-tp-157 {
-    padding-top: 157%;
+    padding-bottom: 157%;
     /* border: 1px solid red; */
 }
 
 
 .image-bg-tp-247 {
-    padding-top: 247%;
+    padding-bottom: 247%;
 }
 
 .image-bg-tp-1025 {
-    padding-top: 1025%;
+    padding-bottom: 1025%;
 }
 
 .image-bg-tp-920 {
-    padding-top: 920%;
+    padding-bottom: 920%;
 }
 
 .image-bg-tp-220 {
-    padding-top: 220%;
-    /* border: 1px solid red; */
+    padding-bottom: 220%;
+}
+
+.image-bg-tp-53 {
+    padding-bottom: 53%;
+    border: 1px solid blue;
 }
 
 .why-button-group {

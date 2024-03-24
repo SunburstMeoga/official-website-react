@@ -21,7 +21,7 @@ module.exports = {
         'why-1image': "url('/public/images/why-bg-1.png')",
         'why-2image': "url('/public/images/Mobile_why-choos-3at.png')",
         'how-1image': "url('/public/images/Mobile_how-3at-works.png')",
-
+        'home-rectangle': "url('/public/images/Rectangle-4.png')",
       }
     },
   },

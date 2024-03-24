@@ -11,7 +11,7 @@ const Home = () => {
     }
     return (
         <div>
-            <div className="md:hidden">
+            <div className="md:hidden ">
                 <div className="pt-20">
                     <div className="image-bg bg-home-1image image-bg-tp-120 bg-no-repeat bg-contain bg-white-opaity-80 flex flex-col items-center relative">
                         <div className="absolute w-full bg-white-opaity-80"></div>
@@ -111,11 +111,11 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="sm:hidden md:block">
+            <div className="hidden md:block ">
                 <div className="image-bg image-bg-tp-220 bg-home-pc-one bg-no-repeat bg-contain relative flex justify-center items-center">
                     <div className="absolute top-0 w-full ">
-                        <div className="flex justify-end items-center">
-                            <div className="font-bold text-6xl flex justify-between flex-col absolute z-10 left-72 bottom-28">
+                        <div className="flex justify-end items-center mb-20">
+                            <div className="font-bold text-6xl flex justify-between flex-col absolute left-64 bottom-26 z-10 ">
                                 <div className="w-1/3 mb-8">
                                     <img alt="" src="/images/logo.png"></img>
                                 </div>
@@ -136,7 +136,127 @@ const Home = () => {
                                 <img alt="" src="/images/8-1.png"></img>
                             </div>
                         </div>
+
+                        <div className="flex justify-center items-center w-full mb-20">
+                            <div className="flex justify-between items-start  w-9/12">
+                                <div className="pt-10 pl-2">
+                                    <img alt="" src="/images/d2b.png"></img>
+                                </div>
+                                <div className="w-7/12 pr-20">
+                                    <div className="flex justify-end items-center text-6xl font-semibold">
+                                        <span className="text-word-gray mr-4">Visionary</span>
+                                        <span className="text-primary-green mr-4">strategy</span>
+                                        <span className="text-word-gray">and</span>
+
+                                    </div>
+                                    <div className="flex justify-start items-center text-6xl font-semibold mb-4">
+                                        <span className="text-primary-green mr-4">innovative</span>
+                                        <span className="text-word-gray">spirit</span>
+                                    </div>
+                                    <div className="text-word-gray text-xl">
+                                        <p className="mb-4"> 3AT tokens create a safe and stable trading environment for users,</p>
+                                        <p className="mb-4">Carrying the bridge between digital currency and traditional currency,</p>
+                                        <p className="mb-4">Eliminating the volatility and complexity that often accompanies digital assets.</p>
+                                        <p className="mb-0">This initiative enables global enterprises to participate in the digital financial system</p>
+                                        <p className="mb-4">more easily and efficiently,</p>
+                                        <p className="mb-4">Enjoy the unique advantages of 3AT.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="flex justify-center items-center w-full ">
+                            <div className="flex justify-between items-start  w-10/12 relative  ">
+                                <div className="absolute">
+                                    <img alt="" src="/images/Ellipse 2.png"></img>
+                                </div>
+                                <div className="pl-40 pt-48 relative z-10">
+                                    <div className="flex justify-start items-center text-6xl font-semibold mb-16">
+                                        <span className="text-word-gray mr-4">About</span>
+                                        <span className="text-primary-green mr-4">3AT</span>
+                                    </div>
+                                    <div className="text-word-gray text-xl">
+                                        <p className="mb-2">The founding team of 3AT focuses on promoting the digital</p>
+                                        <p className="mb-2">application of fiat currency. The 3AT project was launched in </p>
+                                        <p className="mb-2">2023, building a blockchain based platform aimed at</p>
+                                        <p className="mb-2">disrupting the traditional financial system with a more</p>
+                                        <p className="mb-2">users with a unique and trustworthy fiat currency</p>
+                                        <p className="mb-2">experience through innovation in digital assets.</p>
+                                    </div>
+                                </div>
+                                <div className="">
+                                    <img alt="" src="/images/9 1 (1).png"></img>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="flex justify-center items-center w-full -mt-28  ">
+                            <div className="flex justify-center items-start  w-7/12   ">
+                                <div className="">
+                                    <div className="flex justify-start items-center text-6xl font-semibold">
+                                        <span className="text-primary-green mr-4">Team</span>
+                                        <span className="text-word-gray mr-4">And</span>
+                                        <span className="text-primary-orange mr-4">technical</span>
+                                        <span className="text-word-gray mr-4">advantages</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="flex justify-center items-center w-full mb-10">
+                            <div className="flex justify-between items-center  w-9/12">
+                                <div className="">
+                                    <img alt="" src="/images/hand.png"></img>
+                                </div>
+                                <div className="w-6/12 pr-20 flex justify-end">
+                                    <div className="text-word-gray text-xl">
+                                        <p className="mb-2"> 3AT brings together professionals in the fields of financial</p>
+                                        <p className="mb-2">services, technology and compliance, led by an experienced</p>
+                                        <p className="mb-2">senior management team, to provide excellentservices to users</p>
+                                        <p className="mb-2">around the world. Leading the way in the digital asset space.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div className="flex justify-center items-center w-full ">
+                            <div className="flex justify-between items-center w-9/12">
+                                <div className="w-1/2 relative flex flex-col items-start justify-center">
+                                    <div className="w-full absolute top-0 left-0">
+                                        <img alt="" src="/images/Rectangle-4.png"></img>
+                                    </div>
+                                    <div className="w-full absolute top-20 left-20">
+                                        <div className="w-1/3 mb-14">
+                                            <img src="/images/7_1 1.png" alt=""></img>
+                                        </div>
+                                        <div className="text-word-gray">
+                                            <p className="">With hah as the underlying technology, it provides</p>
+                                            <p className="">strong support for 3AT and becomes the best choice</p>
+                                            <p className="">to achieve the stability of digital assets.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="w-1/2 relative flex flex-col items-start justify-center">
+                                    <div className="w-full absolute top-0 left-0">
+                                        <img alt="" src="/images/Rectangle-4.png"></img>
+                                    </div>
+                                    <div className="w-full absolute top-10 left-20">
+                                        <div className="w-1/3 mb-12">
+                                            <img src="/images/image 5.png" alt=""></img>
+                                        </div>
+                                        <div className="text-word-gray">
+                                            <p className="">With hah as the underlying technology, it provides</p>
+                                            <p className="">strong support for 3AT and becomes the best choice</p>
+                                            <p className="">to achieve the stability of digital assets.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
+
                 </div>
             </div>
         </div>
