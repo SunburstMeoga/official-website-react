@@ -30,7 +30,7 @@ const Why = () => {
                     <img alt="" src="/images/logo.png"></img>
                 </div>
                 <div className="flex flex-col items-center text-word-gray text-5xl font-bold absolute bottom-24">
-                    <div className="">
+                    <div className="text-2xl">
                         Why Choose
                     </div>
                     <div className="mb-2 text-primary-orange">
@@ -38,12 +38,12 @@ const Why = () => {
                     </div>
                 </div>
                 <div className="flex w-9/12 flex-col items-center text-word-gray text-sm text-left absolute pb-1 -bottom-8">
-                    <p>3AT stands out with its unique</p>
-                    <p>stablecoin model. The innovative</p>
-                    <p>integration of blockchain technology</p>
-                    <p>makes it a safe, efficient and</p>
-                    <p>convenient digital asset, bringing a</p>
-                    <p>new experience to transactions.</p>
+                    <div>3AT stands out with its unique</div>
+                    <div>stablecoin model. The innovative</div>
+                    <div>integration of blockchain technology</div>
+                    <div>makes it a safe, efficient and</div>
+                    <div>convenient digital asset, bringing a</div>
+                    <div>new experience to transactions.</div>
                 </div>
             </div>
             <div className="flex flex-col items-center text-2xl mt-12 w-full mb-28" >
@@ -93,9 +93,9 @@ const Why = () => {
                                 </div>
 
                                 <div className="text-word-gray text-xl">
-                                    <p className="mb-4"> 3AT stands out with its unique stablecoin model. The innovative</p>
-                                    <p className="mb-4">integration of blockchain technology makes it a safe, efficient and</p>
-                                    <p className="mb-4">convenient digital asset, bringing a new experience to transactions.</p>
+                                    <div className="mb-4"> 3AT stands out with its unique stablecoin model. The innovative</div>
+                                    <div className="mb-4">integration of blockchain technology makes it a safe, efficient and</div>
+                                    <div className="mb-4">convenient digital asset, bringing a new experience to transactions.</div>
                                 </div>
                             </div>
                             <div className="mr-60">
@@ -104,7 +104,7 @@ const Why = () => {
                         </div>
 
 
-                        <div className="w-full flex flex-col justify-start items-center">
+                        <div className="w-full flex flex-col justify-start items-center mb-20">
                             <div className="w-9/12 mb-10">
                                 <div className="w-1/12 h-2 bg-primary-orange"></div>
                             </div>
@@ -113,11 +113,77 @@ const Why = () => {
                             </div>
                         </div>
 
-                        <div className="w-full flex justify-center text-center mt-8">
+                        <div className="w-full flex justify-center items-center text-word-gray">
+                            <div className="w-9/12 flex justify-between items-center">
+                                <div className="flex-1 pr-10 mt-40 flex flex-col justify-start">
+                                    <div className="flex flex-col items-end justify-start w-full mb-10">
+                                        <div className="mb-5 text-6xl font-bold">05</div>
+                                        <div>
+                                            <div className="text-2xl">3AT strictly follows the world's</div>
+                                            <div className="text-2xl">first-class regulatory standards,</div>
+                                            <div className="text-2xl">including anti-money laundering,</div>
+                                            <div className="text-2xl">combating terrorist financing, and</div>
+                                            <div className="text-2xl">formulating customer standards.</div>
+                                            <div className="text-2xl">standards and implement</div>
+                                            <div className="text-2xl">standardized compliance</div>
+                                            <div className="text-2xl">measures.</div>
+                                        </div>
+                                    </div>
+                                    <div className="flex flex-col items-end justify-start w-full">
+                                        <div className="mb-5 text-6xl font-bold">04</div>
+
+                                        <div>
+                                            <div className="text-2xl">The professional customer</div>
+                                            <div className="text-2xl">service team provides round-the-</div>
+                                            <div className="text-2xl">clock service to ensure that users</div>
+                                            <div className="text-2xl">can receive support at any time.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="flex flex-col items-center justify-center w-5/12">
+                                    <div className="flex flex-col items-center justify-center w-full">
+                                        <div className="mb-5 text-6xl font-bold">01</div>
+                                        <div className="mb-2">
+                                            <div className="text-2xl">All 3AT tokens are pegged to fiat currencies</div>
+                                            <div className="text-2xl">and are 100% backed by fiat reserves,</div>
+                                            <div className="text-2xl">ensuring sufficient reserves for exchange.</div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img src="/images/picle.png"></img>
+                                    </div>
+                                </div>
+                                <div className="flex-1 pl-10 flex flex-col justify-start">
+                                    <div className="flex flex-col items-t justify-start w-full mt-32 mb-16">
+                                        <div className="mb-5 text-6xl font-bold">02</div>
+                                        <div>
+                                            <div className="text-2xl">The complete blockchain ecosystem</div>
+                                            <div className="text-2xl">based on hah enables 3AT to have</div>
+                                            <div className="text-2xl">excellent liquidity and provide users</div>
+                                            <div className="text-2xl">with an excellent trading</div>
+                                            <div className="text-2xl">experience.</div>
+                                        </div>
+                                    </div>
+                                    <div className="flex flex-col items-start justify-start w-full mt-16">
+                                        <div className="mb-5 text-6xl font-bold">03</div>
+
+                                        <div>
+                                            <div className="text-2xl">The issuance and reserve assets of</div>
+                                            <div className="text-2xl"> 3AT tokens are open and</div>
+                                            <div className="text-2xl">transparent, providing users with</div>
+                                            <div className="text-2xl">real-time checkable information.</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        {/* <div className="w-full flex justify-center text-center mt-8">
                             <div className="w-11/12">
                                 <FooterBar></FooterBar>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
 
                 </div>
