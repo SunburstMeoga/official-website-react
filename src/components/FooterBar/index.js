@@ -1,12 +1,12 @@
 import React from "react";
 
-const FooterBar = () => {
+const FooterBar = ({ isWhite }) => {
     return (
         <div className="hidden md:block">
             <div className="flex justify-between items-end">
                 <div>
                     <div className="mb-8 w-32">
-                        <img src="/images/logo.png" alt=""></img>
+                        {isWhite ? <img src="/images/logo_white.png" alt=""></img> : <img src="/images/logo.png" alt=""></img>}
                     </div>
                     <div className="flex justify-start">
                         <div className="flex flex-col justify-start items-start text-word-gray mr-20">
@@ -54,7 +54,7 @@ const FooterBar = () => {
                             <img alt="" src="/images/facebook 1.png"></img>
                         </div>
                     </div>
-                    <div className="text-bottom-word text-sm">Copyright @ 2024 3AT technology limited</div>
+                    <div className={["text-sm", isWhite ? "text-word-gray" : "text-bottom-word"].join(' ')}>Copyright @ 2024 3AT technology limited</div>
                 </div>
             </div>
         </div>

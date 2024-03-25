@@ -80,9 +80,6 @@ const Why = () => {
                                     <img alt="" src="/images/logo.png"></img>
                                 </div>
                                 <div className="text-word-gray mb-10">Why Choose 3AT</div>
-                                {/* <div className="text-word-gray mb-4">Trustworthy</div>
-                                <div className="text-gradient pb-4 ">Digital Fiat Currency</div>
-                                <div className="text-gradient mb-8 pb-4">Bridge</div> */}
                                 <div className="flex justify-start items-center text-2xl mb-10" >
                                     <div className="green-button py-5 w-5/12 rounded-xl" >
                                         Home
@@ -113,7 +110,7 @@ const Why = () => {
                             </div>
                         </div>
 
-                        <div className="w-full flex justify-center items-center text-word-gray">
+                        <div className="w-full flex justify-center items-center text-word-gray mb-20">
                             <div className="w-9/12 flex justify-between items-center">
                                 <div className="flex-1 pr-10 mt-40 flex flex-col justify-start">
                                     <div className="flex flex-col items-end justify-start w-full mb-10">
@@ -150,7 +147,7 @@ const Why = () => {
                                         </div>
                                     </div>
                                     <div>
-                                        <img src="/images/picle.png"></img>
+                                        <img src="/images/picle.png" alt=""></img>
                                     </div>
                                 </div>
                                 <div className="flex-1 pl-10 flex flex-col justify-start">
@@ -179,15 +176,68 @@ const Why = () => {
                             </div>
                         </div>
 
-                        {/* <div className="w-full flex justify-center text-center mt-8">
-                            <div className="w-11/12">
-                                <FooterBar></FooterBar>
+                        <div className="w-full flex flex-col justify-start items-center mb-20 relative">
+                            <div className="absolute left-0 top-0 w-full ">
+                                <img src="/images/Rectangle 13.png" alt=""></img>
                             </div>
-                        </div> */}
+                            <div className="w-9/12 relative z-10 mb-20">
+                                <div className="mb-10 w-full">
+                                    <div className="w-1/12 h-2 bg-primary-orange"></div>
+                                </div>
+                                <div className="w-full">
+                                    <img className="w-6/12" src="/images/revolutionzing.png" alt=""></img>
+                                </div>
+                            </div>
+                            <div className="w-9/12 relative text-word-gray flex justify-between items-end " >
+                                <div className="absolute top-0 left-0 w-full">
+                                    <img src="images/arrow.png" alt=""></img>
+                                </div>
+                                <div className="flex justify-between  w-full ">
+                                    <div className="mt-80">
+                                        <div className="w-20 mb-10 ml-10">
+                                            <img src="/images/arrow_book.png" alt=""></img>
+                                        </div>
+                                        <div className="text-word-gray">
+                                            <div>Provide consumers with abundant</div>
+                                            <div>opportunities to purchase products and</div>
+                                            <div>services. Merchants can more easily accept</div>
+                                            <div>digital currency payments, establish a more</div>
+                                            <div>reliable transaction environment, enhance</div>
+                                            <div>consumer trust, and facilitate more</div>
+                                            <div>transactions.</div>
+                                        </div>
+                                    </div>
+                                    <div className="mt-36">
+                                        <div className="w-20 mb-10">
+                                            <img src="/images/arrow_person.png" alt=""></img>
+                                        </div>
+                                        <div className="text-word-gray">
+                                            <div>3AT tokens provide excellent liquidity on</div>
+                                            <div>primary exchanges, allowing individual traders</div>
+                                            <div>to quickly seize market arbitrage opportunities.</div>
+                                            <div> High liquidity ensures the rapid execution of</div>
+                                            <div>transactions, enables individual investors to</div>
+                                            <div>conduct buying and selling operations more</div>
+                                            <div>flexibly, improves transaction efficiency,</div>
+                                            <div> and takes advantage of market fluctuations to the</div>
+                                            <div> greatest extent.</div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div className="w-full flex justify-center text-center mt-48 bg-primary-green py-10">
+                            <div className="w-11/12">
+                                <FooterBar isWhite></FooterBar>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
-            </div>
+            </div >
 
         </>
     )
