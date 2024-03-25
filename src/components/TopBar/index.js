@@ -1,7 +1,7 @@
 import React from "react";
 
 const TopBar = () => {
-    const topBarPCMenuItem = [{ title: 'About 3At' }, { title: 'Team and technical advantages' }, { title: 'Q&A' }, { title: 'Lssuance mechanism' }, { title: 'Development prospects' }]
+    const topBarPCMenuItem = [{ title: 'About 3At' }, { title: 'How 3AT Works' }, { title: 'Why Choose 3AT' }, { title: 'Solution' }]
     return (
         <div>
             {/* mobile top bar */}

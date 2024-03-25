@@ -51,8 +51,14 @@ img {
 
 .image-bg-tp-67 {
     padding-bottom: 67%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
+
+.image-bg-tp-160 {
+    padding-bottom: 160%;
+    /* border: 1px solid blue; */
+}
+
 
 .why-button-group {
     top: 18%;
