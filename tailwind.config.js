@@ -11,7 +11,8 @@ module.exports = {
         'word-gray': '#003D6C',
         'title-gray': '#414141',
         'primary-green': '#2FCD82',
-        'primary-orange': '#EC652B'
+        'primary-orange': '#EC652B',
+        'bottom-word': '#818283'
       },
       backgroundImage: {
         'home-1image': "url('/public/images/home-bg-1.png')",
@@ -22,6 +23,7 @@ module.exports = {
         'why-2image': "url('/public/images/Mobile_why-choos-3at.png')",
         'how-1image': "url('/public/images/Mobile_how-3at-works.png')",
         'home-rectangle': "url('/public/images/Rectangle-4.png')",
+        'home-q&a': "url('/public/images/q&a.png')",
       }
     },
   },

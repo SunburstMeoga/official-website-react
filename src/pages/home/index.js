@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import FooterBar from "@/components/FooterBar";
 
 const Home = () => {
     const navigator = useNavigate()
@@ -220,10 +221,10 @@ const Home = () => {
 
                         </div>
 
-                        <div className="flex justify-center items-center w-full ">
+                        <div className="flex justify-center items-center w-full mb-14">
                             <div className="flex justify-between items-center w-9/12">
                                 <div className="w-1/2 relative flex flex-col items-start justify-center">
-                                    <div className="w-full absolute top-0 left-0">
+                                    <div className="w-full ">
                                         <img alt="" src="/images/Rectangle-4.png"></img>
                                     </div>
                                     <div className="w-full absolute top-20 left-20">
@@ -238,7 +239,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <div className="w-1/2 relative flex flex-col items-start justify-center">
-                                    <div className="w-full absolute top-0 left-0">
+                                    <div className="w-full ">
                                         <img alt="" src="/images/Rectangle-4.png"></img>
                                     </div>
                                     <div className="w-full absolute top-10 left-20">
@@ -253,7 +254,27 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>
+                        </div>
 
+                        <div className="w-full">
+                            <div className="flex justify-center items-baseline font-bold text-8xl">
+
+                                <div className="">
+                                    <img src="/images/Q&Apc.png" alt=""></img>
+                                </div>
+                            </div>
+
+                            <div className="flex justify-center items-center bg-primary-green -mt-2">
+                                <div className="">
+                                    <img src="/images/Frame 1.png" alt=""></img>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="w-full flex justify-center text-center mt-8">
+                            <div className="w-11/12">
+                                <FooterBar></FooterBar>
+                            </div>
                         </div>
                     </div>
 

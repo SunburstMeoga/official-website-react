@@ -46,6 +46,11 @@ img {
 
 .image-bg-tp-53 {
     padding-bottom: 53%;
+    /* border: 1px solid blue; */
+}
+
+.image-bg-tp-67 {
+    padding-bottom: 67%;
     border: 1px solid blue;
 }
 
