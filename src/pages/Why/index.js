@@ -81,10 +81,10 @@ const Why = () => {
                                 </div>
                                 <div className="text-word-gray mb-10">Why Choose 3AT</div>
                                 <div className="flex justify-start items-center text-2xl mb-10" >
-                                    <div className="green-button py-5 w-5/12 rounded-xl" >
+                                    <div className="green-button py-5 w-5/12 rounded-xl" onClick={() => toHome()}>
                                         Home
                                     </div>
-                                    <div className="orange-button py-5 w-6/12 rounded-xl ml-4" >
+                                    <div className="orange-button py-5 w-6/12 rounded-xl ml-4" onClick={() => toHow()}>
                                         How 3AT Works
                                     </div>
                                 </div>

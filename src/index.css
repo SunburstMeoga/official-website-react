@@ -44,6 +44,11 @@ img {
     padding-bottom: 220%;
 }
 
+.image-bg-tp-219 {
+    padding-bottom: 219%;
+    /* border: 1px solid red; */
+}
+
 .image-bg-tp-53 {
     padding-bottom: 53%;
     /* border: 1px solid blue; */
@@ -94,4 +99,9 @@ img {
     color: white;
     cursor: pointer;
 
+}
+
+/* animate */
+.trans {
+    transition: all 3s 2s linear;
 }
