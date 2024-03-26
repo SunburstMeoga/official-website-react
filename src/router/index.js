@@ -5,6 +5,9 @@ const Home = lazy(() => import('@/pages/Home'))
 const Why = lazy(() => import('@/pages/Why'))
 const How = lazy(() => import('@/pages/How'))
 const Solution = lazy(() => import('@/pages/Solution'))
+const GamesAndVirtualEconomy = lazy(() => import('@/pages/GamesAndVirtualEconomy'))
+const DigitalAssetTradingMarket = lazy(() => import('@/pages/DigitalAssetTradingMarket'))
+// PaymentIndustry
 const router = createBrowserRouter([
     {
         path: '/',
@@ -21,6 +24,14 @@ const router = createBrowserRouter([
     {
         path: '/solution',
         element: <Suspense><Solution /></Suspense>
+    },
+    {
+        path: '/games-and-virtual-economy',
+        element: <Suspense><GamesAndVirtualEconomy /></Suspense>
+    },
+    {
+        path: '/digital-asset-trading-market',
+        element: <Suspense><DigitalAssetTradingMarket /></Suspense>
     }
 ])
 

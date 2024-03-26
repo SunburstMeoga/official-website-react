@@ -8,6 +8,10 @@ img {
     object-fit: cover;
 }
 
+input {
+    outline: none;
+}
+
 .image-bg:before {
     content: "";
     display: block;
@@ -46,7 +50,10 @@ img {
 
 .image-bg-tp-219 {
     padding-bottom: 219%;
-    /* border: 1px solid red; */
+}
+
+.image-bg-tp-199 {
+    padding-bottom: 199%;
 }
 
 .image-bg-tp-53 {
@@ -64,6 +71,9 @@ img {
     /* border: 1px solid blue; */
 }
 
+.image-bg-tp-127 {
+    padding-bottom: 127%;
+}
 
 .why-button-group {
     top: 18%;
