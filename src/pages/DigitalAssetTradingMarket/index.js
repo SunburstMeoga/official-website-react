@@ -25,8 +25,20 @@ const DigitalAssetTradingMarket = () => {
     return (
         <div>
             <div className="md:hidden">
-                Solution mobile
+                <div className="image-bg bg-digital-mobile-one image-bg-tp-1678 bg-no-repeat bg-contain bg-white-opaity-80 flex flex-col items-center relative">
+                    <div className="absolute flex flex-col items-center w-full -bottom-6 left-0" >
+                        <div className="mb-10">
+                            <ContractUs></ContractUs>
+                        </div>
+                        <div className="w-full bg-primary-green py-10">
+                            <FooterBar></FooterBar>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
+
 
             <div className="hidden md:block ">
                 <div className="image-bg image-bg-tp-220 bg-digital-pc-one bg-no-repeat bg-contain relative flex justify-center items-center">
@@ -34,21 +46,19 @@ const DigitalAssetTradingMarket = () => {
                         <div className="w-full  flex justify-center items-center">
                             <div className="w-9/12 flex justify-between flex-wrap">
                                 {gameList.map((item, index) => {
-                                    return <>
-                                        <div className="relative" style={{ width: '48%' }} key={index}>
-                                            <div className="w-full image-bg image-bg-tp-127 bg-game-item bg-no-repeat bg-contain relative flex justify-center items-center">
-                                                <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center text-word-gray">
-                                                    <div className="flex flex-col h-4/6 justify-end items-start w-8/12 ">
-                                                        <div className="">
-                                                            <img className="" alt="" src={item.imgUrl}></img>
-                                                        </div>
-                                                        <div className="text-4xl mt-10">{item.title}</div>
-                                                        <div className="text-lg mt-10">{item.content}</div>
+                                    return (<div className="relative" style={{ width: '48%' }} key={index}>
+                                        <div className="w-full image-bg image-bg-tp-127 bg-game-item bg-no-repeat bg-contain relative flex justify-center items-center">
+                                            <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center text-word-gray">
+                                                <div className="flex flex-col h-4/6 justify-end items-start w-8/12 ">
+                                                    <div className="">
+                                                        <img className="" alt="" src={item.imgUrl}></img>
                                                     </div>
+                                                    <div className="text-4xl mt-10">{item.title}</div>
+                                                    <div className="text-lg mt-10">{item.content}</div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </>
+                                    </div>)
                                 })}
                             </div>
                         </div>

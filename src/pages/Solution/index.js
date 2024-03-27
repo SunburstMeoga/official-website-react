@@ -5,7 +5,18 @@ const Solution = () => {
     return (
         <div>
             <div className="md:hidden">
-                Solution mobile
+                <div className="image-bg bg-solution-mobile-one image-bg-tp-1248 bg-no-repeat bg-contain bg-white-opaity-80 flex flex-col items-center relative">
+                    <div className="absolute flex flex-col items-center w-full -bottom-28 left-0" >
+                        <div className="mb-10">
+                            <ContractUs></ContractUs>
+                        </div>
+                        <div className="w-full bg-primary-green py-10">
+                            <FooterBar></FooterBar>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
 
             <div className="hidden md:block ">

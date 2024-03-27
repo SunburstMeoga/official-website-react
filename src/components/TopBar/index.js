@@ -1,7 +1,14 @@
-import React from "react";
-
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 const TopBar = () => {
-    const topBarPCMenuItem = [{ title: 'About 3At' }, { title: 'How 3AT Works' }, { title: 'Why Choose 3AT' }, { title: 'Solution' }]
+    // const navigator = useNavigate()
+    const topBarPCMenuItem = [{ title: 'About 3At', router: '/', name: 'home' }, { title: 'How 3AT Works', router: '/how', name: 'how' }, { title: 'Why Choose 3AT', router: '/why', name: 'why' }, { title: 'Solution', router: '/solution', name: 'solution' }]
+    const [currentItem, setCurrentItem] = useState('home')
+    const clickMenuItem = (item) => {
+        setCurrentItem(currentItem = item.name)
+        console.log(item)
+        // navigator(item.router)
+    }
     return (
         <div>
             {/* mobile top bar */}
@@ -33,9 +40,9 @@ const TopBar = () => {
                                     <img className="w-20" alt="" src="/images/logo.png"></img>
                                 </div>
                             </div>
-                            <div className="ml-10 flex justify-start items-center border-red-100">
+                            <div className="ml-10 flex justify-start items-center">
                                 {topBarPCMenuItem.map((item, index) => {
-                                    return <div key={index} className="text-word-gray font-semibold cursor-pointer ml-10">{item.title}</div>
+                                    return <div onClick={() => clickMenuItem(item)} key={index} className="text-word-gray font-semibold cursor-pointer ml-10 border-b-2 pb-1 border-primary-green">{item.title}</div>
                                 })}
                             </div>
                         </div>

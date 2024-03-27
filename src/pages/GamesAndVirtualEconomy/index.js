@@ -5,8 +5,20 @@ const GamesAndVirtualEconomy = () => {
     return (
         <div>
             <div className="md:hidden">
-                Solution mobile
+                <div className="image-bg bg-game-mobile-one image-bg-tp-1371 bg-no-repeat bg-contain bg-white-opaity-80 flex flex-col items-center relative">
+                    <div className="absolute flex flex-col items-center w-full -bottom-14 left-0" >
+                        <div className="mb-10">
+                            <ContractUs></ContractUs>
+                        </div>
+                        <div className="w-full bg-primary-green py-10">
+                            <FooterBar></FooterBar>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
+
 
             <div className="hidden md:block ">
                 <div className="image-bg image-bg-tp-199 bg-game-pc-one bg-no-repeat bg-contain relative flex justify-center items-center">

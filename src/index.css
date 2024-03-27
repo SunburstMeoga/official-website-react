@@ -75,6 +75,21 @@ input {
     padding-bottom: 127%;
 }
 
+.image-bg-tp-1248 {
+    padding-bottom: 1248%;
+    /* border: 1px solid red; */
+}
+
+.image-bg-tp-1371 {
+    padding-bottom: 1371%;
+    /* border: 1px solid red; */
+}
+
+.image-bg-tp-1678 {
+    padding-bottom: 1678%;
+    /* border: 1px solid red; */
+}
+
 .why-button-group {
     top: 18%;
 }

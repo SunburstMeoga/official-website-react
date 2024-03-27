@@ -28,6 +28,9 @@ module.exports = {
         'home-rectangle': "url('/public/images/Rectangle-4.png')",
         'home-q&a': "url('/public/images/q&a.png')",
         'solution-pc-one': "url('/public/images/Payment Industry.png')",
+        'solution-mobile-one': "url('/public/images/Mobile_how 3at works.png')",
+        'game-mobile-one': "url('/public/images/Mobile_how 3at works_game.png')",
+        'digital-mobile-one': "url('/public/images/Mobile_how 3at works_digital.png')",
         'game-pc-one': "url('/public/images/Games And Virtual Economy.png')",
         'digital-pc-one': "url('/public/images/Digital Asset Trading Market.png')",
         'game-item': "url('/public/images/Rectangle 39.png')"
