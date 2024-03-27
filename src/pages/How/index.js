@@ -109,7 +109,7 @@ const How = () => {
                                     <img className="w-6/12" src="/images/development.png" alt=""></img>
                                 </div>
                                 <div className="mt-10">
-                                    <div class="grid grid-cols-4 gap-4 h-80">
+                                    <div className="grid grid-cols-4 gap-4 h-80">
                                         {devProspectsPCOne.map((item, index) => {
                                             return (
                                                 <div onClick={() => clickDevOneItem(index)} className={["rounded-large", "overflow-hidden", "trans", index === currentOneDev ? 'col-span-3' : 'col-span-1'].join(' ')} key={index}>

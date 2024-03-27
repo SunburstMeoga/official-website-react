@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 const TopBar = () => {
-    // const navigator = useNavigate()
+    const navigator = useNavigate()
     const topBarPCMenuItem = [{ title: 'About 3At', router: '/', name: 'home' }, { title: 'How 3AT Works', router: '/how', name: 'how' }, { title: 'Why Choose 3AT', router: '/why', name: 'why' }, { title: 'Solution', router: '/solution', name: 'solution' }]
-    const [currentItem, setCurrentItem] = useState('home')
+    let [currentItem, setCurrentItem] = useState('home')
     const clickMenuItem = (item) => {
         setCurrentItem(currentItem = item.name)
         console.log(item)
-        // navigator(item.router)
+        navigator(item.router)
     }
     return (
         <div>
@@ -42,7 +42,7 @@ const TopBar = () => {
                             </div>
                             <div className="ml-10 flex justify-start items-center">
                                 {topBarPCMenuItem.map((item, index) => {
-                                    return <div onClick={() => clickMenuItem(item)} key={index} className="text-word-gray font-semibold cursor-pointer ml-10 border-b-2 pb-1 border-primary-green">{item.title}</div>
+                                    return <div onClick={() => clickMenuItem(item)} key={index} className={["text-word-gray", "font-semibold", "cursor-pointer", "ml-10", "border-b-2", "pb-1", "border-primary-green", currentItem === item.name ? "border-primary-green" : "border-transparent"].join(' ')}>{item.title}</div>
                                 })}
                             </div>
                         </div>
