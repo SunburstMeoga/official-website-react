@@ -3,13 +3,24 @@ import FooterBar from "@/components/FooterBar";
 import ContractUs from "@/components/ContractUs";
 const DigitalAssetTradingMarket = () => {
     const gameList = [{
-        title: 'title'
+        title: 'Fully backed liquidity reserves',
+        imgUrl: '/images/fullyback.png',
+        content: 'Liquid reserves held by leading financial institutions provide strong support for 3AT, ensuring the stability of its value and solving the problem of large price fluctuations in the digital asset market.'
     }, {
-        title: 'title'
+        title: 'Reserve audit mechanism',
+        imgUrl: '/images/reserve.png',
+        content: 'Liquid reserves held by leading financial institutions provide strong support for 3AT, ensuring the stability of its value and solving the problem of large price fluctuations in the digital asset market.'
+
     }, {
-        title: 'title'
+        title: 'Dominate the use of stablecoins',
+        imgUrl: '/images/dominate.png',
+        content: 'Liquid reserves held by leading financial institutions provide strong support for 3AT, ensuring the stability of its value and solving the problem of large price fluctuations in the digital asset market.'
+
     }, {
-        title: 'title'
+        title: 'Instant free liquidity',
+        imgUrl: '/images/instant.png',
+        content: 'Liquid reserves held by leading financial institutions provide strong support for 3AT, ensuring the stability of its value and solving the problem of large price fluctuations in the digital asset market.'
+
     },]
     return (
         <div>
@@ -26,7 +37,15 @@ const DigitalAssetTradingMarket = () => {
                                     return <>
                                         <div className="relative" style={{ width: '48%' }} key={index}>
                                             <div className="w-full image-bg image-bg-tp-127 bg-game-item bg-no-repeat bg-contain relative flex justify-center items-center">
-                                                {/* <img src="/images/Rectangle 39.png" alt=""></img> */}
+                                                <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center text-word-gray">
+                                                    <div className="flex flex-col h-4/6 justify-end items-start w-8/12 ">
+                                                        <div className="">
+                                                            <img className="" alt="" src={item.imgUrl}></img>
+                                                        </div>
+                                                        <div className="text-4xl mt-10">{item.title}</div>
+                                                        <div className="text-lg mt-10">{item.content}</div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </>
