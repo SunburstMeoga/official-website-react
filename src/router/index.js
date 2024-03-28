@@ -12,31 +12,31 @@ const Layout = lazy(() => import('@/components/Layout'))
 const router = createBrowserRouter([
     {
         path: '/',
-        element: <Suspense><Layout /></Suspense>,
+        element: <Suspense fallback={<div>Loading...</div>}><Layout /></Suspense>,
         children: [
             {
                 index: true,
-                element: <Suspense><Home /></Suspense>
+                element: <Suspense fallback={<div>Loading...</div>}><Home /></Suspense>
             },
             {
                 path: 'why',
-                element: <Suspense><Why /></Suspense>
+                element: <Suspense fallback={<div>Loading...</div>}><Why /></Suspense>
             },
             {
                 path: 'how',
-                element: <Suspense><How /></Suspense>
+                element: <Suspense fallback={<div>Loading...</div>}><How /></Suspense>
             },
             {
                 path: 'solution',
-                element: <Suspense><Solution /></Suspense>
+                element: <Suspense fallback={<div>Loading...</div>}><Solution /></Suspense>
             },
             {
                 path: 'games-and-virtual-economy',
-                element: <Suspense><GamesAndVirtualEconomy /></Suspense>
+                element: <Suspense fallback={<div>Loading...</div>}><GamesAndVirtualEconomy /></Suspense>
             },
             {
                 path: 'digital-asset-trading-market',
-                element: <Suspense><DigitalAssetTradingMarket /></Suspense>
+                element: <Suspense fallback={<div>Loading...</div>}><DigitalAssetTradingMarket /></Suspense>
             }
         ]
     },
