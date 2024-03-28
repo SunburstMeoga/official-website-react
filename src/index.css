@@ -126,6 +126,15 @@ input {
 
 }
 
+.menu-item {
+    /* border: 1px solid red; */
+}
+
+.menu-item:hover {
+    color: #2FCD82;
+    /* background: #000; */
+}
+
 /* animate */
 .trans {
     transition: all 3s 2s linear;
