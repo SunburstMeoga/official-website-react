@@ -138,7 +138,7 @@ const How = () => {
                                     </div>
 
                                     <div className="mt-10">
-                                        <div class="grid grid-cols-4 gap-4 h-80">
+                                        <div className="grid grid-cols-4 gap-4 h-80">
                                             {devProspectsPCTwo.map((item, index) => {
                                                 return (
                                                     <div onClick={() => clickDevTwoItem(index)} className={["rounded-large", "overflow-hidden", "trans", index === currentTwoDev ? 'col-span-3' : 'col-span-1'].join(' ')} key={index}>

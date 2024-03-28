@@ -1,10 +1,10 @@
 @font-face {
     font-family: "iconfont";
     /* Project id 4475476 */
-    src: url('//at.alicdn.com/t/c/font_4475476_nzg8n4p0yp.woff2?t=1710949566522') format('woff2'),
-        url('//at.alicdn.com/t/c/font_4475476_nzg8n4p0yp.woff?t=1710949566522') format('woff'),
-        url('//at.alicdn.com/t/c/font_4475476_nzg8n4p0yp.ttf?t=1710949566522') format('truetype'),
-        url('//at.alicdn.com/t/c/font_4475476_nzg8n4p0yp.svg?t=1710949566522#iconfont') format('svg');
+    src: url('//at.alicdn.com/t/c/font_4475476_iecxmly40um.woff2?t=1711602981785') format('woff2'),
+        url('//at.alicdn.com/t/c/font_4475476_iecxmly40um.woff?t=1711602981785') format('woff'),
+        url('//at.alicdn.com/t/c/font_4475476_iecxmly40um.ttf?t=1711602981785') format('truetype'),
+        url('//at.alicdn.com/t/c/font_4475476_iecxmly40um.svg?t=1711602981785#iconfont') format('svg');
 }
 
 .iconfont {
@@ -13,6 +13,14 @@
     font-style: normal;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-add:before {
+    content: "\e6cd";
+}
+
+.icon-jian_sekuai:before {
+    content: "\ed21";
 }
 
 .icon-user:before {

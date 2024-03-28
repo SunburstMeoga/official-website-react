@@ -3,11 +3,44 @@ import { useNavigate } from "react-router-dom";
 const TopBar = () => {
     const navigator = useNavigate()
     const topBarPCMenuItem = [{ title: 'About 3At', router: '/', name: 'home' }, { title: 'How 3AT Works', router: '/how', name: 'how' }, { title: 'Why Choose 3AT', router: '/why', name: 'why' }, { title: 'Solution', router: '/solution', name: 'solution' }]
+    const secondMenuItem = [{ title: 'Payment Industry', router: '/solution', name: 'solution' }, { title: 'Games And Virtual Economy', router: '/games-and-virtual-economy', name: 'solution' }, { title: 'Digital Asset Trading Market', router: '/digital-asset-trading-market', name: 'solution' },]
     let [currentItem, setCurrentItem] = useState('home')
-    const clickMenuItem = (item) => {
+    let [showSecondeMenu, setSecondeMenu] = useState(false)
+    let [currentSeconde, setCurrentSecondeItem] = useState(null)
+    const clickMenuItem = (item, index) => {
         setCurrentItem(currentItem = item.name)
         console.log(item)
+        if (index === topBarPCMenuItem.length - 1) {
+            setSecondeMenu(showSecondeMenu = true)
+            setCurrentSecondeItem(currentSeconde = 0)
+        } else {
+            setSecondeMenu(showSecondeMenu = false)
+            setCurrentSecondeItem(currentSeconde = 0)
+        }
         navigator(item.router)
+    }
+    const clickSecondMenuItem = (e, item, index) => {
+        console.log(e)
+        e.stopPropagation();
+        setCurrentItem(currentItem = item.name)
+        setCurrentSecondeItem(currentSeconde = index)
+        setSecondeMenu(showSecondeMenu = false)
+        navigator(item.router)
+    }
+    const movieSecondaryMenu = (index) => {
+        if (index === topBarPCMenuItem.length - 1) {
+            setSecondeMenu(showSecondeMenu = true)
+        }
+    }
+    const leaveSecondaryMenu = (e, index) => {
+        console.log(e)
+        e.stopPropagation();
+        setSecondeMenu(showSecondeMenu = false)
+        setCurrentSecondeItem(currentSeconde = false)
+    }
+    const mouseSecondMenu = (item, index) => {
+        setSecondeMenu(showSecondeMenu = true)
+        setCurrentSecondeItem(currentSeconde = index)
     }
     return (
         <div>
@@ -42,7 +75,20 @@ const TopBar = () => {
                             </div>
                             <div className="ml-10 flex justify-start items-center">
                                 {topBarPCMenuItem.map((item, index) => {
-                                    return <div onClick={() => clickMenuItem(item)} key={index} className={["text-word-gray", "font-semibold", "cursor-pointer", "ml-10", "border-b-2", "pb-1", "border-primary-green", currentItem === item.name ? "border-primary-green" : "border-transparent"].join(' ')}>{item.title}</div>
+                                    return <div onMouseEnter={() => { movieSecondaryMenu(index) }} onClick={() => clickMenuItem(item, index)} key={index} className={["text-word-gray", "font-semibold", "cursor-pointer", "ml-10", "border-b-2", "pb-1", "relative", currentItem === item.name ? "border-primary-green" : "border-transparent"].join(' ')}>
+                                        {item.title}
+
+                                        {(index === topBarPCMenuItem.length - 1 && showSecondeMenu) &&
+                                            <div onMouseLeave={(e) => { leaveSecondaryMenu(e, index) }} className="absolute text-sm font-normal px-8 pt-3 pb-4 text-left top-12 rounded shadow-2xl bg-white text-model-gray z-50">
+                                                {secondMenuItem.map((_item, _index) => {
+                                                    return (
+                                                        <div className={["w-52", "py-3", "pl-2", _index === currentSeconde ? "text-active-color" : ""].join(" ")} key={_index} onClick={(e) => clickSecondMenuItem(e, _item, _index)} onMouseEnter={() => { mouseSecondMenu(_item, _index) }}>
+                                                            {_item.title}
+                                                        </div>
+                                                    )
+                                                })}
+                                            </div>}
+                                    </div>
                                 })}
                             </div>
                         </div>
@@ -58,7 +104,7 @@ const TopBar = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 

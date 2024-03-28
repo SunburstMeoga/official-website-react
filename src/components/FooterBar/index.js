@@ -78,7 +78,7 @@ const FooterBar = ({ isWhite }) => {
                                 <img alt="" src="/images/facebook 1.png"></img>
                             </div>
                         </div>
-                        <div className={["text-sm", isWhite ? "text-word-gray" : "text-bottom-word"].join(' ')}>Copyright @ 2024 3AT technology limited</div>
+                        <div className={["text-sm", isWhite ? "text-word-gray" : "text-white"].join(' ')}>Copyright @ 2024 3AT technology limited</div>
                     </div>
                 </div>
             </div>

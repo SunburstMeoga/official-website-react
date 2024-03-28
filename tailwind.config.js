@@ -15,6 +15,9 @@ module.exports = {
         'primary-green': '#2FCD82',
         'primary-orange': '#EC652B',
         'bottom-word': '#818283',
+        'icon-gray': '#172026',
+        'model-gray': '#D1D1D1',
+        'active-color': '#7D7D7D'
       },
       backgroundImage: {
         'home-1image': "url('/public/images/home-bg-1.png')",

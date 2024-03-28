@@ -1,6 +1,6 @@
 import React from "react";
 import TopBar from "../TopBar";
-import FooterBar from "../FooterBar"
+// import FooterBar from "../FooterBar"
 import { Outlet } from "react-router-dom";
 
 const Layout = () => {
@@ -8,7 +8,7 @@ const Layout = () => {
         <div className="">
             <TopBar></TopBar>
             <Outlet></Outlet>
-            <FooterBar></FooterBar>
+            {/* <FooterBar></FooterBar> */}
         </div>
     )
 }
