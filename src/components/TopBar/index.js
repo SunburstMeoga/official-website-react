@@ -28,9 +28,9 @@ const TopBar = () => {
         navigator(item.router)
     }
     const movieSecondaryMenu = (index) => {
-        if (index === topBarPCMenuItem.length - 1) {
-            setSecondeMenu(showSecondeMenu = true)
-        }
+        // if (index === topBarPCMenuItem.length - 1) {
+        //     setSecondeMenu(showSecondeMenu = true)
+        // }
     }
     const leaveSecondaryMenu = (e, index) => {
         console.log(e)
