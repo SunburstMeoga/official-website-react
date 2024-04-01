@@ -1,7 +1,7 @@
 import { Suspense, lazy } from "react";
 import { createBrowserRouter } from "react-router-dom";
 
-const Home = lazy(() => import('../pages/Home'))
+const Home = lazy(() => import('@/pages/Home'))
 const Why = lazy(() => import('@/pages/Why'))
 const How = lazy(() => import('@/pages/How'))
 const Solution = lazy(() => import('@/pages/Solution'))
