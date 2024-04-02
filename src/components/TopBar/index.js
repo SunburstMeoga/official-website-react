@@ -75,7 +75,8 @@ const TopBar = () => {
                                 <img alt="" src="/images/user.png"></img>
                             </div>
                             <div className="w-6 ml-6" onClick={() => toggleMobileMenuBar()}>
-                                <img alt="" src="/images/menu.png"></img>
+                                {/* <img alt="" src="/images/menu.png"></img> */}
+                                {!showMobileMenu ? <div className="icon iconfont icon-menu text-word-gray" style={{ fontSize: '24px' }}></div> : <div style={{ fontSize: '20px' }} className="text-word-gray icon iconfont icon-guanbi"></div>}
                             </div>
                         </div>
                     </div>
