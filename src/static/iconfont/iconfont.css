@@ -1,10 +1,10 @@
 @font-face {
     font-family: "iconfont";
     /* Project id 4475476 */
-    src: url('//at.alicdn.com/t/c/font_4475476_iecxmly40um.woff2?t=1711602981785') format('woff2'),
-        url('//at.alicdn.com/t/c/font_4475476_iecxmly40um.woff?t=1711602981785') format('woff'),
-        url('//at.alicdn.com/t/c/font_4475476_iecxmly40um.ttf?t=1711602981785') format('truetype'),
-        url('//at.alicdn.com/t/c/font_4475476_iecxmly40um.svg?t=1711602981785#iconfont') format('svg');
+    src: url('//at.alicdn.com/t/c/font_4475476_4aiuffg13lx.woff2?t=1711960472563') format('woff2'),
+        url('//at.alicdn.com/t/c/font_4475476_4aiuffg13lx.woff?t=1711960472563') format('woff'),
+        url('//at.alicdn.com/t/c/font_4475476_4aiuffg13lx.ttf?t=1711960472563') format('truetype'),
+        url('//at.alicdn.com/t/c/font_4475476_4aiuffg13lx.svg?t=1711960472563#iconfont') format('svg');
 }
 
 .iconfont {
@@ -13,6 +13,26 @@
     font-style: normal;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-github:before {
+    content: "\e600";
+}
+
+.icon-discord:before {
+    content: "\e6e0";
+}
+
+.icon-gitbook:before {
+    content: "\e611";
+}
+
+.icon-twitter:before {
+    content: "\e601";
+}
+
+.icon-down:before {
+    content: "\e606";
 }
 
 .icon-add:before {

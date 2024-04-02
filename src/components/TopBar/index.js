@@ -6,12 +6,31 @@ const TopBar = () => {
     const menuList = menu
     let [clickedMenu, setClickedMenu] = useState('home')
     let [mouseEnterMenu, setMouseEnterMenu] = useState('')
+    let [showMobileMenu, changeShow] = useState(false)
+    let [showSecondMobileMenu, changeSecondMobile] = useState(false)
     let [mouseEnterSecondMenu, setMouseEnterSecondMenu] = useState(null)
+    let [currentSecondMobile, setSecondMobile] = useState(null)
+
+    const clickSecondMenuItem = (item, index) => {
+        setSecondMobile(currentSecondMobile = index)
+        // console.log(currentSecondMobile, index)
+        navigator(item.router)
+        setTimeout(() => {
+            changeShow(showMobileMenu = !showMobileMenu)
+            changeSecondMobile(showSecondMobileMenu = !showSecondMobileMenu)
+        }, 500);
+    }
+
     const clickMenuItem = (item, index) => {
+
         if (item.router) {
             setClickedMenu(clickedMenu = item.name)
             setMouseEnterMenu(mouseEnterMenu = '')
             navigator(item.router)
+            setTimeout(() => {
+                changeShow(showMobileMenu = !showMobileMenu)
+                changeSecondMobile(showSecondMobileMenu = !showSecondMobileMenu)
+            }, 500);
         }
     }
 
@@ -33,6 +52,15 @@ const TopBar = () => {
         console.log('鼠标移出二级菜单')
     }
 
+    const toggleMobileMenuBar = () => {
+        console.log(showMobileMenu)
+        changeShow(showMobileMenu = !showMobileMenu)
+    }
+
+    const toggleMobileSecond = () => {
+        changeSecondMobile(showSecondMobileMenu = !showSecondMobileMenu)
+    }
+
     return (
         <div>
             {/* mobile top bar */}
@@ -46,11 +74,66 @@ const TopBar = () => {
                             <div className="w-8 h-8">
                                 <img alt="" src="/images/user.png"></img>
                             </div>
-                            <div className="w-6 ml-6">
+                            <div className="w-6 ml-6" onClick={() => toggleMobileMenuBar()}>
                                 <img alt="" src="/images/menu.png"></img>
                             </div>
                         </div>
                     </div>
+                    {showMobileMenu &&
+                        <div className="absolute w-full top-14">
+                            <div className="w-full  bg-white shadow-2xl flex flex-col items-center">
+                                {menuList.map((item, index) => {
+                                    return <div
+                                        onClick={() => clickMenuItem(item, index)}
+                                        key={index}
+                                        className="
+                                        w-10/12 
+                                        py-6
+                                        px-2
+                                        rounded
+                                        border-b
+                                         border-slate-100
+                                         text-word-gray
+                                         font-bold
+                                         mobile-active-item
+                                         ">
+                                        <div className="flex justify-between items-center">
+                                            <div>
+                                                {item.title}
+                                            </div>
+                                            <div className="" onClick={() => { toggleMobileSecond() }}>
+                                                {item.children &&
+                                                    <div className="icon iconfont icon-down"></div>
+                                                }
+                                            </div>
+                                        </div>
+
+                                        {index === menuList.length - 1 && showSecondMobileMenu &&
+                                            <div className="flex flex-col items-center">
+                                                {item.children &&
+                                                    item.children.map((_item, _index) => {
+                                                        return <div
+                                                            onClick={() => clickSecondMenuItem(_item, _index)}
+                                                            key={_index}
+                                                            className={[
+                                                                "w-10/12",
+                                                                "font-normal",
+                                                                "py-6",
+                                                                "border-b",
+                                                                "border-slate-100",
+                                                                "mobile-active-item",
+                                                                _index === currentSecondMobile ? "text-active-color" : "text-model-gray"].join(" ")} >
+                                                            {_item.title}
+                                                        </div>
+                                                    })
+                                                }
+                                            </div>
+                                        }
+                                    </div>
+                                })}
+                            </div>
+                        </div>
+                    }
                 </div>
             </div>
 

@@ -135,6 +135,11 @@ input {
     /* background: #000; */
 }
 
+.mobile-active-item:active {
+    color: #000;
+    background: rgb(248 250 252);
+}
+
 /* animate */
 .trans {
     transition: all 3s 2s linear;
