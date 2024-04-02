@@ -65,7 +65,7 @@ const TopBar = () => {
         <div>
             {/* mobile top bar */}
             <div className="md:hidden">
-                <div className="w-full flex justify-center items-center fixed z-10">
+                <div className="w-full flex justify-center items-center fixed z-10 bg-white">
                     <div className="w-11/12 flex justify-between py-4">
                         <div className="w-14">
                             <img alt="" src="/images/logo.png"></img>
