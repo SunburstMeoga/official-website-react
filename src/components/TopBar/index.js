@@ -65,8 +65,8 @@ const TopBar = () => {
         <div>
             {/* mobile top bar */}
             <div className="md:hidden">
-                <div className="w-full flex justify-center items-center fixed z-10 bg-white">
-                    <div className="w-11/12 flex justify-between py-4">
+                <div className="w-full flex justify-center items-center fixed z-50 bg-white">
+                    <div className="w-11/12 flex justify-between py-4 relative z-50">
                         <div className="w-14">
                             <img alt="" src="/images/logo.png"></img>
                         </div>
@@ -81,8 +81,8 @@ const TopBar = () => {
                         </div>
                     </div>
                     {showMobileMenu &&
-                        <div className="absolute w-full top-14">
-                            <div className="w-full  bg-white shadow-2xl flex flex-col items-center">
+                        <div className="absolute w-full top-14 z-30">
+                            <div className="w-full  bg-white shadow-2xl flex flex-col items-center relative z-30">
                                 {menuList.map((item, index) => {
                                     return <div
                                         onClick={() => clickMenuItem(item, index)}
@@ -97,8 +97,11 @@ const TopBar = () => {
                                          text-word-gray
                                          font-bold
                                          mobile-active-item
+                                         relative
+                                         z-30
                                          ">
-                                        <div className="flex justify-between items-center">
+                                        <div className="flex justify-between items-center relative
+                                         z-30">
                                             <div>
                                                 {item.title}
                                             </div>
@@ -110,7 +113,8 @@ const TopBar = () => {
                                         </div>
 
                                         {index === menuList.length - 1 && showSecondMobileMenu &&
-                                            <div className="flex flex-col items-center">
+                                            <div className="flex flex-col items-center relative
+                                            z-30">
                                                 {item.children &&
                                                     item.children.map((_item, _index) => {
                                                         return <div
@@ -123,6 +127,8 @@ const TopBar = () => {
                                                                 "border-b",
                                                                 "border-slate-100",
                                                                 "mobile-active-item",
+                                                                "relative",
+                                                                "z-30",
                                                                 _index === currentSecondMobile ? "text-active-color" : "text-model-gray"].join(" ")} >
                                                             {_item.title}
                                                         </div>

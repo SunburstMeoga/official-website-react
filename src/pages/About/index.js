@@ -134,11 +134,10 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-full mb-20">
+                    <div className="w-full mt-56">
                         <img alt="" src="/images/FAQs.png"></img>
                     </div>
-                    <div className="w-full flex flex-col items-center -mt-24">
-
+                    <div className="w-full flex flex-col items-center -mt-6">
                         {itemStatus.map((item, index) => {
                             return (
                                 <div key={index} className="w-11/12 bg-primary-green rounded-xl p-4 mb-4 relative z-20" >
