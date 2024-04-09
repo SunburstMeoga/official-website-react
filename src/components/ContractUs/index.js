@@ -42,10 +42,10 @@ const ContractUs = () => {
             </div>
             <div className="hidden md:block">
                 <div className="w-full flex flex-col items-center justify-start">
-                    <div className="text-word-gray text-4xl font-bold text-center mb-20">
+                    <div className="text-word-gray text-4xl font-bold text-center mb-10">
                         Contract Us
                     </div>
-                    <div className="w-full flex flex-col items-center justify-start mb-20">
+                    <div className="w-full flex flex-col items-center justify-start mb-10">
                         <div className="w-7/12 text-word-gray">
                             {inforList.map((item, index) => {
                                 return (
@@ -53,7 +53,7 @@ const ContractUs = () => {
                                         <div className="mb-2">
                                             {item.title}
                                         </div>
-                                        <div className="w-full border-b border-zinc-400 h-10 flex justify-center items-center mb-4">
+                                        <div className="w-full border-b border-zinc-400 h-10 flex justify-center items-center mb-2">
                                             <input className="h-10 bg-transparent w-full"></input>
                                         </div>
                                     </div>

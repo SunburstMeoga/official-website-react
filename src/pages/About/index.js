@@ -165,9 +165,17 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="hidden md:block ">
-                <div className="image-bg image-bg-tp-220 bg-home-pc-one bg-no-repeat bg-contain relative flex justify-center items-center">
-                    <div className="absolute top-0 w-full ">
+            <div className="hidden md:block">
+                <div className="image-bg image-bg-tp-220 bg-home-pc bg-no-repeat bg-contain relative">
+                    <div className="flex justify-start items-center text-2xl absolute z-0 w-1/3" style={{ paddingTop: '33%', marginLeft: '12.3%' }}>
+                        <div className="green-button py-5 w-8/12 rounded-xl" onClick={() => toWhy()}>
+                            Why Choose 3AT
+                        </div>
+                        <div className="orange-button py-5 w-8/12 rounded-xl ml-4" onClick={() => toHow()}>
+                            How 3AT Works
+                        </div>
+                    </div>
+                    {/* <div className="absolute top-0 w-full ">
                         <div className="flex justify-end items-center mb-20">
                             <div className="font-bold text-6xl flex justify-between flex-col absolute left-64 bottom-26 z-10 ">
                                 <div className="w-1/3 mb-8">
@@ -329,8 +337,12 @@ const Home = () => {
                                 <FooterBar></FooterBar>
                             </div>
                         </div>
+                    </div> */}
+                    <div className="w-full flex justify-center text-center mt-8 absolute bottom-0 pb-10">
+                        <div className="w-11/12">
+                            <FooterBar></FooterBar>
+                        </div>
                     </div>
-
                 </div>
             </div>
         </div>

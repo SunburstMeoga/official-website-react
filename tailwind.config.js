@@ -36,7 +36,13 @@ module.exports = {
         'digital-mobile-one': "url('/public/images/Mobile_how 3at works_digital.png')",
         'game-pc-one': "url('/public/images/Games And Virtual Economy.png')",
         'digital-pc-one': "url('/public/images/Digital Asset Trading Market.png')",
-        'game-item': "url('/public/images/Rectangle 39.png')"
+        'game-item': "url('/public/images/Rectangle 39.png')",
+        'home-pc': "url('/public/images/home-pc.png')",
+        'how-pc': "url('/public/images/how-pc.png')",
+        'why-pc': "url('/public/images/why-pc.png')",
+        'payment-pc': "url('/public/images/payment-pc.png')",
+        'game-pc': "url('/public/images/game-pc.png')",
+        'digital-pc': "url('/public/images/digital-pc.png')"
       },
       borderRadius: {
         'large': '40px',

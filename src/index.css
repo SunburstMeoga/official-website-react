@@ -90,6 +90,14 @@ input {
     /* border: 1px solid red; */
 }
 
+.image-bg-tp-170 {
+    padding-bottom: 170%;
+}
+
+.image-bg-tp-290 {
+    padding-bottom: 290%;
+}
+
 .why-button-group {
     top: 18%;
 }

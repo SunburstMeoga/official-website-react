@@ -50,8 +50,80 @@ const How = () => {
             </div>
 
             <div className="hidden md:block">
-                <div className="image-bg image-bg-tp-160 bg-why-pc-one bg-no-repeat bg-contain relative flex justify-center items-center">
-                    <div className="absolute top-0 w-full ">
+                <div className="image-bg image-bg-tp-170 bg-how-pc bg-no-repeat bg-contain relative ">
+                    <div className="absolute flex flex-col justify-start h-full w-full">
+                        <div className="flex justify-start items-center text-2xl z-0 w-1/3 h-1/5" style={{ paddingTop: '14%', marginLeft: '12.3%' }}>
+                            <div className="green-button py-5 w-5/12 rounded-xl" onClick={() => toHome()}>
+                                How
+                            </div>
+                            <div className="orange-button py-5 w-6/12 rounded-xl ml-4" onClick={() => toWhy()}>
+                                Why 3AT Works
+                            </div>
+                        </div>
+                        <div className=" flex justify-center items-center  mr-auto ml-auto" style={{ marginTop: '12.3%', width: '74%' }}>
+                            <img src="/images/Group 19.png" alt=""></img>
+                        </div>
+                        <div className="mr-auto ml-auto" style={{ marginTop: '4.4%', width: '71%' }}>
+                            <div className="grid grid-cols-4 gap-4 h-60 mr-auto ml-auto">
+                                {devProspectsPCOne.map((item, index) => {
+                                    return (
+                                        <div onClick={() => clickDevOneItem(index)} className={["rounded-large", "cursor-pointer", "overflow-hidden", "trans", index === currentOneDev ? 'col-span-3' : 'col-span-1'].join(' ')} key={index}>
+                                            <div className="w-full h-full relative overflow-hidden ">
+                                                <img className="object-container " src={item.imgUrl} alt=""></img>
+                                                {
+                                                    index === currentOneDev ? <div className="w-full h-full bg-black-opaity-70 absolute flex flex-col justify-start items-start top-0 left-0 z-20 text-xl text-white" style={{ padding: '3%' }}>
+                                                        <div className="mb-4 text-4xl">
+                                                            {item.title}
+                                                        </div>
+                                                        <div>
+                                                            {item.content}
+                                                        </div>
+                                                    </div> : <div className="w-full pl-12 py-2 bg-black-opaity-30 absolute bottom-0  left-0 z-20 text-white text-2xl">
+                                                        <div className="w-1/2">
+                                                            {item.title}
+                                                        </div>
+                                                    </div>
+                                                }
+
+
+                                            </div>
+                                        </div>
+                                    )
+                                })}
+                            </div>
+                            <div className="mt-10">
+                                <div className="grid grid-cols-4 h-60  gap-4">
+                                    {devProspectsPCTwo.map((item, index) => {
+                                        return (
+                                            <div onClick={() => clickDevTwoItem(index)} className={["rounded-large", "cursor-pointer", "overflow-hidden", "trans", index === currentTwoDev ? 'col-span-3' : 'col-span-1'].join(' ')} key={index}>
+                                                <div className="w-full h-full relative overflow-hidden">
+                                                    <img className="object-cover" src={item.imgUrl} alt=""></img>
+                                                    {
+                                                        index === currentTwoDev ? <div className="w-full h-full bg-black-opaity-70 absolute flex flex-col justify-start items-start top-0 left-0 z-20 text-xl text-white" style={{ padding: '8%' }}>
+                                                            <div className="mb-4 text-4xl">
+                                                                {item.title}
+                                                            </div>
+                                                            <div>
+                                                                {item.content}
+                                                            </div>
+                                                        </div> : <div className="w-full pl-12 py-2 bg-black-opaity-30 absolute bottom-0 left-0 z-20 text-white text-2xl">
+                                                            <div className="w-1/2">
+                                                                {item.title}
+                                                            </div>
+                                                        </div>
+                                                    }
+
+
+                                                </div>
+                                            </div>
+                                        )
+                                    })}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* <div className="absolute top-0 w-full ">
                         <div className="flex justify-end items-center mb-20 mt-32">
                             <div className="font-bold text-6xl flex justify-between flex-col absolute left-64 mt-24 z-10 ">
                                 <div className="w-1/3 mb-8">
@@ -175,8 +247,12 @@ const How = () => {
                                 <FooterBar isWhite></FooterBar>
                             </div>
                         </div>
+                    </div> */}
+                    <div className="w-full flex justify-center bg-primary-green text-center mt-8 absolute bottom-0 py-10">
+                        <div className="w-11/12">
+                            <FooterBar isWhite></FooterBar>
+                        </div>
                     </div>
-
                 </div>
             </div >
         </div>

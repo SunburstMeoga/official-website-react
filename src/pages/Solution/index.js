@@ -20,8 +20,8 @@ const Solution = () => {
             </div>
 
             <div className="hidden md:block ">
-                <div className="image-bg image-bg-tp-219 bg-solution-pc-one bg-no-repeat bg-contain relative flex justify-center items-center">
-                    <div className="absolute top-0 w-full pt-44">
+                <div className="image-bg bg-payment-pc image-bg-tp-199 bg-no-repeat bg-contain relative">
+                    {/* <div className="absolute top-0 w-full pt-44">
                         <div className="w-full flex justify-center items-center">
                             <div className="text-word-gray text-4xl w-10/12 mb-96">Payment Industry</div>
                         </div>
@@ -125,14 +125,27 @@ const Solution = () => {
                             <ContractUs></ContractUs>
                         </div>
 
-                        <div className="w-full flex justify-center text-center bg-primary-green py-10 mt-40 relative z-10">
-                            <div className="w-11/12">
-                                <FooterBar isWhite></FooterBar>
-                            </div>
+                        // <div className="w-full flex justify-center text-center bg-primary-green py-10 mt-40 relative z-10">
+                        //     <div className="w-11/12">
+                        //         <FooterBar isWhite></FooterBar>
+                        //     </div>
+                        // </div>
+                    </div> */}
+
+                    <div className="absolute bottom-20 w-full flex flex-col justify-center items-center">
+                        <div className="w-11/12">
+                            <ContractUs></ContractUs>
                         </div>
+                    </div>
+
+                </div>
+                <div className="w-full flex justify-center bg-primary-green text-center py-10">
+                    <div className="w-11/12">
+                        <FooterBar isWhite></FooterBar>
                     </div>
                 </div>
             </div >
+
         </div>
     )
 }
