@@ -17,17 +17,17 @@ const Why = () => {
                     <img alt="" src="/images/mobile/mobile-why-bg.png"></img>
                 </div>
                 <div className="absolute flex flex-col justify-start items-center top-0 left-0 w-full h-full">
-                    <div className="flex flex-col justify-start items-center mt-24 mb-28">
-                        <div className="w-1/2 mb-60">
+                    <div className="flex flex-col justify-start items-center mt-24 w-full mb-2">
+                        <div className="w-1/2 mb-52">
                             <img src="/images/logo.png"></img>
                         </div>
-                        <div className="w-2/3 text-word-gray text-5xl font-bold text-center mb-1">
+                        <div className=" text-word-gray text-5xl font-bold text-center mb-1">
                             Why Choose
                         </div>
-                        <div className="text-primary-orange text-5xl font-bold mb-6">
+                        <div className="text-primary-orange text-5xl font-bold mb-4">
                             3AT
                         </div>
-                        <div className="text-word-gray w-2/3 text-center mb-5">
+                        <div className="text-word-gray w-3/4 text-left mb-4">
                             3AT stands out with its unique stablecoin model. The innovative integration of blockchain technology makes it a safe, efficient and convenient digital asset, bringing a new experience to transactions.
                         </div>
                         <div className="w-8/12">
@@ -37,38 +37,38 @@ const Why = () => {
                             <div className="orange-button py-3 text-2xl rounded-md mb-2" onClick={() => toHow()}>How 3AT Works</div>
                         </div>
                     </div>
-                    <div className="w-11/12 -mt-2 mb-16">
-                        <div className="w-1/5 h-1 bg-primary-orange "></div>
-                        <div className="text-4xl w-full text-word-gray mt-2">
-                            <div >
+                    <div className="w-11/12 mb-10 mt-16">
+                        <div className="w-1/5 h-1 bg-primary-orange"></div>
+                        <div className="text-3xl w-full text-word-gray mt-2">
+                            <div className="font-bold leading-8">
                                 3AT is an advanced stablecoin option that
                             </div>
-                            <div >
-                                <span className="text-primary-orange">provides multiple <br></br> values </span>​​for individuals <br></br> and businesses.
+                            <div className="">
+                                <span className="text-primary-orange font-bold">provides multiple <br></br> values </span>​​for individuals <br></br> and businesses.
                             </div>
                         </div>
                     </div>
                     <div className="flex flex-col justify-start items-center text-white">
-                        <div className="w-11/12 relative mb-12">
+                        <div className="w-11/12 relative mb-10">
                             <img src="/images/mobile/flower.png" alt=""></img>
-                            <div className="absolute top-10 left-36 text-center leading-5 text-lg">
+                            <div className="absolute top-10 left-32 text-center font-bold leading-5 text-base">
                                 1 to 1 <br></br>
                                 Fiat Currency <br></br>Storage
                             </div>
-                            <div className="absolute top-32 right-6 text-center leading-5 text-lg">
+                            <div className="absolute top-32 right-6 text-center font-bold leading-5 text-base">
                                 High <br></br>
                                 Liquidity
                             </div>
-                            <div className="absolute bottom-20 right-12 text-center leading-5 text-lg">
+                            <div className="absolute bottom-20 right-12 text-center font-bold leading-5 text-base">
                                 Full <br></br>
                                 Transparency
                             </div>
-                            <div className="absolute bottom-16 left-16 text-center leading-5 text-lg">
+                            <div className="absolute bottom-16 left-16 text-center font-bold leading-5 text-base">
                                 Top Notch<br></br>
                                 Customer<br></br>
                                 Support
                             </div>
-                            <div className="absolute top-32 left-2 text-right leading-5 text-lg">
+                            <div className="absolute top-32 left text-right font-bold leading-5 text-base">
                                 Meet<br></br>
                                 Regulatory<br></br>
                                 Requirements
@@ -76,55 +76,55 @@ const Why = () => {
                         </div>
                         <div className="flex flex-col justify-start items-center text-word-gray">
                             <div className="mb-6 w-11/12">
-                                <div className="flex justify-start items-baseline font-bold mb-5">
+                                <div className="flex justify-start items-baseline font-bold mb-3">
                                     <div className="text-2xl mr-3">01</div>
                                     <div className="text-lg">1 to 1 Fiat Currency Storage</div>
                                 </div>
-                                <div className="leading-7 text-2xl font-light">All 3AT tokens are pegged to fiat currencies and are 100% backed by fiat reserves, ensuring sufficient reserves for exchange.</div>
+                                <div className="leading-7 text-xl font-light">All 3AT tokens are pegged to fiat currencies and are 100% backed by fiat reserves, ensuring sufficient reserves for exchange.</div>
                             </div>
                             <div className="mb-6 w-11/12">
-                                <div className="flex justify-start items-baseline font-bold mb-5">
+                                <div className="flex justify-start items-baseline font-bold mb-3">
                                     <div className="text-2xl mr-3">02</div>
                                     <div className="text-lg">High Liquidity</div>
                                 </div>
-                                <div className="leading-7 text-2xl font-light">The complete blockchain ecosystem based on hah enables 3AT to have excellent liquidity and provide users with an excellent trading experience.</div>
+                                <div className="leading-7 text-xl font-light">The complete blockchain ecosystem based on hah enables 3AT to have excellent liquidity and provide users with an excellent trading experience.</div>
                             </div>
                             <div className="mb-6 w-11/12">
-                                <div className="flex justify-start items-baseline font-bold mb-5">
+                                <div className="flex justify-start items-baseline font-bold mb-3">
                                     <div className="text-2xl mr-3">03</div>
                                     <div className="text-lg">Full Transparency</div>
                                 </div>
-                                <div className="leading-7 text-2xl font-light">The professional customer service team provides round-the-clock service to ensure that users can receive support at any time.</div>
+                                <div className="leading-7 text-xl font-light">The professional customer service team provides round-the-clock service to ensure that users can receive support at any time.</div>
                             </div>
                             <div className="mb-6 w-11/12">
-                                <div className="flex justify-start items-baseline font-bold mb-5">
+                                <div className="flex justify-start items-baseline font-bold mb-3">
                                     <div className="text-2xl mr-3">04</div>
                                     <div className="text-lg">Top Notch Customer Support</div>
                                 </div>
-                                <div className="leading-7 text-2xl font-light">The issuance and reserve assets of 3AT tokens are open and transparent, providing users with real-time checkable information.</div>
+                                <div className="leading-7 text-xl font-light">The issuance and reserve assets of 3AT tokens are open and transparent, providing users with real-time checkable information.</div>
                             </div>
                             <div className="mb-6 w-11/12">
-                                <div className="flex justify-start items-baseline font-bold mb-5">
+                                <div className="flex justify-start items-baseline font-bold mb-3">
                                     <div className="text-2xl mr-3">05</div>
                                     <div className="text-lg">Meet Regulatory Requirements</div>
                                 </div>
-                                <div className="leading-7 text-2xl font-light">3AT strictly follows the world's first-class regulatory standards, including anti-money laundering, combating terrorist financing, and formulating customer standards.
+                                <div className="leading-7 text-xl font-light w-11/12">3AT strictly follows the world's first-class regulatory standards, including anti-money laundering, combating terrorist financing, and formulating customer standards.
                                     standards and implement standardized compliance measures.</div>
                             </div>
                         </div>
                     </div>
                     <div className="w-11/12 mt-6">
                         <div className="w-1/5 h-1 bg-primary-orange "></div>
-                        <div className="text-4xl w-full text-word-gray mt-2">
-                            <div >
+                        <div className="text-3xl w-full text-word-gray mt-2">
+                            <div className="font-bold leading-8">
                                 3AT token is
                             </div>
-                            <div >
+                            <div className="font-bold leading-8">
                                 <span className="text-primary-orange">revolutionizing  </span> ​the<br></br> global financial <br></br> industry
                             </div>
                         </div>
                     </div>
-                    <div className="w-11/12 mt-56">
+                    <div className="w-11/12 mt-52">
                         <div className="text-primary-orange mb-2">
                             <div className="w-10/12 flex justify-between items-center mb-2">
                                 <div className="text-3xl">Personal</div>
@@ -136,7 +136,7 @@ const Why = () => {
                                 <img src="/images/mobile/personal-line.png"></img>
                             </div>
                         </div>
-                        <div className="text-word-gray font-light leading-8 text-2xl">
+                        <div className="text-word-gray font-light leading-8 text-xl">
                             3AT tokens provide excellent liquidity on primary exchanges, allowing individual traders to quickly seize market arbitrage opportunities. High liquidity ensures the rapid execution of transactions, enables individual investors to conduct buying and selling operations more flexibly, improves transaction efficiency, and takes advantage of market fluctuations to the greatest extent.
                         </div>
                     </div>
@@ -148,7 +148,7 @@ const Why = () => {
                         <div className="w-7/12">
                             <img src="/images/mobile/project-line.png"></img>
                         </div>
-                        <div className="text-word-gray font-light leading-8 text-2xl">
+                        <div className="text-word-gray font-light leading-8 text-xl">
                             Provide consumers with abundant opportunities to purchase products and services. Merchants can more easily accept digital currency payments, establish a more reliable transaction environment, enhance consumer trust, and facilitate more transactions.
                         </div>
                     </div>
