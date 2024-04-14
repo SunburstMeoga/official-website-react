@@ -152,3 +152,11 @@ input {
 .trans {
     transition: all 3s 2s linear;
 }
+
+.title-shadow {
+    text-shadow: 4px 4px 10px #0D5157;
+}
+
+/* .title-shadow {
+    text-shadow: #0D5157 10px 0 0, #0D5157 0 10px 0, #000 -10px 0 0, #0D5157 0 -10px 0;
+} */

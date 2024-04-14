@@ -19,7 +19,8 @@ module.exports = {
         'model-gray': '#D1D1D1',
         'active-color': '#7D7D7D',
         'word-card': '#686F74',
-        'title-green': '#507D6A'
+        'title-green': '#507D6A',
+        'line-gray': '#D0D4D6'
       },
       backgroundImage: {
         'home-1image': "url('/public/images/home-bg-1.png')",
