@@ -20,7 +20,12 @@ module.exports = {
         'active-color': '#7D7D7D',
         'word-card': '#686F74',
         'title-green': '#507D6A',
-        'line-gray': '#D0D4D6'
+        'line-gray': '#D0D4D6',
+        'point-gray': '#E5E5E5',
+        'point-border': '#D0D4D6',
+        'white-40': 'rgba(255,255,255,0.4)',
+        'white-70': 'rgba(255,255,255,0.7)',
+
       },
       backgroundImage: {
         'home-1image': "url('/public/images/home-bg-1.png')",

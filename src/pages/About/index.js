@@ -126,13 +126,13 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="flex flex-col justify-start items-center mt-8">
-                        <div className="w-11/12 p-8 rounded-2xl shadow-2xl bg-white shadow-green-200 mb-8">
+                        <div className="w-11/12 p-8 rounded-2xl shadow-2xl bg-white box-shadow-green mb-8">
                             <div className="mb-4 w-1/2">
                                 <img className="" src="/images/mobile/hah-logo.png"></img>
                             </div>
                             <div className="text-word-card leading-6 text-base">With hah as the underlying technology, it provides strong support for 3AT and becomes the best choice to achieve the stability of digital assets.</div>
                         </div>
-                        <div className="w-11/12 p-8 rounded-2xl shadow-2xl bg-white shadow-green-200 ">
+                        <div className="w-11/12 p-8 rounded-2xl shadow-2xl bg-white box-shadow-green ">
                             <div className="mb-4 w-1/2 -ml-6">
                                 <img className="" src="/images/mobile/safety.png"></img>
                             </div>

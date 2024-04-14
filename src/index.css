@@ -157,6 +157,10 @@ input {
     text-shadow: 4px 4px 10px #0D5157;
 }
 
+.box-shadow-green {
+    box-shadow: 0 0 5px rgba(167, 243, 208), 0 0 30px rgba(167, 243, 208, .6);
+}
+
 /* .title-shadow {
     text-shadow: #0D5157 10px 0 0, #0D5157 0 10px 0, #000 -10px 0 0, #0D5157 0 -10px 0;
 } */
