@@ -124,6 +124,50 @@ const How = () => {
                                 prospects
                             </div>
                         </div>
+                        <div className="mb-8">
+                            <div className="overflow-hidden rounded-xl relative mt-14 mb-6">
+                                <img className="" src="/images/mobile/payment-transaction-field.png" alt=""></img>
+                                <div className="pl-4 py-1 bg-black-opaity-30 absolute bottom-0 left-0 z-10 w-full text-white text-lg font-bold">Payment and transaction field</div>
+                            </div>
+                            <div className="text-word-gray text-sm leading-5">
+                                The stable currency attribute of 3AT makes it play an important role in payment and transaction scenarios. In the future, we will cooperate with credit card companies to support payment by deducting 3AT when swiping credit cards in daily consumption, providing users with more flexible and convenient payment methods.
+                            </div>
+                        </div>
+
+                        <div className="mb-8">
+                            <div className="overflow-hidden rounded-xl relative mb-6">
+                                <img className="" src="/images/mobile/blockchain-ecosystem.png" alt=""></img>
+                                <div className="pl-4 py-1 bg-black-opaity-30 absolute bottom-0 left-0 z-10 w-full text-white text-lg font-bold">Blockchain ecosystem integration</div>
+                            </div>
+                            <div className="text-word-gray text-sm leading-5">
+                                3AT's choice of hah as the underlying technology indicates the possibility of integrating more blockchain ecosystems into its stablecoin system. This will bring users more choices and application scenarios for digital assets.
+                            </div>
+                        </div>
+
+                        <div className="mb-8">
+                            <div className="overflow-hidden rounded-xl relative mb-6">
+                                <img className="" src="/images/mobile/financial-services.png" alt=""></img>
+                                <div className="pl-4 py-1 bg-black-opaity-30 absolute bottom-0 left-0 z-10 w-full text-white text-lg font-bold">Financial Services Expansion</div>
+                            </div>
+                            <div className="text-word-gray text-sm leading-5">
+                                Due to its nature of being linked to fiat currency, 3AT is expected to become an ideal choice in the financial services sector. Future expansion includes innovative applications of loans, loans, and other financial derivatives, providing users with more diversified financial services
+                            </div>
+                        </div>
+
+                        <div className="mb-8">
+                            <div className="overflow-hidden rounded-xl relative mb-6">
+                                <img className="" src="/images/mobile/cross-border-transactions.png" alt=""></img>
+                                <div className="pl-4 py-1 bg-black-opaity-30 absolute bottom-0 left-0 z-10 w-full text-white text-lg font-bold">Cross border transactions</div>
+                            </div>
+                            <div className="text-word-gray text-sm leading-5">
+                                Due to its stability and global transparency, 3AT is expected to play an important role in cross-border transactions. It can serve as a more reliable digital asset, promoting global trade and financial flows, and reducing the risk of exchange rate fluctuations in transactions
+                            </div>
+                        </div>
+                    </div>
+                    <div className="w-full pb-11 pt-4 flex justify-center text-center mt-10 bg-primary-green">
+                        <div className="w-11/12">
+                            <FooterBar isWhite></FooterBar>
+                        </div>
                     </div>
                 </div>
             </div>

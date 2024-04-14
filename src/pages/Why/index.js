@@ -50,7 +50,7 @@ const Why = () => {
                     </div>
                     <div className="flex flex-col justify-start items-center text-white">
                         <div className="w-11/12 relative mb-10">
-                            <img src="/images/mobile/flower.png" alt=""></img>
+                            <img src="/images/mobile/flower.png" className="" alt=""></img>
                             <div className="absolute top-10 left-32 text-center font-bold leading-5 text-base">
                                 1 to 1 <br></br>
                                 Fiat Currency <br></br>Storage
