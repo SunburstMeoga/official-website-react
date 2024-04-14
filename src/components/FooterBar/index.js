@@ -6,7 +6,7 @@ const FooterBar = ({ isWhite }) => {
             <div className="md:hidden">
                 <div className="w-full flex justify-center items-center">
                     <div className="w-10/12 flex flex-col items-center">
-                        <div className={["mb-10", isWhite ? "text-word-gray" : "text-bottom-word"].join(' ')}>
+                        <div className={["mb-10", isWhite ? "text-white" : "text-bottom-word"].join(' ')}>
                             Copyright @ 2024 3AT technology limited
                         </div>
                         <div className="flex w-11/12 justify-between items-center mb-4">

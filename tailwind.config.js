@@ -17,7 +17,8 @@ module.exports = {
         'bottom-word': '#818283',
         'icon-gray': '#172026',
         'model-gray': '#D1D1D1',
-        'active-color': '#7D7D7D'
+        'active-color': '#7D7D7D',
+        'word-card': '#686F74',
       },
       backgroundImage: {
         'home-1image': "url('/public/images/home-bg-1.png')",
@@ -42,7 +43,9 @@ module.exports = {
         'why-pc': "url('/public/images/why-pc.png')",
         'payment-pc': "url('/public/images/payment-pc.png')",
         'game-pc': "url('/public/images/game-pc.png')",
-        'digital-pc': "url('/public/images/digital-pc.png')"
+        'digital-pc': "url('/public/images/digital-pc.png')",
+
+        'mobile-home': "url('/public/images/mobile/mobile-home-bg.png')",
       },
       borderRadius: {
         'large': '40px',
