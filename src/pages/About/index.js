@@ -143,7 +143,7 @@ const Home = () => {
                         <div className="w-full mt-10">
                             <img alt="" src="/images/FAQs.png"></img>
                         </div>
-                        <div className="w-full flex flex-col items-center -mt-6">
+                        <div className="w-full flex flex-col items-center">
                             {itemStatus.map((item, index) => {
                                 return (
                                     <div key={index} className="w-11/12 bg-primary-green rounded-xl p-4 mb-4 relative z-20" >
