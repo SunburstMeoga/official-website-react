@@ -124,6 +124,7 @@ input {
     background-color: #2FCD82;
     color: white;
     cursor: pointer;
+    @apply flex justify-center items-center font-vw-5-2 h-vh-6-5;
 }
 
 .orange-button {
@@ -131,7 +132,7 @@ input {
     background-color: #EC652B;
     color: white;
     cursor: pointer;
-
+    @apply flex justify-center items-center font-vw-5-2 h-vh-6-5;
 }
 
 .menu-item {
