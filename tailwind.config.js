@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const plugin = require('tailwindcss/plugin');
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -59,5 +60,33 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ addUtilities }) {
+      const newUtilities = {};
+
+      // 生成 0.1vw 到 100vw 的类，步长为 0.1
+      for (let i = 1; i <= 1000; i++) {
+        const vwValue = (i * 0.1).toFixed(1); // 保留一位小数
+        const vhValue = (i * 0.1).toFixed(1); // 保留一位小数
+        const classNameVw = `font-vw-${vwValue.replace('.', '-')}`; // 替换小数点为连字符
+        const classNameVh = `mt-vh-${vhValue.replace('.', '-')}`; // 替换小数点为连字符
+        const classNameWidth = `w-vw-${vwValue.replace('.', '-')}`; // 替换小数点为连字符
+        const classNameHeight = `h-vh-${vhValue.replace('.', '-')}`; // 替换小数点为连字符
+        newUtilities[`.${classNameVw}`] = {
+          fontSize: `${vwValue}vw`,
+        };
+        newUtilities[`.${classNameVh}`] = {
+          marginTop: `${vhValue}vh`,
+        };
+        newUtilities[`.${classNameWidth}`] = {
+          width: `${vwValue}vw`,
+        };
+        newUtilities[`.${classNameHeight}`] = {
+          height: `${vhValue}vh`,
+        };
+      }
+
+      addUtilities(newUtilities, ['responsive', 'hover']);
+    }),
+  ],
 }
