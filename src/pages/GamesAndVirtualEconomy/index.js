@@ -9,33 +9,33 @@ const GamesAndVirtualEconomy = () => {
                     <img alt="" src="/images/mobile/game-virtual-bg.png"></img>
                 </div>
                 <div className="absolute flex flex-col justify-start items-center top-0 left-0 w-full h-full">
-                    <div className="text-word-gray w-full mt-20 text-5xl font-bold">
+                    <div className="text-word-gray w-full mt-vh-10-1 text-5xl font-bold">
                         Games And Virtual Economy
                     </div>
                     <div className="flex w-11/12 flex-col justify-start items-start">
-                        <div className=" mt-32 text-4xl font-bold text-white title-shadow">
+                        <div className="mt-vh-16-1 font-vw-9-1 leading-10 font-bold text-white title-shadow">
                             Provide a stable and efficient gaming experience
                         </div>
                     </div>
-                    <div className="mt-20 text-center text-word-gray font-bold px-2 w-11/12 text-5xl">
+                    <div className="mt-vh-8-1 text-center text-word-gray font-bold px-2 w-11/12 font-vw-12-1 leading-10">
                         Application of Stablecoins in Games and Virtual Economy
                     </div>
                     <div className="h-48 w-48 bg-white-40  box-shadow-green rounded-2xl overflow-hidden mt-24 flex justify-center items-center">
                         <img className="w-10/12" src="/images/mobile/entertainment.png"></img>
                     </div>
-                    <div className="w-11/12 text-word-gray font-bold text-2xl mt-8">
+                    <div className="w-11/12 text-word-gray font-bold text-2xl mt-vh-6-2">
                         Stablecoins can be used as currencies in the virtual economy, providing stable value storage and trading tools, helping gamers manage in-game assets and purchase and trade virtual goods.
                     </div>
-                    <div className="h-48 w-48 bg-white-40  box-shadow-green rounded-2xl overflow-hidden mt-12 flex justify-center items-center">
+                    <div className="h-48 w-48 bg-white-40  box-shadow-green rounded-2xl overflow-hidden mt-vh-6-2 flex justify-center items-center">
                         <img className="w-10/12" src="/images/mobile/rocket.png"></img>
                     </div>
-                    <div className="w-11/12 text-word-gray font-bold text-2xl mt-12">
+                    <div className="w-11/12 text-word-gray font-bold text-2xl mt-vh-6-2">
                         It is used for in-game payment and settlement, providing a convenient and low-cost transaction method to accelerate the purchase and transaction process of in-game items.
                     </div>
-                    <div className="h-48 w-48 bg-white-40 box-shadow-green rounded-2xl overflow-hidden mt-12 flex justify-center items-center">
+                    <div className="h-48 w-48 bg-white-40 box-shadow-green rounded-2xl overflow-hidden mt-vh-6-2 flex justify-center items-center">
                         <img className="w-10/12" src="/images/mobile/safety-card.png"></img>
                     </div>
-                    <div className="w-11/12 text-word-gray font-bold text-2xl mt-12">
+                    <div className="w-11/12 text-word-gray font-bold text-2xl mt-vh-6-2">
                         Stablecoins can serve as an intermediary currency for game players to trade on digital asset trading platforms, helping game players buy and sell in-game virtual assets and provide liquidity and price stability.
                     </div>
                     <div className="mt-20 text-left text-word-gray font-bold pt-1 px-2 w-11/12 text-5xl leading-tight">
@@ -85,11 +85,11 @@ const GamesAndVirtualEconomy = () => {
                             <ContractUs></ContractUs>
                         </div>
                     </div>
-                    <div className="w-full flex justify-center bg-primary-green text-center py-10 mt-20">
 
-                        <div className="w-11/12">
-                            <FooterBar isWhite></FooterBar>
-                        </div>
+                </div>
+                <div className="w-full flex justify-center bg-primary-green text-center py-10 absolute bottom-0 left-0">
+                    <div className="w-11/12">
+                        <FooterBar isWhite></FooterBar>
                     </div>
                 </div>
             </div>
