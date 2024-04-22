@@ -39,7 +39,136 @@ const Home = () => {
     }
     return (
         <div>
-            <div className="md:hidden">
+            <div className="overflow-x-hidden">
+                <div className="relative">
+                    <div className="text absolute -z-10 top-2-6">
+                        <img src="/images/mobile/about-banner.png" alt=""></img>
+                    </div>
+                    <div className="flex flex-col justify-start items-center">
+                        <div className="mt-5-4 w-12-5">
+                            <img src="/images/mobile/logo.png"></img>
+                        </div>
+                        <div className="text-word-gray text-2-2 font-black w-17-8 text-center mt-17-6">Stable And Trustworthy</div>
+                        <div className="text-gradient text-2-2 font-black w-20-2 text-center pb-0-2">Digital Fiat Currency Bridge</div>
+                        <div className="mt-1-3">
+                            <div className="green-button rounded-md w-15-7  h-3-5 text-1-1" onClick={() => toWhy()}>Why Choose 3AT</div>
+                        </div>
+                        <div className="mt-0-4">
+                            <div className="orange-button rounded-md w-15-7  h-3-5 text-1-1" onClick={() => toHow()}>How 3AT Works</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="relative mt-2-2">
+                    <div className="relative -z-10">
+                        <img src="/images/mobile/about-module-one.png" alt=""></img>
+                    </div>
+                    <div className="flex flex-col justify-center items-center absolute top-0-1 left-0-1 w-full">
+                        <div className="text-word-gray font-bold text-2-6 w-22-8 text-center mt-3-5">
+                            Visionary <span className="text-primary-green">strategy</span> & <span className="text-primary-orange">Innovative</span> spirit
+                        </div>
+                        <div className="w-17-6 mt-2-5">
+                            <img src="/images/mobile/doller.png" alt=""></img>
+                        </div>
+                        <div className="mt-1-9 text-word-gray font-medium text-1-2 w-21-9">
+                            <div className="leading-point-155">3AT tokens create a safe and stable trading environment for users,</div>
+                            <div className="mt-1-8 leading-point-155">Carrying the bridge between digital currency and traditional currency,</div>
+                            <div className="mt-1-8 leading-point-155">Eliminating the volatility and complexity that often accompanies digital assets.</div>
+                            <div className="mt-1-8 leading-point-155">This initiative enables global enterprises to participate in the digital financial system more easily and efficiently,</div>
+                            <div className="mt-1-8 leading-point-155">3AT tokens create a safe and stable trading environment for users,</div>
+                            <div className="mt-1-8 leading-point-155">Enjoy the unique advantages of 3AT.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="relative pt-7-8">
+                    <div className="w-19-3 absolute top-11-3 -z-10">
+                        <img src="images/mobile/circel.png" className="" alt=""></img>
+                    </div>
+                    <div className="w-full flex flex-col justify-end items-center" >
+                        <div className="text-word-gray w-1/3 font-bold text-2-5 text-center leading-point-114">
+                            About <span className="text-primary-green">3AT</span>
+                        </div>
+                        <div className="w-20-3 -mt-1-5">
+                            <img className="" src="/images/mobile/safety.png"></img>
+                        </div>
+                        <div className="text-word-gray w-21-9 font-medium leading-point-180 text-1-3 mt-1-5 pb-3-5">
+                            The founding team of 3AT focuses on promoting the digital application of fiat currency. The 3AT project was launched in 2023, building a blockchain based platform aimed at disrupting the traditional financial system with a more modern monetary approach. This project aims to provide users with a unique and trustworthy fiat currency experience through innovation in digital assets.
+                        </div>
+                    </div>
+                </div>
+
+                <div className="relative">
+                    <div className="absolute -z-10">
+                        <img src="/images/mobile/about-module-two.png" alt=""></img>
+                    </div>
+                    <div className="w-full flex flex-col justify-start items-center">
+                        <div className="text-word-gray leading-point-114 text-2-5 font-bold w-1/2 text-center mt-5-0">
+                            <span className="text-primary-green">Team </span>and <span className="text-primary-orange">technical </span>advantages
+                        </div>
+                        <div className="flex flex-col justify-start items-center">
+                            <div className="w-19-2">
+                                <img src="/images/mobile/hands.png" alt=""></img>
+                            </div>
+                            <div className="text-word-gray leading-point-180 text-1-2 w-21-9 mt-1-5">
+                                3AT brings together professionals in the fields of financial services, technology and compliance, led by an experienced senior management team, to provide excellent services to users around the world. Leading the way in the digital asset space.
+                            </div>
+                            <div className="text-word-card mt-1-5">
+                                <div className="w-21-9 box-shadow-green rounded-xl px-2-2 py-1-7 bg-white">
+                                    <div className="w-9-6">
+                                        <img src="/images/mobile/hah-card.png"></img>
+                                    </div>
+                                    <div className="text-1-0 leading-point-140 mt-1-6">
+                                        With hah as the underlying technology, it provides strong support for 3AT and becomes the best choice to achieve the stability of digital assets.
+                                    </div>
+                                </div>
+
+                                <div className="w-21-9 box-shadow-green rounded-xl px-2-2 py-1-7 bg-white mt-1-6">
+                                    <div className="w-9-6">
+                                        <img src="/images/mobile/currency-card.png"></img>
+                                    </div>
+                                    <div className="text-1-0 leading-point-140 mt-1-6">
+                                        With hah as the underlying technology, it provides strong support for 3AT and becomes the best choice to achieve the stability of digital assets.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="mt-3-0">
+                    <div className="flex w-full flex-col justify-start items-start">
+                        <div className="w-full mt-10">
+                            <img alt="" src="/images/FAQs.png"></img>
+                        </div>
+                        <div className="w-full flex flex-col items-center">
+                            {itemStatus.map((item, index) => {
+                                return (
+                                    <div key={index} className="w-21-9 p-1-0 bg-primary-green rounded-xl mb-1-0 relative z-20" >
+                                        <div className="flex justify-between items-center text-word-gray">
+                                            <div className="text-1-2 leading-1-5">
+                                                {item.title}
+                                            </div>
+                                            <div className="text-icon-gray font-bold text-3xl">
+                                                <div onClick={() => handleShowContent(item.id)} className={["icon", "iconfont", "icon-add", item.showContent ? "icon-jian_sekuai" : "icon-add"].join(" ")}></div>
+                                            </div>
+                                        </div>
+                                        {item.showContent && <div className="text-white text-1-2 mt-1-0 leading-1-5">
+                                            {item.content}
+                                        </div>}
+                                    </div>
+                                )
+                            })}
+                        </div>
+                    </div>
+                </div>
+                <div className="w-full flex justify-center text-center mt-10">
+                    <div className="w-11/12">
+                        <FooterBar></FooterBar>
+                    </div>
+                </div>
+            </div>
+            {/* <div className="md:hidden">
                 <div className="relative pt-0.5 ">
                     <div className="absolute w-full">
                         <img src="/images/mobile/home-gradient.png" alt=""></img>
@@ -175,136 +304,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                {/* <div className="">
-                    <img alt="" src="/images/mobile/mobile-home-bg.png"></img>
-                </div>
-                <div className="absolute flex flex-col justify-start items-center top-0 left-0 w-full h-full">
-                    <div className="flex flex-col justify-start items-center mt-24">
-                        <div className="w-1/2">
-                            <img src="/images/logo.png"></img>
-                        </div>
-                        <div className="w-2/3 text-word-gray text-5xl font-bold text-center mt-64 mb-1">
-                            Stable And Trustworthy
-                        </div>
-                        <div className=" text-gradient text-5xl font-bold text-center mb-4 pb-2">
-                            Digital Fiat Currency Bridge
-                        </div>
-                        <div className="w-8/12">
-                            <div className="green-button py-3 text-2xl rounded-md mb-2" onClick={() => toWhy()}>Why Choose 3AT</div>
-                        </div>
-                        <div className="w-8/12">
-                            <div className="orange-button py-3 text-2xl rounded-md mb-2" onClick={() => toHow()}>How 3AT Works</div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col justify-start items-center mt-20">
-                        <div className="text-word-gray text-5xl text-center">
-                            <div>
-                                Visionary <span className="text-primary-green"> strategy</span>
-                            </div>
-                            <div className="">
-                                <span className="text-4xl">&</span> <span className="text-primary-orange">Innovative</span> spirit
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col justify-start items-center mt-24">
-                        <div className="w-9/12 mb-8">
-                            <img src="/images/mobile/currency.png" alt=""></img>
-                        </div>
-                        <div className="text-word-gray w-11/12 leading-7 font-vw-5-0 mt-vh-4-0">
-                            3AT tokens create a safe and stable trading environment for users,
-                        </div>
-                        <div className="text-word-gray w-11/12 leading-7 font-vw-5-0 mt-vh-4-0">
-                            Carrying the bridge between digital currency and traditional currency,
-                        </div>
-                        <div className="text-word-gray w-11/12 leading-7 font-vw-5-0 mt-vh-4-0">
-                            Eliminating the volatility and complexity that often accompanies digital assets.
-                        </div>
-                        <div className="text-word-gray w-11/12 leading-7 font-vw-5-0 mt-vh-4-0">
-                            This initiative enables global enterprises to participate in the digital financial system more easily and efficiently,
-
-                        </div>
-                        <div className="text-word-gray w-11/12 leading-7 font-vw-5-0 mt-vh-4-0">
-                            Enjoy the unique advantages of 3AT.
-                        </div>
-                    </div>
-                    <div className="flex flex-col justify-start items-center mt-32 ">
-                        <div className="text-word-gray text-5xl mb-1 font-bold">
-                            About
-                        </div>
-                        <div className="text-primary-green text-5xl font-bold">3AT</div>
-                        <div className="w-10/12 -mt-4">
-                            <img src="/images/mobile/shield.png"></img>
-                        </div>
-                        <div className="text-word-gray text-xl leading-8 w-10/12">
-                            The founding team of 3AT focuses on promoting the digital application of fiat currency. The 3AT project was launched in 2023, building a blockchain based platform aimed at disrupting the traditional financial system with a more modern monetary approach. This project aims to provide users with a unique and trustworthy fiat currency experience through innovation in digital assets.
-                        </div>
-                    </div>
-                    <div className="flex flex-col justify-start items-center  mt-24">
-                        <div className="text-word-gray text-5xl text-center">
-                            <div>
-                                <span className="text-primary-green"> Team</span> and
-                            </div>
-                            <div className="text-primary-orange">
-                                technical
-                            </div>
-                            <div className="">
-                                advantages
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col justify-start items-center">
-                        <div className="w-11/12 mt-1 mb-8">
-                            <img className="" src="/images/mobile/shake-hands.png" alt=""></img>
-                        </div>
-                        <div className="text-word-gray text-xl leading-8 w-11/12">
-                            3AT brings together professionals in the fields of financial services, technology and compliance, led by an experienced senior management team, to provide excellent services to users around the world. Leading the way in the digital asset space.
-                        </div>
-                    </div>
-                    <div className="flex flex-col justify-start items-center mt-8">
-                        <div className="w-11/12 p-8 rounded-2xl shadow-2xl bg-white box-shadow-green mb-8">
-                            <div className="mb-4 w-1/2">
-                                <img className="" src="/images/mobile/hah-logo.png"></img>
-                            </div>
-                            <div className="text-word-card leading-6 text-base">With hah as the underlying technology, it provides strong support for 3AT and becomes the best choice to achieve the stability of digital assets.</div>
-                        </div>
-                        <div className="w-11/12 p-8 rounded-2xl shadow-2xl bg-white box-shadow-green ">
-                            <div className="mb-4 w-1/2 -ml-6">
-                                <img className="" src="/images/mobile/safety.png"></img>
-                            </div>
-                            <div className="text-word-card leading-6 text-base">With hah as the underlying technology, it provides strong support for 3AT and becomes the best choice to achieve the stability of digital assets.</div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col justify-start items-start">
-                        <div className="w-full mt-10">
-                            <img alt="" src="/images/FAQs.png"></img>
-                        </div>
-                        <div className="w-full flex flex-col items-center">
-                            {itemStatus.map((item, index) => {
-                                return (
-                                    <div key={index} className="w-11/12 bg-primary-green rounded-xl p-4 mb-4 relative z-20" >
-                                        <div className="flex justify-between items-center text-word-gray">
-                                            <div className="w-10/12  text-2xl">
-                                                {item.title}
-                                            </div>
-                                            <div className="text-icon-gray font-bold text-3xl">
-                                                <div onClick={() => handleShowContent(item.id)} className={["icon", "iconfont", "icon-add", item.showContent ? "icon-jian_sekuai" : "icon-add"].join(" ")}></div>
-                                            </div>
-                                        </div>
-                                        {item.showContent && <div className="text-white mt-4">
-                                            {item.content}
-                                        </div>}
-                                    </div>
-                                )
-                            })}
-                        </div>
-                    </div>
-                    <div className="w-full flex justify-center text-center mt-10">
-                        <div className="w-11/12">
-                            <FooterBar></FooterBar>
-                        </div>
-                    </div>
-                </div> */}
-            </div>
+            </div> */}
             <div className="hidden md:block">
                 <div className="image-bg image-bg-tp-220 bg-home-pc bg-no-repeat bg-contain relative">
                     <div className="flex justify-start items-center text-2xl absolute z-0 w-1/3" style={{ paddingTop: '33%', marginLeft: '12.3%' }}>

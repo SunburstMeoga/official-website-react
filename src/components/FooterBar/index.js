@@ -4,22 +4,22 @@ const FooterBar = ({ isWhite }) => {
     return (
         <div>
             <div className="md:hidden">
-                <div className="w-full flex justify-center items-center">
-                    <div className="w-10/12 flex flex-col items-center">
-                        <div className={["mb-6 font-vw-3-6", isWhite ? "text-white" : "text-bottom-word"].join(' ')}>
+                <div className="w-full flex justify-center items-center pb-3-6 pt-1-9">
+                    <div className="w-17-8 flex flex-col items-center">
+                        <div className={["mb-2-5 font-medium text-0-8", isWhite ? "text-white" : "text-word-gray"].join(' ')}>
                             Copyright @ 2024 3AT technology limited
                         </div>
                         <div className="flex w-11/12 justify-between items-center mb-4">
-                            <div className="w-10 cursor-pointer">
+                            <div className="w-1-9 cursor-pointer">
                                 <img alt="" src="/images/Vector (1).png"></img>
                             </div>
-                            <div className="w-10 cursor-pointer">
+                            <div className="w-1-9 cursor-pointer">
                                 <img alt="" src="/images/Vector.png"></img>
                             </div>
-                            <div className="w-10 cursor-pointer">
+                            <div className="w-1-9 cursor-pointer">
                                 <img alt="" src="/images/Group 3.png"></img>
                             </div>
-                            <div className="w-10 cursor-pointer">
+                            <div className="w-1-9 cursor-pointer">
                                 <img alt="" src="/images/facebook 1.png"></img>
                             </div>
                         </div>

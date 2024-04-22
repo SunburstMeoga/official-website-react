@@ -8,6 +8,30 @@ img {
     object-fit: cover;
 }
 
+div {
+    line-height: 1;
+}
+
+.leading-point-155 {
+    line-height: 155%;
+}
+
+.leading-point-114 {
+    line-height: 114%;
+}
+
+.leading-point-180 {
+    line-height: 180%;
+}
+
+.leading-point-140 {
+    line-height: 140%;
+}
+
+.leading-num-24 {
+    line-height: 24;
+}
+
 input {
     outline: none;
 }
@@ -124,7 +148,7 @@ input {
     background-color: #2FCD82;
     color: white;
     cursor: pointer;
-    @apply flex justify-center items-center font-vw-5-2 h-vh-6-5;
+    @apply flex justify-center items-center font-black;
 }
 
 .orange-button {
@@ -132,7 +156,7 @@ input {
     background-color: #EC652B;
     color: white;
     cursor: pointer;
-    @apply flex justify-center items-center font-vw-5-2 h-vh-6-5;
+    @apply flex justify-center items-center font-black;
 }
 
 .menu-item {

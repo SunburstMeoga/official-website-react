@@ -5,7 +5,21 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    spacing: Array.from({ length: 1000 }).reduce((map, _, index) => {
+      const value = ((index + 1) / 10).toFixed(1);
+      const [integerPart, decimalPart] = value.split('.');
+      const key = `${integerPart}-${decimalPart}`;
+      const formattedValue = `${integerPart}.${decimalPart}`;
+      map[key] = `${formattedValue}rem`;
+      return map;
+    }, {}),
     extend: {
+      fontSize: ({ theme }) => ({
+        ...theme("spacing"),
+      }),
+      lineHeight: ({ theme }) => ({
+        ...theme("spacing"),
+      }),
       colors: {
         'user-black': '#36485C',
         'white-opaity-80': 'rgba(255,255,255,1)',
@@ -61,32 +75,32 @@ module.exports = {
     },
   },
   plugins: [
-    plugin(function ({ addUtilities }) {
-      const newUtilities = {};
+    // plugin(function ({ addUtilities }) {
+    //   const newUtilities = {};
 
-      // 生成 0.1vw 到 100vw 的类，步长为 0.1
-      for (let i = 1; i <= 1000; i++) {
-        const vwValue = (i * 0.1).toFixed(1); // 保留一位小数
-        const vhValue = (i * 0.1).toFixed(1); // 保留一位小数
-        const classNameVw = `font-vw-${vwValue.replace('.', '-')}`; // 替换小数点为连字符
-        const classNameVh = `mt-vh-${vhValue.replace('.', '-')}`; // 替换小数点为连字符
-        const classNameWidth = `w-vw-${vwValue.replace('.', '-')}`; // 替换小数点为连字符
-        const classNameHeight = `h-vh-${vhValue.replace('.', '-')}`; // 替换小数点为连字符
-        newUtilities[`.${classNameVw}`] = {
-          fontSize: `${vwValue}vw`,
-        };
-        newUtilities[`.${classNameVh}`] = {
-          marginTop: `${vhValue}vh`,
-        };
-        newUtilities[`.${classNameWidth}`] = {
-          width: `${vwValue}vw`,
-        };
-        newUtilities[`.${classNameHeight}`] = {
-          height: `${vhValue}vh`,
-        };
-      }
+    //   // 生成 0.1vw 到 100vw 的类，步长为 0.1
+    //   for (let i = 1; i <= 1000; i++) {
+    //     const vwValue = (i * 0.1).toFixed(1); // 保留一位小数
+    //     const vhValue = (i * 0.1).toFixed(1); // 保留一位小数
+    //     const classNameVw = `font-vw-${vwValue.replace('.', '-')}`; // 替换小数点为连字符
+    //     const classNameVh = `mt-vh-${vhValue.replace('.', '-')}`; // 替换小数点为连字符
+    //     const classNameWidth = `w-vw-${vwValue.replace('.', '-')}`; // 替换小数点为连字符
+    //     const classNameHeight = `h-vh-${vhValue.replace('.', '-')}`; // 替换小数点为连字符
+    //     newUtilities[`.${classNameVw}`] = {
+    //       fontSize: `${vwValue}vw`,
+    //     };
+    //     newUtilities[`.${classNameVh}`] = {
+    //       marginTop: `${vhValue}vh`,
+    //     };
+    //     newUtilities[`.${classNameWidth}`] = {
+    //       width: `${vwValue}vw`,
+    //     };
+    //     newUtilities[`.${classNameHeight}`] = {
+    //       height: `${vhValue}vh`,
+    //     };
+    //   }
 
-      addUtilities(newUtilities, ['responsive', 'hover']);
-    }),
+    //   addUtilities(newUtilities, ['responsive', 'hover']);
+    // }),
   ],
 }
