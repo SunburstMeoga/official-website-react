@@ -163,7 +163,7 @@ const TopBar = () => {
                                                     "cursor-pointer",
                                                     "ml-3-7",
                                                     "border-b-2",
-                                                    "pb-0-1",
+                                                    "pb-0-2",
                                                     "menu-item",
                                                     "text-1-3",
                                                     index === menuList.length - 1 ? "relative z-10" : '',
@@ -172,7 +172,7 @@ const TopBar = () => {
                                             </div>
 
                                             {(item.hasChild && mouseEnterMenu === 'solution') &&
-                                                <div className="absolute font-medium px-2-3 text-1-5 text-left leading-point-114 py-1-6 rounded shadow-2xl bg-white text-model-gray z-50"
+                                                <div className="absolute  px-1-8 text-1-2 text-left leading-point-114 py-1-6 left-3-4 top-2-2 rounded shadow-2xl bg-white text-model-gray z-50"
                                                     onMouseLeave={(e) => onMouseLeaveSecondMenu(e)}>
                                                     {item.children.map((_item, _index) => {
                                                         return (

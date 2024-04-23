@@ -41,20 +41,25 @@ const Home = () => {
         <div>
             <div className="overflow-x-hidden">
                 <div className="relative">
-                    <div className="text absolute -z-10 top-2-6">
+                    <div className="absolute -z-10 top-2-6 lg:hidden">
                         <img src="/images/mobile/about-banner.png" alt=""></img>
                     </div>
-                    <div className="flex flex-col justify-start items-center">
-                        <div className="mt-5-4 w-12-5">
+                    <div className="absolute -z-10 right-0-1 top-0-1 hidden lg:block w-73-3">
+                        <img src="/images/pc/about-banner.png" alt="" ></img>
+                    </div>
+                    <div className="flex flex-col justify-start items-center border border-red-500 lg:w-41-4 lg:items-start lg:ml-15-0">
+                        <div className="mt-5-4 w-12-5 lg:mt-9-8">
                             <img src="/images/mobile/logo.png"></img>
                         </div>
-                        <div className="text-word-gray text-2-2 font-black w-17-8 text-center mt-17-6">Stable And Trustworthy</div>
-                        <div className="text-gradient text-2-2 font-black w-20-2 text-center pb-0-2">Digital Fiat Currency Bridge</div>
-                        <div className="mt-1-3">
-                            <div className="green-button rounded-md w-15-7  h-3-5 text-1-1" onClick={() => toWhy()}>Why Choose 3AT</div>
-                        </div>
-                        <div className="mt-0-4">
-                            <div className="orange-button rounded-md w-15-7  h-3-5 text-1-1" onClick={() => toHow()}>How 3AT Works</div>
+                        <div className="text-word-gray text-2-2 font-black w-17-8 text-center mt-17-6 lg:mt-2-0 lg:text-left lg:text-4-0 lg:leading-point-114 lg:w-25-3">Stable And Trustworthy</div>
+                        <div className="text-gradient text-2-2 font-black w-20-2 text-center pb-0-2 lg:text-left lg:text-4-0 lg:leading-point-114 lg:w-41-4">Digital Fiat Currency Bridge</div>
+                        <div className="lg:flex lg:justify-start lg:items-center">
+                            <div className="mt-1-3 lg:mt-auto">
+                                <div className="green-button rounded-md w-15-7  h-3-5 text-1-1 lg:w-20-5 lg:h-5-0" onClick={() => toWhy()}>Why Choose 3AT</div>
+                            </div>
+                            <div className="mt-0-4 lg:mt-auto lg:ml-1-6">
+                                <div className="orange-button rounded-md w-15-7  h-3-5 text-1-1 lg:w-20-5 lg:h-5-0" onClick={() => toHow()}>How 3AT Works</div>
+                            </div>
                         </div>
                     </div>
                 </div>
