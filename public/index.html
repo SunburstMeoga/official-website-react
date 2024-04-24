@@ -17,22 +17,10 @@
   <div id="root"></div>
 </body>
 <script>
-  function setRootFontSize() {
-    var width = document.documentElement.clientWidth, fontSize;
-    if (width > 1024) {
-      document.getElementsByTagName("html")[0].style["font-size"] = 0.81 + "vw";
-    } else {
-      document.getElementsByTagName("html")[0].style["font-size"] = 16 + "px";
-    }
-    // fontSize = (width / 750) * 100;
-    console.log(document.getElementsByTagName("html")[0].style["font-size"])
-
-  }
-  setRootFontSize();
-
-  window.addEventListener("resize", function () {
-    setRootFontSize();
-  }, false);
+  !function () {
+    var e = document.documentElement.clientWidth;
+    document.getElementsByTagName("html")[0].style["font-size"] = e > 1024 ? "0.81vw" : "16px"
+  }()
 </script>
 
 </html>

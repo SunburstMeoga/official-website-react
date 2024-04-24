@@ -29,6 +29,10 @@ div {
     line-height: 140%;
 }
 
+.leading-point-161 {
+    line-height: 161%;
+}
+
 .leading-num-24 {
     line-height: 24;
 }
@@ -228,7 +232,7 @@ input {
 }
 
 .box-shadow-green {
-    box-shadow: 0 0 5px rgba(167, 243, 208), 0 0 30px rgba(167, 243, 208, .6);
+    -webkit-box-shadow: 1px 0px 25px 0px rgba(47, 205, 103, 0.75);
 }
 
 /* .title-shadow {
