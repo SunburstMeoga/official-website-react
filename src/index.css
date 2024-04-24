@@ -38,7 +38,7 @@ div {
 }
 
 .jump-button {
-    @apply rounded-xl w-15-7 h-3-5 text-1-1 lg:w-20-5 lg:h-5-0 lg:text-2-0;
+    @apply rounded-lg w-15-7 h-3-5 text-1-1 lg:w-20-5 lg:h-5-0 lg:text-2-0;
 }
 
 input {

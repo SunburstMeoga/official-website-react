@@ -41,26 +41,26 @@ const Home = () => {
         <div>
             <div className="">
                 <div className="relative ">
-                    <div className="absolute -z-10 top-2-6 xl:hidden">
+                    <div className="absolute -z-10 top-2-6 lg:hidden">
                         <img src="/images/mobile/about-banner.png" alt=""></img>
                     </div>
-                    <div className="xl:block hidden absolute -z-20 w-full top-0-1 ">
-                        <img src="/images/pc/about-top-bg.png" alt=""></img>
+                    <div className="lg:block hidden absolute -z-20 w-full top-0-1 ">
+                        <img alt="" src="/images/pc/about-top-bg.png"></img>
                     </div>
-                    <div className="xl:block absolute -z-10 right-0-1 top-0-1 hidden top w-73-3">
-                        <img src="/images/pc/about-banner.png" alt="" ></img>
+                    <div className="lg:block absolute -z-10 right-0-1 top-0-1 hidden top w-73-3">
+                        <img alt="" src="/images/pc/about-banner.png"></img>
                     </div>
-                    <div className="flex flex-col justify-start items-center xl:w-41-4 xl:items-start xl:ml-15-0">
-                        <div className="mt-5-4 w-12-5 xl:mt-9-8">
-                            <img src="/images/mobile/logo.png"></img>
+                    <div className="flex flex-col justify-start items-center lg:w-41-4 lg:items-start lg:ml-15-0">
+                        <div className="mt-5-4 w-12-5 lg:mt-9-8">
+                            <img alt="" src="/images/mobile/logo.png"></img>
                         </div>
-                        <div className="text-word-gray text-2-2 font-black w-17-8 text-center mt-17-6 leading-point-114 xl:mt-2-0 xl:text-left xl:text-4-0  xl:w-25-3 ">Stable And Trustworthy</div>
-                        <div className="text-gradient text-2-2 font-black w-20-2 text-center pb-0-2 leading-point-114 xl:text-left xl:text-4-0  xl:w-41-4">Digital Fiat Currency Bridge</div>
-                        <div className="xl:flex xl:justify-start xl:items-center xl:mt-1-6">
-                            <div className="mt-1-3 xl:mt-auto">
+                        <div className="text-word-gray text-2-2 font-black w-17-8 text-center mt-17-6 leading-point-114 lg:mt-2-0 lg:text-left lg:text-4-0  lg:w-25-3 ">Stable And Trustworthy</div>
+                        <div className="text-gradient text-2-2 font-black w-20-2 text-center pb-0-2 leading-point-114 lg:text-left lg:text-4-0  lg:w-41-4">Digital Fiat Currency Bridge</div>
+                        <div className="lg:flex lg:justify-start lg:items-center lg:mt-1-6">
+                            <div className="mt-1-3 lg:mt-auto">
                                 <div className="green-button jump-button" onClick={() => toWhy()}>Why Choose 3AT</div>
                             </div>
-                            <div className="mt-0-4 xl:mt-auto xl:ml-1-6">
+                            <div className="mt-0-4 lg:mt-auto lg:ml-1-6">
                                 <div className="orange-button jump-button" onClick={() => toHow()}>How 3AT Works</div>
                             </div>
                         </div>
@@ -68,13 +68,13 @@ const Home = () => {
                 </div>
 
                 <div className="relative mt-2-2">
-                    <div className="relative -z-10 xl:hidden">
+                    <div className="relative -z-10 lg:hidden">
                         <img src="/images/mobile/about-module-one.png" alt=""></img>
                     </div>
-                    <div className="relative -z-10 hidden xl:block">
+                    <div className="relative -z-10 hidden lg:block">
                         <img src="/images/pc/about-module-one.png" alt=""></img>
                     </div>
-                    <div className="flex flex-col justify-center items-center absolute top-0-1 w-full xl:hidden">
+                    <div className="flex flex-col justify-center items-center absolute top-0-1 w-full lg:hidden">
                         <div className="text-word-gray font-bold text-2-6 w-22-8 text-center mt-3-5">
                             Visionary <span className="text-primary-green">strategy</span> & <span className="text-primary-orange">Innovative</span> spirit
                         </div>
@@ -90,10 +90,10 @@ const Home = () => {
                             <div className="mt-1-8 leading-point-155">Enjoy the unique advantages of 3AT.</div>
                         </div>
                     </div>
-                    <div className="hidden w-full justify-center items-center absolute top-9-0 xl:flex">
+                    <div className="hidden w-full justify-center items-center absolute top-9-0 lg:flex">
                         <div className="flex justify-start items-center w-90-0">
                             <div className="w-20-4">
-                                <img src="/images/pc/doller.png "></img>
+                                <img src="/images/pc/doller.png" alt=""></img>
                             </div>
                             <div className="ml-9-5 text-word-gray w-55-5">
                                 <div className="text-right leading-point-114 font-bold text-4-0">
@@ -113,7 +113,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="hidden absolute w-full top-39-0 xl:flex justify-center items-center">
+                    <div className="hidden absolute w-full top-39-0 lg:flex justify-center items-center">
                         <div className="flex relative justify-start items-start w-99-0">
                             <div className="w-47-8 absolute left-1-0">
                                 <img src="images/pc/circel.png" className="" alt=""></img>
@@ -133,11 +133,11 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className="w-36-1 -ml-4-3 mt-2-0">
-                                <img className="" src="/images/pc/safety.png"></img>
+                                <img className="" src="/images/pc/safety.png" alt=""></img>
                             </div>
                         </div>
                     </div>
-                    <div className="hidden absolute w-full top-77-7 xl:flex flex-col justify-center items-center">
+                    <div className="hidden absolute w-full top-77-7 lg:flex flex-col justify-center items-center">
                         <div className="text-word-gray text-4-0 font-bold">
                             <span className="text-primary-green">Team </span> and <span className="text-primary-orange">technical </span> advantages
                         </div>
@@ -156,7 +156,7 @@ const Home = () => {
                             <div className="text-word-card flex relative justify-between items-start w-90-8">
                                 <div className="w-43-7 box-shadow-green rounded-2xl px-3-7 py-3-0 bg-white">
                                     <div className="w-22-7">
-                                        <img src="/images/pc/hah-card.png"></img>
+                                        <img src="/images/pc/hah-card.png" alt=""></img>
                                     </div>
                                     <div className="text-1-5 leading-point-140 mt-2-7">
                                         With hah as the underlying technology, it provides strong support for 3AT and becomes the best choice to achieve the stability of digital assets.
@@ -165,7 +165,7 @@ const Home = () => {
 
                                 <div className="w-43-7 box-shadow-green rounded-2xl px-3-7 py-3-0 bg-white">
                                     <div className="w-13-4">
-                                        <img src="/images/pc/currency-card.png"></img>
+                                        <img src="/images/pc/currency-card.png" alt=""></img>
                                     </div>
                                     <div className="text-1-5 leading-point-140 mt-2-7">
                                         With hah as the underlying technology, it provides strong support for 3AT and becomes the best choice to achieve the stability of digital assets.
@@ -174,9 +174,9 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="hidden absolute bottom-26-4 w-full xl:flex flex-col justify-center items-center">
+                    <div className="hidden absolute bottom-26-4 w-full lg:flex flex-col justify-center items-center">
                         <div className="w-16-0">
-                            <img src="/images/pc/FAQs.png"></img>
+                            <img src="/images/pc/FAQs.png" alt=""></img>
                         </div>
                         <div className="pt-3-1 flex flex-col justify-center items-center bg-primary-green w-full">
                             {itemStatus.map((item, index) => {
@@ -189,14 +189,14 @@ const Home = () => {
                             })}
                         </div>
                     </div>
-                    <div className="w-full hidden justify-center text-center mt-10 xl:flex absolute bottom-0-1 bg-black">
+                    <div className="w-full hidden justify-center text-center mt-10 lg:flex absolute bottom-0-1 bg-black">
                         <div className="w-11/12">
                             <FooterBar></FooterBar>
                         </div>
                     </div>
                 </div>
 
-                <div className="xl:hidden">
+                <div className="lg:hidden">
                     <div className="relative pt-7-8">
                         <div className="w-19-3 absolute top-11-3 -z-10">
                             <img src="images/mobile/circel.png" className="" alt=""></img>
@@ -206,7 +206,7 @@ const Home = () => {
                                 About <span className="text-primary-green">3AT</span>
                             </div>
                             <div className="w-20-3 -mt-1-5">
-                                <img className="" src="/images/mobile/safety.png"></img>
+                                <img className="" src="/images/mobile/safety.png" alt=""></img>
                             </div>
                             <div className="text-word-gray w-21-9 font-medium leading-point-180 text-1-3 mt-1-5 pb-3-5">
                                 The founding team of 3AT focuses on promoting the digital application of fiat currency. The 3AT project was launched in 2023, building a blockchain based platform aimed at disrupting the traditional financial system with a more modern monetary approach. This project aims to provide users with a unique and trustworthy fiat currency experience through innovation in digital assets.
@@ -214,8 +214,8 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className="relative xl:hidden">
-                    <div className="absolute -z-10 xl:hidden">
+                <div className="relative lg:hidden">
+                    <div className="absolute -z-10 lg:hidden">
                         <img src="/images/mobile/about-module-two.png" alt=""></img>
                     </div>
                     <div className="w-full flex flex-col justify-start items-center">
@@ -232,7 +232,7 @@ const Home = () => {
                             <div className="text-word-card mt-1-5">
                                 <div className="w-21-9 box-shadow-green rounded-xl px-2-2 py-1-7 bg-white">
                                     <div className="w-9-6">
-                                        <img src="/images/mobile/hah-card.png"></img>
+                                        <img src="/images/mobile/hah-card.png" alt=""></img>
                                     </div>
                                     <div className="text-1-0 leading-point-140 mt-1-6">
                                         With hah as the underlying technology, it provides strong support for 3AT and becomes the best choice to achieve the stability of digital assets.
@@ -241,7 +241,7 @@ const Home = () => {
 
                                 <div className="w-21-9 box-shadow-green rounded-xl px-2-2 py-1-7 bg-white mt-1-6">
                                     <div className="w-9-6">
-                                        <img src="/images/mobile/currency-card.png"></img>
+                                        <img src="/images/mobile/currency-card.png" alt=""></img>
                                     </div>
                                     <div className="text-1-0 leading-point-140 mt-1-6">
                                         With hah as the underlying technology, it provides strong support for 3AT and becomes the best choice to achieve the stability of digital assets.
@@ -252,10 +252,10 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="mt-3-0 xl:hidden">
+                <div className="mt-3-0 lg:hidden">
                     <div className="flex w-full flex-col justify-start items-start">
                         <div className="w-full mt-10">
-                            <img alt="" src="/images/FAQs.png"></img>
+                            <img alt="" src="/images/FAQs.png" ></img>
                         </div>
                         <div className="w-full flex flex-col items-center">
                             {itemStatus.map((item, index) => {
@@ -278,7 +278,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-full flex justify-center text-center mt-10 xl:hidden">
+                <div className="w-full flex justify-center text-center mt-10 lg:hidden">
                     <div className="w-11/12">
                         <FooterBar></FooterBar>
                     </div>
