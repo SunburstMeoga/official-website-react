@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import FooterBar from "@/components/FooterBar";
-
+import SupplyTrendLine from './supplyTrendLine';
 const Home = () => {
     const navigator = useNavigate()
     let [itemStatus, setItemStatus] = useState([{
@@ -63,6 +63,22 @@ const Home = () => {
                             <div className="mt-0-4 lg:mt-auto lg:ml-1-6">
                                 <div className="orange-button jump-button" onClick={() => toHow()}>How 3AT Works</div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="w-full flex flex-col justify-start items-center mt-2-2 pt-1-4">
+                    <div>
+                        <div className="w-23-5 bg-white rounded-2xl box-shadow-green ">
+                            <SupplyTrendLine />
+                        </div>
+                        <div className="w-23-5 bg-white rounded-2xl box-shadow-green mt-1-4">
+                            {/* <SupplyTrendLine /> */}
+                        </div>
+                    </div>
+                    <div>
+                        <div className="w-23-5 bg-white rounded-2xl box-shadow-green mt-1-4">
+                            {/* <SupplyTrendLine /> */}
                         </div>
                     </div>
                 </div>
