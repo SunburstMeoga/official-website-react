@@ -196,7 +196,7 @@ const Home = () => {
                         </div>
                         <div className="pt-3-1 flex flex-col justify-center items-center bg-primary-green w-full">
                             {itemStatus.map((item, index) => {
-                                return <div className="text-1-5 font-bold leading-point-140 w-88-7">
+                                return <div key={index} className="text-1-5 font-bold leading-point-140 w-88-7">
                                     <div className="text-word-gray mb-3-1">
                                         {index + 1}.{item.title}
                                     </div>

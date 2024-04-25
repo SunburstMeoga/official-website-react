@@ -51,9 +51,9 @@ const SupplyTrendLine = () => {
                     },
                     areaStyle: {
                         color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
-                            offset: 0, color: 'rgba(47,205,130,0)' // 0% 处的颜色
+                            offset: 1, color: 'rgba(47,205,130,0)' // 0% 处的颜色
                         }, {
-                            offset: 0.98, color: 'rgba(0,61,108,1)' // 100% 处的颜色
+                            offset: 0, color: 'rgba(0,61,108,1)' // 100% 处的颜色
                         }])
                     },
                 },
