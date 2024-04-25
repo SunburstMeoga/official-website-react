@@ -67,7 +67,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="w-full flex flex-col justify-start items-center mt-2-2 pt-1-4">
+                <div className="w-full flex flex-col justify-start items-center mt-2-2 pt-1-4 lg:hidden">
                     <div>
                         <div className="w-23-5 bg-white rounded-2xl box-shadow-green ">
                             <SupplyTrendLine />

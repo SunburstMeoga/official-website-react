@@ -88,7 +88,7 @@ const Why = () => {
                                             <div className="font-black">
                                                 <span className="text-1-5 mr-0-6">01</span>1 to 1 Fiat Currency Storage
                                             </div>
-                                            <div className="text-1-3 leading-point-140 mt-1-4">
+                                            <div className="text-1-3 leading-point-140 mt-0-8">
                                                 All 3AT tokens are pegged to fiat currencies and are 100% backed by fiat reserves, ensuring sufficient reserves for exchange.
                                             </div>
                                         </div>
@@ -99,7 +99,7 @@ const Why = () => {
                                             <div className="font-black">
                                                 <span className="text-1-5 mr-0-6">02</span>High Liquidity
                                             </div>
-                                            <div className="text-1-3 leading-point-140 mt-1-4">
+                                            <div className="text-1-3 leading-point-140 mt-0-8">
                                                 The complete blockchain ecosystem based on hah enables 3AT to have excellent liquidity and provide users with an excellent trading experience.
                                             </div>
                                         </div>
@@ -107,7 +107,7 @@ const Why = () => {
                                             <div className="font-black">
                                                 <span className="text-1-5 mr-0-6">03</span>Full Transparency
                                             </div>
-                                            <div className="text-1-3 leading-point-140 mt-1-4">
+                                            <div className="text-1-3 leading-point-140 mt-0-8">
                                                 The professional customer service team provides round-the-clock service to ensure that users can receive support at any time.
                                             </div>
                                         </div>
@@ -117,7 +117,7 @@ const Why = () => {
                                             <div className="font-black">
                                                 <span className="text-1-5 mr-0-6">04</span>Top Notch Customer Support
                                             </div>
-                                            <div className="text-1-3 leading-point-140 mt-1-4">
+                                            <div className="text-1-3 leading-point-140 mt-0-8">
                                                 The issuance and reserve assets of 3AT tokens are open and transparent, providing users with real-time checkable information.
                                             </div>
                                         </div>
@@ -125,7 +125,7 @@ const Why = () => {
                                             <div className="font-black">
                                                 <span className="text-1-5 mr-0-6">05</span>Meet Regulatory Requirements
                                             </div>
-                                            <div className="text-1-3 leading-point-140 mt-1-4">
+                                            <div className="text-1-3 leading-point-140 mt-0-8">
                                                 3AT strictly follows the world's first-class regulatory standards, including anti-money laundering, combating terrorist financing, and formulating customer standards.
                                                 standards and implement standardized compliance measures.
                                             </div>
@@ -137,11 +137,56 @@ const Why = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="flex flex-col justify-start items-center mt-4-5">
+                        <div className="flex flex-col justify-start items-center mt-4-5 ">
                             <div className="w-21-9">
                                 <div className="w-4-5 h-0-2 bg-primary-orange"></div>
                                 <div className="text-2-0 text-word-gray leading-point-114 font-bold mt-0-7">
                                     3AT token is <span className="text-primary-orange">revolutionizing</span> the global financial industry
+                                </div>
+                            </div>
+                            <div >
+                                <div className="-mt-1-6 flex flex-col justify-start items-center w-full">
+                                    <div className="">
+                                        <img className="" alt="" src="/images/mobile/arrow-up.png"></img>
+                                    </div>
+                                    <div className="w-20-2 -mt-4-0">
+                                        <div className="flex justify-start items-end">
+                                            <div className="text-primary-orange">
+                                                <div className="text-1-5">Personal</div>
+                                                <div className="w-13-1 mt-0-1">
+                                                    <img className="" alt="" src="/images/mobile/orange-line.png"></img>
+                                                </div>
+                                            </div>
+                                            <div className="ml-1-2 w-4-6">
+                                                <img className="" src="/images/mobile/personal.png" alt=""></img>
+                                            </div>
+                                        </div>
+                                        <div className="text-1-2 font-medium text-word-gray mt-0-4 leading-point-140">
+                                            3AT tokens provide excellent liquidity on primary exchanges, allowing individual traders to quickly seize market arbitrage opportunities. High liquidity ensures the rapid execution of transactions, enables individual investors to conduct buying and selling operations more flexibly, improves transaction efficiency, and takes advantage of market fluctuations to the greatest extent.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="flex flex-col justify-start items-center w-full">
+                                    <div className="">
+                                        <img className="" alt="" src="/images/mobile/arrow-down.png"></img>
+                                    </div>
+                                    <div className="w-20-2 -mt-3-6">
+                                        <div className="w-4-8 -mt-8-0 ml-2-0">
+                                            <img className="" src="/images/mobile/project.png" alt=""></img>
+                                        </div>
+                                        <div className="mt-3-5">
+                                            <div className="text-primary-green">
+                                                <div className="text-1-5">Project</div>
+                                                <div className="w-13-1 mt-1-1">
+                                                    <img className="" alt="" src="/images/mobile/green-line.png"></img>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="text-1-2 font-medium text-word-gray mt-0-4 leading-point-140">
+                                            Provide consumers with abundant opportunities to purchase products and services. Merchants can more easily accept digital currency payments, establish a more reliable transaction environment, enhance consumer trust, and facilitate more transactions.
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
