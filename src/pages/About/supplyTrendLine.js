@@ -47,6 +47,7 @@ const SupplyTrendLine = () => {
                     symbolSize: 0,   // 圆点大小
                     lineStyle: {
                         width: 1, // 线条宽度
+                        color: '003D6C'
                     },
                     areaStyle: {
                         color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
