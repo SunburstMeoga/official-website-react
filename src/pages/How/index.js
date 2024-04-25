@@ -52,7 +52,7 @@ const How = () => {
                     <div className="absolute -z-10 top-0-1 hidden lg:block">
                         <img className="" src="/images/pc/why-bg.png" alt=""></img>
                     </div>
-                    <div className="lg:flex lg:justify-start lg:items-center lg:pt-6-3 lg:w-88-6 lg:mr-auto lg:ml-auto">
+                    <div className="lg:flex lg:justify-start lg:items-start lg:pt-9-9 lg:w-88-6 lg:mr-auto lg:ml-auto ">
                         <div className="flex flex-col justify-start items-center lg:w-47-3 lg:items-start">
                             <div className="mt-5-4 w-12-5 lg:mt-0-1">
                                 <img alt="" src="/images/mobile/logo.png"></img>
@@ -62,7 +62,7 @@ const How = () => {
                                 <div className="text-word-gray font-black w-20-2 text-center pb-0-2 leading-point-114 lg:text-left lg:w-auto lg:text-word-gray lg:ml-2-0 ">Work</div>
                             </div>
                             <div className="mt-1-5 lg:order-4 lg:mt-1-3">
-                                <div className="text-1-0 text-word-gray leading-point-140 w-22-3 lg:w-47-3 lg:text-1-5">
+                                <div className="text-1-0 text-word-gray leading-point-140 w-22-3 lg:w-48-5 lg:text-1-5">
                                     3AT tokens are digital assets on the blockchain, with each 3AT token linked to the corresponding legal tender in a 1:1 ratio (e.g. 1 3AT=1 Hong Kong dollar), and 100% supported by 3AT reserves. Defined as a stablecoin, linked to fiat currency, aimed at providing price stability.
                                 </div>
                             </div>
@@ -75,8 +75,8 @@ const How = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="lg:block right-0-1 top-0-1 hidden top w-33-3 ml-3-6">
-                            <img alt="" src="/images/pc/why-banner.png"></img>
+                        <div className="lg:block right-0-1 top-0-1 hidden top w-51-0 -ml-3-6">
+                            <img alt="" src="/images/pc/how-banner.png"></img>
                         </div>
                     </div>
                 </div>
@@ -85,7 +85,15 @@ const How = () => {
                         <div className="absolute top-0-1 left-auto -z-10 lg:hidden">
                             <img alt="" src="/images/mobile/how-module-one.png"></img>
                         </div>
-                        <div className="flex flex-col justify-start items-center">
+                        <div className="flex flex-col justify-start items-center lg:hidden">
+                            <div className="w-21-9 lg:w-88-0">
+                                <div className="w-4-5 h-0-2 bg-primary-orange lg:w-7-4 lg:h-0-5"></div>
+                                <div className="w-14-3 text-2-5 text-word-gray leading-point-114 font-bold mt-0-7 lg:text-3-0 lg:mt-2-4 lg:w-75-0">
+                                    Issuance <span className="text-primary-orange">mechanism</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="hidden flex-col justify-start items-center green-module-bg lg:flex lg:h-21-3 lg:pt-3-0 ">
                             <div className="w-21-9 lg:w-88-0">
                                 <div className="w-4-5 h-0-2 bg-primary-orange lg:w-7-4 lg:h-0-5"></div>
                                 <div className="w-14-3 text-2-5 text-word-gray leading-point-114 font-bold mt-0-7 lg:text-3-0 lg:mt-2-4 lg:w-75-0">
@@ -142,6 +150,48 @@ const How = () => {
                                             <div className="w-16-8 text-word-gray leading-point-140 text-0-9 font-medium">
                                                 The 3AT project may use blockchain technology and smart contracts to record the issuance of tokens and publicly and transparently display the current reserve asset records.
                                             </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="hidden lg:block -mt-9-6">
+                            <div className="w-full flex flex-col justify-start items-center">
+                                <div className="w-88-0 flex justify-between items-start">
+                                    <div className="w-23-6">
+                                        <div className="text-primary-green text-2-0 leading-point-140 font-black mb-1-7">Hosting and support</div>
+                                        <div className="text-word-gray text-1-3 leading-point-140 font-medium">
+                                            The 3AT project will first set up a custodian to ensure that sufficient legal currency (such as Hong Kong dollars, US dollars) is deposited in the bank account as support for the 3AT tokens.
+                                        </div>
+                                    </div>
+                                    <div className="w-23-6">
+                                        <div className="text-primary-green text-2-0 leading-point-140 font-black mb-1-7">Fiat currency peg</div>
+                                        <div className="text-word-gray text-1-3 leading-point-140 font-medium">
+                                            The project party anchors the legal currency received and the issued 3AT tokens at a ratio of 1:1 to ensure that each 3AT token is supported by the corresponding legal currency.
+                                        </div>
+                                    </div>
+                                    <div className="w-23-6">
+                                        <div className="text-primary-green text-2-0 leading-point-140 font-black mb-1-7">Transparent records</div>
+                                        <div className="text-word-gray text-1-3 leading-point-140 font-medium">
+                                            The 3AT project may use blockchain technology and smart contracts to record the issuance of tokens and publicly and transparently display the current reserve asset records.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="w-88-0">
+                                    <img src="/images/pc/issuance-bg.png"></img>
+                                </div>
+                                <div className="w-60-0 flex justify-between items-start">
+                                    <div className="w-23-6">
+                                        <div className="text-primary-green text-2-0 leading-point-140 font-black mb-1-7">User purchase</div>
+                                        <div className="text-word-gray text-1-3 leading-point-140 font-medium">
+                                            Investors can participate in the issuance by purchasing from the 3AT project and paying the corresponding amount of legal currency. In the early stage of the project, only professional investors will be supported for token purchases and transactions.
+                                        </div>
+                                    </div>
+                                    <div className="w-23-6">
+                                        <div className="text-primary-green text-2-0 leading-point-140 font-black mb-1-7">Reserve support</div>
+                                        <div className="text-word-gray text-1-3 leading-point-140 font-medium">
+                                            All issued 3AT tokens will be backed by pre-prepared legal currency reserves to ensure the stability and convertibility of the tokens.
                                         </div>
                                     </div>
                                 </div>

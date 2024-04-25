@@ -17,10 +17,10 @@ const Why = () => {
                     <div className="absolute -z-10 lg:hidden">
                         <img src="/images/mobile/why-banner.png" alt=""></img>
                     </div>
-                    <div className="absolute -z-10 top-0-1 hidden lg:block">
+                    <div className="absolute -z-10 top-0-1 hidden lg:block ">
                         <img className="" src="/images/pc/why-bg.png" alt=""></img>
                     </div>
-                    <div className="lg:flex lg:justify-start lg:items-center lg:pt-6-3 lg:w-88-6 lg:mr-auto lg:ml-auto">
+                    <div className="lg:flex lg:justify-start lg:items-start lg:pt-9-9 lg:w-88-6 lg:mr-auto lg:ml-auto ">
                         <div className="flex flex-col justify-start items-center lg:w-47-3 lg:items-start">
                             <div className="mt-5-4 w-12-5 lg:mt-0-1">
                                 <img alt="" src="/images/mobile/logo.png"></img>
