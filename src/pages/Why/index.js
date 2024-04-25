@@ -141,14 +141,14 @@ const Why = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="flex flex-col justify-start items-center mt-4-5 ">
-                            <div className="w-21-9">
-                                <div className="w-4-5 h-0-2 bg-primary-orange"></div>
-                                <div className="text-2-0 text-word-gray leading-point-114 font-bold mt-0-7">
-                                    3AT token is <span className="text-primary-orange">revolutionizing</span> the global financial industry
+                        <div className="flex flex-col justify-start items-center mt-4-5 lg:hidden">
+                            <div className="w-21-9 lg:w-88-0">
+                                <div className="w-4-5 h-0-2 bg-primary-orange lg:w-7-4 lg:h-0-5"></div>
+                                <div className="text-2-0 text-word-gray leading-point-114 font-bold mt-0-7 lg:text-3-0 lg:mt-2-4 lg:w-75-0">
+                                    3AT token is <span className="text-primary-orange">revolutionizing</span> <br className="hidden lg:block"></br> the global financial industry
                                 </div>
                             </div>
-                            <div >
+                            <div className="">
                                 <div className="-mt-1-6 flex flex-col justify-start items-center w-full">
                                     <div className="">
                                         <img className="" alt="" src="/images/mobile/arrow-up.png"></img>
@@ -189,6 +189,49 @@ const Why = () => {
                                         </div>
                                         <div className="text-1-2 font-medium text-word-gray mt-0-4 leading-point-140">
                                             Provide consumers with abundant opportunities to purchase products and services. Merchants can more easily accept digital currency payments, establish a more reliable transaction environment, enhance consumer trust, and facilitate more transactions.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="mt-6-8 ">
+                            <div className="flex flex-col justify-start w-full items-center green-module-bg h-21-3 pt-3-0 ">
+                                <div className="lg:w-88-0">
+                                    <div className=" bg-primary-orange lg:w-7-4 lg:h-0-5"></div>
+                                    <div className=" text-word-gray leading-point-114 font-bold mt-0-7 lg:text-3-0 lg:mt-2-4 lg:w-75-0">
+                                        3AT token is <span className="text-primary-orange">revolutionizing</span> <br className="hidden lg:block"></br> the global financial industry
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="flex flex-col justify-start w-full items-center  -mt-5-2">
+                                <div className="lg:w-88-0 relative">
+                                    <div className="w-88-0 absolute top-0-1">
+                                        <img src="/images/pc/arrow-all.png" alt=""></img>
+                                    </div>
+                                    <div className="flex justify-between items-center ">
+                                        <div className="flex justify-start items-start mt-13-1">
+                                            <div>
+                                                <div className="w-7-5 ml-2-0">
+                                                    <img src="/images/pc/project.png"></img>
+                                                </div>
+                                                <div className="leading-point-140 text-word-gray w-26-5 font-medium mt-6-4 text-1-3">
+                                                    Provide consumers with abundant opportunities to purchase products and services. Merchants can more easily accept digital currency payments, establish a more reliable transaction environment, enhance consumer trust, and facilitate more transactions.
+                                                </div>
+                                            </div>
+                                            <div className="text-primary-green text-2-5 font-extrabold mt-10-2 ml-9-4">Project</div>
+                                        </div>
+                                        <div className="flex justify-start items-start ml-3-2 -mt-5-0 h-24-1">
+                                            <div className="text-primary-orange text-2-5 font-extrabold mt-6-2 mr-8-4">Personal</div>
+                                            <div>
+                                                <div className="w-7-5 ml-1-0">
+                                                    <img src="/images/pc/personal.png"></img>
+                                                </div>
+                                                <div className="leading-point-140 text-word-gray w-27-5 font-medium mt-3-0  text-1-3">
+                                                    3AT tokens provide excellent liquidity on primary exchanges, allowing individual traders to quickly seize market arbitrage opportunities. High liquidity ensures the rapid execution of transactions, enables individual investors to conduct buying and selling operations more flexibly, improves transaction efficiency, and takes advantage of market fluctuations to the greatest extent.
+                                                </div>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>

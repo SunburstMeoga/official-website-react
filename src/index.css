@@ -45,6 +45,11 @@ input {
     outline: none;
 }
 
+.green-module-bg {
+    background: rgb(47, 205, 130);
+    background: linear-gradient(180deg, rgba(47, 205, 130, 0.19) 0%, rgba(217, 217, 217, 0) 100%);
+}
+
 
 
 .image-bg:before {
