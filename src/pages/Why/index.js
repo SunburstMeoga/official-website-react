@@ -153,7 +153,7 @@ const Why = () => {
                                     <div className="">
                                         <img className="" alt="" src="/images/mobile/arrow-up.png"></img>
                                     </div>
-                                    <div className="w-20-2 -mt-4-0">
+                                    <div className="w-20-2 -mt-8-4">
                                         <div className="flex justify-start items-end">
                                             <div className="text-primary-orange">
                                                 <div className="text-1-5">Personal</div>
@@ -195,7 +195,7 @@ const Why = () => {
                             </div>
                         </div>
 
-                        <div className="mt-6-8 ">
+                        <div className="mt-6-8 hidden lg:block">
                             <div className="flex flex-col justify-start w-full items-center green-module-bg h-21-3 pt-3-0 ">
                                 <div className="lg:w-88-0">
                                     <div className=" bg-primary-orange lg:w-7-4 lg:h-0-5"></div>
