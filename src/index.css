@@ -33,6 +33,10 @@ div {
     line-height: 161%;
 }
 
+.leading-point-127 {
+    line-height: 127%;
+}
+
 .leading-num-24 {
     line-height: 24;
 }
