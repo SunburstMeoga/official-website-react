@@ -9,7 +9,7 @@ const Layout = () => {
         window.addEventListener('scroll', () => {
             setMyScrollTop(window.scrollY)
         })
-        console.log(myScrollTop)
+        // console.log(myScrollTop)
     }, [myScrollTop])
 
     return (

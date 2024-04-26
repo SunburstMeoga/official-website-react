@@ -12,19 +12,8 @@ const How = () => {
         navigator('/why')
     }
 
-    let [currentOneDev, changeOneDev] = useState(0)
-    const clickDevOneItem = (index) => {
+    let [currentDev, changeDev] = useState(null)
 
-        changeOneDev(currentOneDev = index)
-        console.log(index, currentOneDev)
-    }
-
-    let [currentTwoDev, changeTwoDev] = useState(1)
-    const clickDevTwoItem = (index) => {
-
-        changeTwoDev(currentTwoDev = index)
-        console.log(index, currentOneDev)
-    }
     const devProspectsPCOne = [
         { imgUrl: '/images/Rectangle-16.png', title: 'Payment and transaction field', content: 'The stable currency attribute of 3AT makes it play an important role in payment and transaction scenarios. In the future, we will cooperate with credit card companies to support payment by deducting 3AT when swiping credit cards in daily consumption, providing users with more flexible and convenient payment methods.' },
         { imgUrl: '/images/Rectangle 17.png', title: 'Blockchain ecosystem integration', content: "'3AT's choice of hah as the underlying technology indicates the possibility of integrating more blockchain ecosystems into its stablecoin system. This will bring users more choices and application scenarios for digital assets." },
@@ -41,6 +30,17 @@ const How = () => {
         { imgUrl: '/images/mobile/cross.png', title: 'Cross border transactions', content: "Due to its stability and global transparency, 3AT is expected to play an important role in cross-border transactions. It can serve as a more reliable digital asset, promoting global trade and financial flows, and reducing the risk of exchange rate fluctuations in transactions" },
 
     ]
+
+    let mouseEnterDev = (target) => {
+
+        changeDev(currentDev = target)
+        console.log(currentDev)
+    }
+
+    let mouseLeaveDev = () => {
+        changeDev(currentDev = null)
+        console.log(currentDev)
+    }
 
     return (
         <div className="">
@@ -178,7 +178,7 @@ const How = () => {
                                     </div>
                                 </div>
 
-                                <div className="w-88-0">
+                                <div className="w-88-0 my-2-4">
                                     <img src="/images/pc/issuance-bg.png"></img>
                                 </div>
                                 <div className="w-60-0 flex justify-between items-start">
@@ -197,7 +197,7 @@ const How = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="flex flex-col justify-start items-center mt-3-7">
+                        <div className="flex flex-col justify-start items-center mt-3-7 lg:hidden">
                             <div className="w-21-9 lg:w-88-0">
                                 <div className="w-4-5 h-0-2 bg-primary-orange lg:w-7-4 lg:h-0-5"></div>
                                 <div className="w-14-3 text-2-5 text-word-gray leading-point-114 font-bold mt-0-7 lg:text-3-0 lg:mt-2-4 lg:w-75-0">
@@ -222,6 +222,69 @@ const How = () => {
                                         </div>
                                     })}
                                 </div>
+                            </div>
+                        </div>
+                        <div className="hidden flex-col justify-start items-center green-module-bg lg:flex lg:h-21-3 lg:pt-3-0 mt-2-6">
+                            <div className="w-21-9 lg:w-82-5">
+                                <div className="w-4-5 h-0-2 bg-primary-orange lg:w-7-4 lg:h-0-5"></div>
+                                <div className="w-14-3 text-2-5 text-word-gray leading-point-114 font-bold mt-0-7 lg:text-3-0 lg:mt-2-4 lg:w-75-0">
+                                    Development <span className="text-primary-orange">prospects</span>
+                                </div>
+                            </div>
+                            <div className="flex justify-between items-center mt-1-1 w-82-5">
+                                <div className={["rounded-3xl overflow-hidden relative h-18-6 cursor-pointer", currentDev === 1 ? 'w-18-6' : 'w-60-5'].join(" ")} onMouseEnter={() => mouseEnterDev(0)} onMouseLeave={() => mouseLeaveDev()}>
+                                    <div className="w-full h-18-6 absolute -z-10">
+                                        <img className="" alt="" src={devProspects[0].imgUrl}></img>
+                                    </div>
+                                    {currentDev !== 0 && currentDev !== 1 && <div className="absolute z-10 bottom-0-1 text-2-2 font-bold text-white leading-point-140 left-0-1 bg-black-opaity-30 w-full h-4-6 flex justify-start items-center pl-0-8">
+                                        {devProspects[0].title}
+                                    </div>}
+                                    {currentDev === 0 && <div className="w-full h-18-6 pc-dev-card-bg text-white py-3-0 px-4-6 flex flex-col justify-center">
+                                        <div className="font-bold text-2-5 leading-point-127 mb-0-5">{devProspects[0].title}</div>
+                                        <div className="font-normal text-1-5 leading-point-127">{devProspects[0].content}</div>
+                                    </div>}
+                                </div>
+                                <div className={["h-18-6 rounded-3xl overflow-hidden relative cursor-pointer", currentDev === 1 ? 'w-60-5' : 'w-18-6'].join(" ")} onMouseEnter={() => mouseEnterDev(1)} onMouseLeave={() => mouseLeaveDev()}>
+                                    <div className="w-full h-18-6 absolute -z-10">
+                                        <img className="" alt="" src={devProspects[1].imgUrl}></img>
+                                    </div>
+
+                                    {currentDev !== 1 && <div className={["absolute z-10 bottom-0-1 text-2-2 font-bold text-white leading-point-140 left-0-1 bg-black-opaity-30 w-full flex justify-start items-center pl-0-8 h-10-6"].join(" ")}>
+                                        {devProspects[1].title}
+                                    </div>}
+                                    {currentDev === 1 && <div className="w-full h-18-6 pc-dev-card-bg text-white py-3-0 px-4-6 flex flex-col justify-center">
+                                        <div className="font-bold text-2-5 leading-point-127 mb-0-5">{devProspects[1].title}</div>
+                                        <div className="font-normal text-1-5 leading-point-127">{devProspects[1].content}</div>
+                                    </div>}
+                                </div>
+                            </div>
+
+                            <div className="flex justify-between items-center mt-3-6 w-82-5">
+                                <div className={[" h-18-6 rounded-3xl overflow-hidden relative cursor-pointer", currentDev === 2 ? 'w-60-5' : 'w-18-6'].join(" ")} onMouseEnter={() => mouseEnterDev(2)} onMouseLeave={() => mouseLeaveDev()}>
+                                    <div className="w-full h-18-6 absolute -z-10">
+                                        <img className="" alt="" src={devProspects[2].imgUrl}></img>
+                                    </div>
+                                    {currentDev !== 2 && <div className={["absolute z-10 bottom-0-1 text-2-2 font-bold text-white leading-point-140 left-0-1 bg-black-opaity-30 w-full flex justify-start items-center pl-0-8 h-10-6"].join(" ")}>
+                                        {devProspects[2].title}
+                                    </div>}
+                                    {currentDev === 2 && <div className="w-full h-18-6 pc-dev-card-bg text-white py-3-0 px-4-6 flex flex-col justify-center">
+                                        <div className="font-bold text-2-5 leading-point-127 mb-0-5">{devProspects[2].title}</div>
+                                        <div className="font-normal text-1-5 leading-point-127">{devProspects[2].content}</div>
+                                    </div>}
+                                </div>
+                                <div className={["rounded-3xl overflow-hidden relative h-18-6 cursor-pointer ", currentDev === 2 ? 'w-18-6' : 'w-60-5'].join(" ")} onMouseEnter={() => mouseEnterDev(3)} onMouseLeave={() => mouseLeaveDev()}>
+                                    <div className="w-full h-18-6 absolute -z-10">
+                                        <img className="" alt="" src={devProspects[3].imgUrl}></img>
+                                    </div>
+                                    {currentDev !== 2 && currentDev !== 3 && <div className="absolute z-10 bottom-0-1 text-2-2 font-bold text-white leading-point-140 left-0-1 bg-black-opaity-30 w-full h-4-6 flex justify-start items-center pl-0-8">
+                                        {devProspects[3].title}
+                                    </div>}
+                                    {currentDev === 3 && <div className="w-full h-18-6 pc-dev-card-bg text-white py-3-0 px-4-6 flex flex-col justify-center">
+                                        <div className="font-bold text-2-5 leading-point-127 mb-0-5">{devProspects[3].title}</div>
+                                        <div className="font-normal text-1-5 leading-point-127">{devProspects[3].content}</div>
+                                    </div>}
+                                </div>
+
                             </div>
                         </div>
                     </div>

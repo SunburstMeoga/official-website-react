@@ -231,6 +231,12 @@ input {
     background: rgb(248 250 252);
 }
 
+
+.pc-dev-card-bg {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 17%, rgba(0, 0, 0, 0) 100%);
+}
+
 /* animate */
 .trans {
     transition: all 3s 2s linear;
