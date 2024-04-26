@@ -87,7 +87,10 @@ const Solution = () => {
 
 
                 <div className="">
-                    <div className="flex flex-col justify-start items-center">
+                    <div className="flex flex-col justify-start items-center relative">
+                        <div className="absolute -z-10 lg:hidden">
+                            <img src="/images/mobile/payment-module-bg.png"></img>
+                        </div>
                         <div className="text-word-gray leading-point-114 font-black text-3-0 w-19-0">
                             Why <br></br> Choose 3AT
                         </div>
