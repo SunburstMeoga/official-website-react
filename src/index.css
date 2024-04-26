@@ -37,6 +37,10 @@ div {
     line-height: 127%;
 }
 
+.leading-point-121 {
+    line-height: 121%;
+}
+
 .leading-num-24 {
     line-height: 24;
 }
@@ -242,7 +246,7 @@ input {
     transition: all 3s 2s linear;
 }
 
-.title-shadow {
+.title-shadow-green {
     text-shadow: 4px 4px 10px #0D5157;
 }
 

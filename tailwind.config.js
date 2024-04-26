@@ -40,7 +40,8 @@ module.exports = {
         'point-border': '#D0D4D6',
         'white-40': 'rgba(255,255,255,0.4)',
         'white-70': 'rgba(255,255,255,0.7)',
-        'bg-green': 'rgb(190,244,211)'
+        'bg-green': 'rgb(190,244,211)',
+        'module-bg': '#D5F8E4'
       },
       backgroundImage: {
         'home-1image': "url('/public/images/home-bg-1.png')",
