@@ -19,9 +19,7 @@ const Solution = () => {
                         </div>
                     </div>
                 </div>
-                <div className="mt-3-2 w-9-6 h-0-4 bg-primary-green lg:hidden">
-
-                </div>
+                <div className="mt-3-2 w-9-6 h-0-4 bg-primary-green lg:hidden"></div>
                 <div className="relative flex flex-col justify-start items-center bg-module-bg lg:hidden ">
                     {/* <div className="absolute -z-10 lg:hidden">
                         <img src="/images/mobile/payment-module-bg.png"></img>
@@ -87,13 +85,50 @@ const Solution = () => {
 
 
                 <div className="">
-                    <div className="flex flex-col justify-start items-center relative">
-                        <div className="absolute -z-10 lg:hidden">
+                    <div className="flex flex-col justify-start items-center relative bg-module-bg pb-3-0">
+                        {/* <div className="absolute -z-10 -mt-2-0 lg:hidden">
                             <img src="/images/mobile/payment-module-bg.png"></img>
+                        </div> */}
+                        <div className="flex flex-col justify-start items-center w-full">
+                            <div className="text-word-gray leading-point-114 font-black text-3-0 w-19-0">
+                                Why <br></br> Choose 3AT
+                            </div>
+                            <div className="flex flex-col justify-start items-center mt-3-5">
+                                <div className="w-6-7 mb-4-7">
+                                    <img src="/images/mobile/stable.png"></img>
+                                </div>
+                                <div className="font-black text-2-0 mb-2-0 text-word-gray">Stable</div>
+                                <div className="w-19-5 font-semibold leading-point-114 text-primary-green text-1-5 text-center">
+                                    You can exchange regulated digital currencies into Hong Kong dollars at a 1:1 rate at any time.
+                                </div>
+                            </div>
+                            <div className="flex flex-col justify-start items-center mt-3-5 ">
+                                <div className="w-6-7 mb-4-7">
+                                    <img src="/images/mobile/transparent.png"></img>
+                                </div>
+                                <div className="font-black text-2-0 mb-2-0 text-word-gray">Transparent</div>
+                                <div className="w-19-5 font-semibold leading-point-114 text-primary-green text-1-5 text-center">
+                                    Reserve composition and monthly certifications are publicly available.
+                                </div>
+                            </div>
+                            <div className="flex flex-col justify-start items-center mt-3-5">
+                                <div className="w-6-7 mb-4-7">
+                                    <img src="/images/mobile/trustworthy.png"></img>
+                                </div>
+                                <div className="font-black text-2-0 mb-2-0 text-word-gray">Trustworthy</div>
+                                <div className="w-19-5 font-semibold leading-point-114 text-primary-green text-1-5 text-center">
+                                    Widely used on popular exchanges and available natively on over multiple blockchains.
+                                </div>
+                            </div>
                         </div>
-                        <div className="text-word-gray leading-point-114 font-black text-3-0 w-19-0">
-                            Why <br></br> Choose 3AT
-                        </div>
+                    </div>
+                </div>
+                <div className="relative  bg-module-bg">
+                    <div className="absolute z-0">
+                        <img src="/images/mobile/bottom-round.png"></img>
+                    </div>
+                    <div className="flex flex-col justify-start items-center pt-2-8 pb-6-0">
+                        <ContractUs />
                     </div>
                 </div>
             </div>
