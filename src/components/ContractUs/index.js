@@ -23,7 +23,7 @@ const ContractUs = () => {
                         <div className="w-full text-word-gray">
                             {inforList.map((item, index) => {
                                 return (
-                                    <div key={index} className="mb-2-0">
+                                    <div key={index} className="mb-1-0">
                                         <div className="font-semibold text-1-5 ml-1-0">
                                             {item.title}
                                         </div>
@@ -35,7 +35,7 @@ const ContractUs = () => {
                             })}
                         </div>
                     </div>
-                    <div className="w-14-7 h-5-0 bg-primary-green flex justify-center items-center text-white text-2-0 font-black rounded-xl mt-4-0">Send</div>
+                    <div className="w-14-7 h-5-0 bg-primary-green flex justify-center items-center text-white text-2-0 font-black rounded-xl mt-3-0">Send</div>
                 </div>
             </div>
 

@@ -147,11 +147,11 @@ const TopBar = () => {
             {/* pc top bar */}
             <div className="hidden md:block">
                 <div className="flex justify-center items-center w-full fixed z-10">
-                    <div className="w-full flex justify-between items-center px-3-8 py-2-4">
+                    <div className="w-full flex justify-between items-center p-1-3">
                         <div className="flex justify-center items-center">
                             <div className="flex justify-start items-center">
                                 <div>
-                                    <img className="w-6-1" alt="" src="/images/logo.png"></img>
+                                    <img className="w-4-5" alt="" src="/images/logo.png"></img>
                                 </div>
                             </div>
                             <div className="flex justify-start items-center">
