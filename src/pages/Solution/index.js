@@ -214,7 +214,11 @@ const Solution = () => {
                         </div>
                     </div>
                 </div>
-
+                <div className=" flex justify-center items-center lg:-mt-2-0 bg-primary-green lg:py-4-8">
+                    <div className="w-full lg:w-84-5">
+                        <FooterBar isWhite></FooterBar>
+                    </div>
+                </div>
             </div>
         </div>
     )

@@ -113,6 +113,11 @@ const GamesAndVirtualEconomy = () => {
                         </div>
                     </div>
                 </div>
+                <div className=" flex justify-center items-center mt-9-0  bg-primary-green lg:py-4-8">
+                    <div className="w-full lg:w-84-5">
+                        <FooterBar isWhite></FooterBar>
+                    </div>
+                </div>
             </div>
         </div>
     )

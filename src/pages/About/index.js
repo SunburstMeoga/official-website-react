@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import FooterBar from "@/components/FooterBar";
 import SupplyTrendLine from './supplyTrendLine';
+import ThreeATTrendLine from "./3atTrendLine";
+import HAHTrendLine from "./hahTrendLine";
 const Home = () => {
     const navigator = useNavigate()
     let [itemStatus, setItemStatus] = useState([{
@@ -40,7 +42,7 @@ const Home = () => {
     return (
         <div>
             <div className="">
-                <div className="relative ">
+                <div className="relative lg:mb-2-0">
                     <div className="absolute -z-10 top-2-6 lg:hidden">
                         <img src="/images/mobile/about-banner.png" alt=""></img>
                     </div>
@@ -67,23 +69,25 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="w-full flex flex-col justify-start items-center mt-2-2 pt-1-4 lg:hidden">
-                    <div>
-                        <div className="w-23-5 bg-white rounded-2xl box-shadow-green white-opaity-40">
-                            <SupplyTrendLine />
+                <div className="w-full lg:bg-home-bg lg:flex lg:justify-center lg:items-center ">
+                    <div className="w-full flex flex-col justify-start items-center mt-2-2 pt-1-4 lg:flex-row lg:w-90-9 lg:justify-between lg:mr-auto lg:ml-auto ">
+                        <div className="lg:flex lg:justify-between lg:w-59-6 ">
+                            <div className="w-23-5 lg:w-28-1 lg:h-16-0 bg-white rounded-2xl box-shadow-green white-opaity-40">
+                                <SupplyTrendLine />
+                            </div>
+                            <div className="w-23-5 lg:w-28-1 lg:h-16-0 bg-white rounded-2xl box-shadow-green mt-1-4 white-opaity-40 lg:mt-auto">
+                                <ThreeATTrendLine />
+                            </div>
                         </div>
-                        <div className="w-23-5 bg-white rounded-2xl box-shadow-green mt-1-4 white-opaity-40">
-                            {/* <SupplyTrendLine /> */}
-                        </div>
-                    </div>
-                    <div>
-                        <div className="w-23-5 bg-white rounded-2xl box-shadow-green mt-1-4 white-opaity-40">
-                            {/* <SupplyTrendLine /> */}
+                        <div className=" lg:w-29-7 lg:flex lg:justify-end">
+                            <div className="w-23-5 lg:w-28-1 lg:h-16-0 bg-white rounded-2xl box-shadow-green mt-1-4 white-opaity-40 lg:mt-auto ">
+                                <HAHTrendLine />
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="relative mt-2-2">
+                <div className="relative mt-2-2 lg:mt-auto">
                     <div className="relative -z-10 lg:hidden">
                         <img src="/images/mobile/about-module-one.png" alt=""></img>
                     </div>
@@ -205,9 +209,9 @@ const Home = () => {
                             })}
                         </div>
                     </div>
-                    <div className="w-full hidden justify-center text-center mt-10 lg:flex absolute bottom-0-1 bg-black">
-                        <div className="w-11/12">
-                            <FooterBar></FooterBar>
+                    <div className="w-full hidden justify-center text-center mt-10 lg:flex absolute bottom-0-1 py-2-2 bg-white">
+                        <div className="w-84-5">
+                            <FooterBar ></FooterBar>
                         </div>
                     </div>
                 </div>
@@ -294,8 +298,8 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-full flex justify-center text-center mt-10 lg:hidden">
-                    <div className="w-11/12">
+                <div className="w-full flex justify-center text-center lg:hidden">
+                    <div className="">
                         <FooterBar></FooterBar>
                     </div>
                 </div>

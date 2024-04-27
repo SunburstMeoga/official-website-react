@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
 import * as echarts from 'echarts';
 
-const SupplyTrendLine = () => {
+const ThreeATTrendLine = () => {
     const initChart = () => {
-        let element = document.getElementById('chart1');
+        let element = document.getElementById('chart2');
         let myChart = echarts.init(element);
         myChart.clear()
         let option;
@@ -21,7 +21,7 @@ const SupplyTrendLine = () => {
                 data: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100],
                 axisLine: {
                     lineStyle: {
-                        color: '#003D6C' // 横坐标刻度线的颜色
+                        color: '#EC652B' // 横坐标刻度线的颜色
                     }
                 },
             },
@@ -30,7 +30,7 @@ const SupplyTrendLine = () => {
                 interval: 10,
                 axisLine: {
                     lineStyle: {
-                        color: '#003D6C'
+                        color: '#EC652B'
                     }
                 },
                 splitLine: {
@@ -41,19 +41,19 @@ const SupplyTrendLine = () => {
             },
             series: [
                 {
-                    data: [12, 23, 32, 23, 24, 13, 5, 42, 13, 50],
+                    data: [2, 32, 43, 23, 21, 42, 50, 50, 13, 42],
                     type: 'line',
                     smooth: false,
                     symbolSize: 0,   // 圆点大小
                     lineStyle: {
                         width: 1, // 线条宽度
-                        color: '003D6C'
+                        color: '#EC652B'
                     },
                     areaStyle: {
                         color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
-                            offset: 1, color: 'rgba(47,205,130,0)' // 0% 处的颜色
+                            offset: 1, color: 'rgba(255,210,8,0)' // 0% 处的颜色
                         }, {
-                            offset: 0, color: 'rgba(0,61,108,1)' // 100% 处的颜色
+                            offset: 0, color: 'rgba(236,101,43,1)' // 100% 处的颜色
                         }])
                     },
                 },
@@ -75,13 +75,13 @@ const SupplyTrendLine = () => {
         <div>
             <div className='px-1-3 py-0-8'>
                 <div className='text-word-gray font-bold flex justify-start items-baseline'>
-                    <div className='text-2-1'>USDT</div>
+                    <div className='text-2-1'>3AT</div>
                     <div className='text-1-0 ml-0-4'>total amount</div>
                 </div>
-                <div id='chart1' className='' style={{ width: '100%', height: '150%', margin: '0', padding: '0' }}></div>
+                <div id='chart2' className='' style={{ width: '100%', height: '150%', margin: '0', padding: '0' }}></div>
             </div>
         </div>
     )
 }
 
-export default SupplyTrendLine
+export default ThreeATTrendLine

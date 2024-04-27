@@ -44,7 +44,8 @@ module.exports = {
         'white-70': 'rgba(255,255,255,0.7)',
         'bg-green': 'rgb(190,244,211)',
         'module-bg': '#D5F8E4',
-        'digital-module': 'rgb(225,249,234)'
+        'digital-module': 'rgb(225,249,234)',
+        'home-bg': 'rgb(224,247,241)'
       },
       backgroundImage: {
         'home-1image': "url('/public/images/home-bg-1.png')",

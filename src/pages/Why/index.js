@@ -237,6 +237,11 @@ const Why = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className=" flex justify-center items-center mt-5-0 lg:mt-8-6 bg-primary-green lg:py-4-8">
+                            <div className="w-full lg:w-84-5">
+                                <FooterBar isWhite></FooterBar>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -244,4 +249,4 @@ const Why = () => {
     )
 }
 
-export default Why      
+export default Why       

@@ -287,10 +287,19 @@ const How = () => {
 
                             </div>
                         </div>
+
+                    </div>
+
+                </div>
+                <div className=" flex justify-center items-center mt-30-0 lg:mt-40-6 bg-primary-green lg:py-4-8">
+                    <div className="w-full lg:w-84-5">
+                        <FooterBar isWhite></FooterBar>
                     </div>
                 </div>
             </div>
+
         </div>
+
     )
 }
 

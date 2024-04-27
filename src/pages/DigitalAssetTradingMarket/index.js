@@ -137,6 +137,11 @@ const DigitalAssetTradingMarket = () => {
                         </div>
                     </div>
                 </div>
+                <div className=" flex justify-center items-center   bg-primary-green lg:py-4-8">
+                    <div className="w-full lg:w-84-5">
+                        <FooterBar isWhite></FooterBar>
+                    </div>
+                </div>
             </div>
         </div>
     )
