@@ -45,6 +45,14 @@ div {
     line-height: 121%;
 }
 
+.leading-point-151 {
+    line-height: 151%;
+}
+
+.leading-point-139 {
+    line-height: 139%;
+}
+
 .leading-num-24 {
     line-height: 24;
 }
@@ -262,12 +270,17 @@ input {
     -webkit-box-shadow: 1px 0px 20px 0px rgba(47, 205, 130, 0.2);
     -moz-box-shadow: 1px 0px 20px 0px rgba(47, 205, 130, 0.2);
     box-shadow: 1px 0px 20px 0px rgba(47, 205, 130, 0.2);
-    background: rgba(255, 255, 255, 0.4);
+    /* background: rgba(255, 255, 255, 0.4); */
 }
 
 .box-shadow-game {
     background: rgb(0, 61, 108);
     background: linear-gradient(90deg, rgba(0, 61, 108, 1) 0%, rgba(188, 116, 206, 1) 53%, rgba(236, 66, 43, 1) 100%);
+}
+
+.box-shadow-digital {
+    background: rgb(38, 122, 102);
+    background: linear-gradient(90deg, rgba(38, 122, 102, 1) 0%, rgba(52, 52, 122, 1) 100%);
 }
 
 /* .title-shadow {

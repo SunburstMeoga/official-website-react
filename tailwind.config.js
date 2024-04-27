@@ -23,6 +23,7 @@ module.exports = {
       colors: {
         'user-black': '#36485C',
         'white-opaity-80': 'rgba(255,255,255,1)',
+        'white-opaity-40': 'rgba(255, 255, 255, 0.4)',
         'black-opaity-30': 'rgba(0,0,0,0.3)',
         'black-opaity-70': 'rgba(0,0,0,0.7)',
         'black-opaity-50': 'rgba(0,0,0,0.5)',
@@ -42,7 +43,8 @@ module.exports = {
         'white-40': 'rgba(255,255,255,0.4)',
         'white-70': 'rgba(255,255,255,0.7)',
         'bg-green': 'rgb(190,244,211)',
-        'module-bg': '#D5F8E4'
+        'module-bg': '#D5F8E4',
+        'digital-module': 'rgb(225,249,234)'
       },
       backgroundImage: {
         'home-1image': "url('/public/images/home-bg-1.png')",

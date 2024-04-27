@@ -69,15 +69,15 @@ const Home = () => {
 
                 <div className="w-full flex flex-col justify-start items-center mt-2-2 pt-1-4 lg:hidden">
                     <div>
-                        <div className="w-23-5 bg-white rounded-2xl box-shadow-green ">
+                        <div className="w-23-5 bg-white rounded-2xl box-shadow-green white-opaity-40">
                             <SupplyTrendLine />
                         </div>
-                        <div className="w-23-5 bg-white rounded-2xl box-shadow-green mt-1-4">
+                        <div className="w-23-5 bg-white rounded-2xl box-shadow-green mt-1-4 white-opaity-40">
                             {/* <SupplyTrendLine /> */}
                         </div>
                     </div>
                     <div>
-                        <div className="w-23-5 bg-white rounded-2xl box-shadow-green mt-1-4">
+                        <div className="w-23-5 bg-white rounded-2xl box-shadow-green mt-1-4 white-opaity-40">
                             {/* <SupplyTrendLine /> */}
                         </div>
                     </div>
@@ -170,7 +170,7 @@ const Home = () => {
                         </div>
                         <div className="flex relative justify-between items-center w-90-8 mt-2-5">
                             <div className="text-word-card flex relative justify-between items-start w-90-8">
-                                <div className="w-43-7 box-shadow-green rounded-2xl px-3-7 py-3-0 bg-white">
+                                <div className="w-43-7 box-shadow-green white-opaity-40 rounded-2xl px-3-7 py-3-0 bg-white">
                                     <div className="w-22-7">
                                         <img src="/images/pc/hah-card.png" alt=""></img>
                                     </div>
@@ -179,7 +179,7 @@ const Home = () => {
                                     </div>
                                 </div>
 
-                                <div className="w-43-7 box-shadow-green rounded-2xl px-3-7 py-3-0 bg-white">
+                                <div className="w-43-7 box-shadow-green  white-opaity-40 rounded-2xl px-3-7 py-3-0 bg-white">
                                     <div className="w-13-4">
                                         <img src="/images/pc/currency-card.png" alt=""></img>
                                     </div>
@@ -246,7 +246,7 @@ const Home = () => {
                                 3AT brings together professionals in the fields of financial services, technology and compliance, led by an experienced senior management team, to provide excellent services to users around the world. Leading the way in the digital asset space.
                             </div>
                             <div className="text-word-card mt-1-5">
-                                <div className="w-21-9 box-shadow-green rounded-xl px-2-2 py-1-7 bg-white">
+                                <div className="w-21-9 box-shadow-green white-opaity-40 rounded-xl px-2-2 py-1-7 bg-white">
                                     <div className="w-9-6">
                                         <img src="/images/mobile/hah-card.png" alt=""></img>
                                     </div>
@@ -255,7 +255,7 @@ const Home = () => {
                                     </div>
                                 </div>
 
-                                <div className="w-21-9 box-shadow-green rounded-xl px-2-2 py-1-7 bg-white mt-1-6">
+                                <div className="w-21-9 box-shadow-green white-opaity-40 rounded-xl px-2-2 py-1-7 bg-white mt-1-6">
                                     <div className="w-9-6">
                                         <img src="/images/mobile/currency-card.png" alt=""></img>
                                     </div>

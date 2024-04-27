@@ -6,11 +6,11 @@ const GamesAndVirtualEconomy = () => {
         <div>
             <div className="border-t border-transparent">
                 <div className="text-word-gray leading-point-114 font-black text-3-0 mt-5-5 w-full  mb-1-1 lg:w-54-6 lg:text-4-0 lg:ml-6-0 lg:font-medium lg:mt-8-0">Games And Virtual Economy</div>
-                <div className="relative border-t border-transparent">
-                    <div className="absolute -z-10 lg:hidden">
+                <div className="relative border-t border-transparent h-16-6 lg:h-auto lg:flex lg:justify-end lg:items-center box-shadow-game">
+                    <div className="absolute lg:hidden">
                         <img src="/images/mobile/game-banner.png"></img>
                     </div>
-                    <div className="hidden -z-10 lg:block ">
+                    <div className="hidden w-77-6 lg:block">
                         <img src="/images/pc/game-banner.png"></img>
                     </div>
                     <div className="relative ml-3-2 mt-7-2 lg:absolute lg:z-10 lg:flex lg:flex-col lg:justify-center lg:h-full lg:items-start lg:left-5-6 lg:top-0-1 lg:mt-auto ">
@@ -34,8 +34,8 @@ const GamesAndVirtualEconomy = () => {
                             </div>
                         </div>
                         <div className="flex flex-col justify-start items-center">
-                            <div className="flex flex-col justify-start items-center  lg:w-76-3 lg:px-4-4  lg:flex-row lg:rounded-2xl lg:mb-3-8 box-shadow-green">
-                                <div className="flex justify-center items-center rounded-2xl box-shadow-green w-12-5 h-12-5 mb-2-5 lg:mb-0-1 lg:shadow-none lg:bg-transparent">
+                            <div className="flex flex-col justify-start items-center  lg:w-76-3 lg:px-4-4  lg:flex-row lg:rounded-2xl lg:mb-3-8 white-opaity-40 box-shadow-green">
+                                <div className="flex justify-center items-center rounded-2xl white-opaity-40 box-shadow-green w-12-5 h-12-5 mb-2-5 lg:mb-0-1 lg:shadow-none lg:bg-transparent">
                                     <div className="w-9-3 lg:w-10-0 lg:h-10-0">
                                         <img src="/images/mobile/game-icon.png" alt="" className="lg:hidden"></img>
                                         <img src="/images/pc/game-icon.png" alt="" className="hidden lg:block"></img>
@@ -45,8 +45,8 @@ const GamesAndVirtualEconomy = () => {
                                     Stablecoins can be used as currencies in the virtual economy, providing stable value storage and trading tools, helping gamers manage in-game assets and purchase and trade virtual goods.
                                 </div>
                             </div>
-                            <div className="flex flex-col justify-start items-center  lg:w-76-3 lg:px-4-4  lg:flex-row lg:rounded-2xl lg:mb-3-8 box-shadow-green">
-                                <div className="flex justify-center items-center rounded-2xl box-shadow-green w-12-5 h-12-5 mb-2-5 lg:mb-0-1 lg:shadow-none lg:bg-transparent">
+                            <div className="flex flex-col justify-start items-center  lg:w-76-3 lg:px-4-4  lg:flex-row lg:rounded-2xl lg:mb-3-8 white-opaity-40 box-shadow-green">
+                                <div className="flex justify-center items-center rounded-2xl white-opaity-40 box-shadow-green w-12-5 h-12-5 mb-2-5 lg:mb-0-1 lg:shadow-none lg:bg-transparent">
                                     <div className="w-9-3 lg:w-10-0 lg:h-10-0">
                                         <img src="/images/mobile/rocket-icon.png" alt="" className="lg:hidden"></img>
                                         <img src="/images/pc/rocket-icon.png" alt="" className="hidden lg:block"></img>
@@ -56,8 +56,8 @@ const GamesAndVirtualEconomy = () => {
                                     It is used for in-game payment and settlement, providing a convenient and low-cost transaction method to accelerate the purchase and transaction process of in-game items.
                                 </div>
                             </div>
-                            <div className="flex flex-col justify-start items-center  lg:w-76-3 lg:px-4-4  lg:flex-row lg:rounded-2xl lg:mb-3-8 box-shadow-green">
-                                <div className="flex justify-center items-center rounded-2xl box-shadow-green w-12-5 h-12-5 mb-2-5 lg:mb-0-1 lg:shadow-none lg:bg-transparent">
+                            <div className="flex flex-col justify-start items-center  lg:w-76-3 lg:px-4-4  lg:flex-row lg:rounded-2xl lg:mb-3-8 white-opaity-40 box-shadow-green">
+                                <div className="flex justify-center items-center rounded-2xl white-opaity-40 box-shadow-green w-12-5 h-12-5 mb-2-5 lg:mb-0-1 lg:shadow-none lg:bg-transparent">
                                     <div className="w-9-3 lg:w-10-0 lg:h-10-0">
                                         <img src="/images/mobile/safety-icon.png" alt="" className="lg:hidden"></img>
                                         <img src="/images/pc/safety-icon.png" alt="" className="hidden lg:block"></img>
@@ -74,7 +74,7 @@ const GamesAndVirtualEconomy = () => {
                             </div>
                         </div>
                         <div className="flex flex-col justify-start items-center lg:flex-row lg:w-84-9 lg:justify-between lg:items-start">
-                            <div className="flex flex-col justify-start items-center w-20-8 py-2-7 box-shadow-green rounded-2xl text-word-gray relative mb-3-0 lg:w-26-9 lg:py-2-3 ">
+                            <div className="flex flex-col justify-start items-center w-20-8 py-2-7 white-opaity-40 box-shadow-green rounded-2xl text-word-gray relative mb-3-0 lg:w-26-9 lg:py-2-3 ">
                                 <div className="absolute top-1-5 right-1-5 w-1-3 h-1-3 flex justify-center items-center bg-point-gray border-4 border-line-gray  rounded-full">
 
                                 </div>
@@ -84,7 +84,7 @@ const GamesAndVirtualEconomy = () => {
                                 </div>
                                 <div className="w-16-6 font-bold text-0-9 leading-point-126 lg:w-22-6  lg:h-6-4">Ensuring that the value of game players' assets in the virtual economy is not affected by inflation or deflation enhances the credibility and sustainability of in-game assets.</div>
                             </div>
-                            <div className="flex flex-col justify-start items-center w-20-8 py-2-7 box-shadow-green rounded-2xl text-word-gray relative mb-3-0 lg:w-26-9 lg:py-2-3 ">
+                            <div className="flex flex-col justify-start items-center w-20-8 py-2-7 white-opaity-40 box-shadow-green rounded-2xl text-word-gray relative mb-3-0 lg:w-26-9 lg:py-2-3 ">
                                 <div className="absolute top-1-5 right-1-5 w-1-3 h-1-3 flex justify-center items-center bg-point-gray border-4 border-line-gray  rounded-full">
 
                                 </div>
@@ -94,7 +94,7 @@ const GamesAndVirtualEconomy = () => {
                                 </div>
                                 <div className="w-16-6 font-bold text-0-9 leading-point-126 lg:w-22-6  lg:h-6-4">Stablecoin transactions usually have lower costs and fast confirmation speeds, which can improve game players' transaction efficiency in the virtual economy and reduce time and costs in the transaction process.</div>
                             </div>
-                            <div className="flex flex-col justify-start items-center w-20-8 py-2-7 box-shadow-green rounded-2xl text-word-gray relative mb-3-0 lg:w-26-9 lg:py-2-3 ">
+                            <div className="flex flex-col justify-start items-center w-20-8 py-2-7 white-opaity-40 box-shadow-green rounded-2xl text-word-gray relative mb-3-0 lg:w-26-9 lg:py-2-3 ">
                                 <div className="absolute top-1-5 right-1-5 w-1-3 h-1-3 flex justify-center items-center bg-point-gray border-4 border-line-gray  rounded-full">
 
                                 </div>
@@ -113,11 +113,6 @@ const GamesAndVirtualEconomy = () => {
                         </div>
                     </div>
                 </div>
-
-
-
-
-
             </div>
         </div>
     )

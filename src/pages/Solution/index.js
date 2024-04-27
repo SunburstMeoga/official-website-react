@@ -107,7 +107,7 @@ const Solution = () => {
                                 </div>
                             </div>
                             <div className="text-word-gray text-2-0 leading-point-114 text-left ml-50-0 font-bold mb-1-1 w-31-8">low cost</div>
-                            <div className="box-shadow-green bg-white rounded-2xl flex justify-between items-center px-5-7 mb-2-7">
+                            <div className="white-opaity-40 box-shadow-green bg-white rounded-2xl flex justify-between items-center px-5-7 mb-2-7">
                                 <div className="text-primary-green text-1-5 leading-point-114  w-23-8 font-semibold ">
                                     High handling fees
                                 </div>
@@ -119,7 +119,7 @@ const Solution = () => {
                                 </div>
                             </div>
                             <div className="text-word-gray text-2-0 leading-point-114 text-left ml-50-0 font-bold mb-1-1 w-31-8">lmmediacy</div>
-                            <div className="box-shadow-green bg-white rounded-2xl flex justify-between items-center px-5-7 mb-2-7">
+                            <div className="white-opaity-40 box-shadow-green bg-white rounded-2xl flex justify-between items-center px-5-7 mb-2-7">
                                 <div className="text-primary-green text-1-5 leading-point-114  w-23-8 font-semibold">
                                     Exchange rate fluctuations
                                 </div>
@@ -131,7 +131,7 @@ const Solution = () => {
                                 </div>
                             </div>
                             <div className="text-word-gray text-2-0 leading-point-114 text-left ml-50-0 font-bold mb-1-1 w-31-8">Decentralization and security</div>
-                            <div className="box-shadow-green bg-white rounded-2xl  px-5-7 mb-2-7">
+                            <div className="white-opaity-40 box-shadow-green bg-white rounded-2xl  px-5-7 mb-2-7">
                                 <div className="flex justify-between items-center border-b border-line-gray py-1-6">
                                     <div className="text-primary-green text-1-5 leading-point-114  w-23-8 font-semibold">
                                         Delay, opacity
@@ -157,7 +157,7 @@ const Solution = () => {
                                 </div>
                             </div>
                             <div className="text-word-gray text-2-0 leading-point-114 text-left ml-50-0 font-bold mb-1-1 w-31-8">Global accessibility</div>
-                            <div className="box-shadow-green bg-white rounded-2xl flex justify-between items-center px-5-7 mb-2-7">
+                            <div className="white-opaity-40 box-shadow-green bg-white rounded-2xl flex justify-between items-center px-5-7 mb-2-7">
                                 <div className="text-primary-green text-1-5 leading-point-114 font-semibold w-27-0">
                                     Delay, opacity, Centralization risk
                                 </div>
