@@ -37,6 +37,10 @@ div {
     line-height: 127%;
 }
 
+.leading-point-126 {
+    line-height: 126%;
+}
+
 .leading-point-121 {
     line-height: 121%;
 }
@@ -250,8 +254,20 @@ input {
     text-shadow: 4px 4px 10px #0D5157;
 }
 
+.title-shadow-game {
+    text-shadow: 4px 4px 10px #144477;
+}
+
 .box-shadow-green {
-    -webkit-box-shadow: 1px 0px 25px 0px rgba(47, 205, 103, 0.75);
+    -webkit-box-shadow: 1px 0px 20px 0px rgba(47, 205, 130, 0.2);
+    -moz-box-shadow: 1px 0px 20px 0px rgba(47, 205, 130, 0.2);
+    box-shadow: 1px 0px 20px 0px rgba(47, 205, 130, 0.2);
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.box-shadow-game {
+    background: rgb(0, 61, 108);
+    background: linear-gradient(90deg, rgba(0, 61, 108, 1) 0%, rgba(188, 116, 206, 1) 53%, rgba(236, 66, 43, 1) 100%);
 }
 
 /* .title-shadow {
