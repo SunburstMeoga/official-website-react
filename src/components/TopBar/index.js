@@ -81,7 +81,7 @@ const TopBar = () => {
                         </div>
                     </div>
                     {showMobileMenu &&
-                        <div className="absolute w-full top-14 z-30">
+                        <div className="absolute w-full top-4-4 z-30 ">
                             <div className="w-full  bg-white shadow-2xl flex flex-col items-center relative z-30">
                                 {menuList.map((item, index) => {
                                     return <div
@@ -89,8 +89,8 @@ const TopBar = () => {
                                         key={index}
                                         className="
                                         w-10/12 
-                                        py-6
-                                        px-2
+                                        py-2-0
+                                        px-1-0
                                         rounded
                                         border-b
                                          border-slate-100
@@ -123,7 +123,7 @@ const TopBar = () => {
                                                             className={[
                                                                 "w-10/12",
                                                                 "font-normal",
-                                                                "py-6",
+                                                                "py-3-1",
                                                                 "border-b",
                                                                 "border-slate-100",
                                                                 "mobile-active-item",
