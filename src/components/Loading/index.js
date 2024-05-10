@@ -9,7 +9,7 @@ const Loading = () => {
             {/* <div className='w-full lg:w-1/4 -mt-4-0 lg:mt-0-1'>
                 <img src='/images/loading.gif'></img>
             </div> */}
-            <div className='text-primary-green font-bold text-2-0'>
+            <div className='text-primary-green font-bold text-2-0 animate-bounce '>
                 Loading...
             </div>
         </div>

@@ -75,7 +75,7 @@ const ThreeATTrendLine = () => {
         <div>
             <div className='px-1-3 py-0-8'>
                 <div className='text-word-gray font-bold flex justify-start items-baseline'>
-                    <div className='text-2-1'>3AT</div>
+                    <div className='text-2-1'>USD3</div>
                     <div className='text-1-0 ml-0-4'>total amount</div>
                 </div>
                 <div id='chart2' className='' style={{ width: '100%', height: '150%', margin: '0', padding: '0' }}></div>
