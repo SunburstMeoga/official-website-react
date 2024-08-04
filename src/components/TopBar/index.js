@@ -67,7 +67,7 @@ const TopBar = () => {
             <div className="md:hidden">
                 <div className="w-full flex justify-center items-center fixed z-50">
                     <div className="px-1-2 w-full flex justify-between py-1-0 relative z-50">
-                        <div className="w-3-5 duration-300 ease-in-out active:opacity-25 active:translate-y-0-5" onClick={() => { navigator('/') }}>
+                        <div className="w-3-5 duration-300 ease-in-out active:opacity-25 active:-translate-x-0-5" onClick={() => { navigator('/') }}>
                             <img alt="" src="/images/logo.png"></img>
                         </div>
                         <div className="flex justify-center items-center ">
