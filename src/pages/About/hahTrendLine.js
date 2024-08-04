@@ -77,8 +77,8 @@ const HAHTrendLine = () => {
             ],
             grid: {
                 top: 25,
-                left: 25,
-                right: 10,
+                left: 60,
+                right: 0,
                 bottom: 25
             }
         };

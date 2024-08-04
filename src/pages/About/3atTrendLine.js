@@ -84,7 +84,7 @@ const ThreeATTrendLine = () => {
             grid: {
                 top: 25,
                 left: 45,
-                right: 40,
+                right: 0,
                 bottom: 25
             }
         };

@@ -85,8 +85,8 @@ const SupplyTrendLine = () => {
             ],
             grid: {
                 top: 25,
-                left: 40,
-                right: 40,
+                left: 45,
+                right: 0,
                 bottom: 25
             }
         };
