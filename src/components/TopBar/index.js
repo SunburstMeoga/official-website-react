@@ -67,14 +67,14 @@ const TopBar = () => {
             <div className="md:hidden">
                 <div className="w-full flex justify-center items-center fixed z-50">
                     <div className="px-1-2 w-full flex justify-between py-1-0 relative z-50">
-                        <div className="w-3-5">
+                        <div className="w-3-5 duration-300 ease-in-out active:opacity-25 active:translate-y-0-5" onClick={() => { navigator('/') }}>
                             <img alt="" src="/images/logo.png"></img>
                         </div>
                         <div className="flex justify-center items-center ">
-                            <div className="w-2-0 h-2-0">
+                            <div className="w-2-0 h-2-0 ">
                                 <img alt="" src="/images/user.png"></img>
                             </div>
-                            <div className="w-2-0 ml-1-2" onClick={() => toggleMobileMenuBar()}>
+                            <div className="w-2-0 ml-1-2 duration-300 ease-in-out active:opacity-25 active:translate-y-0-5" onClick={() => toggleMobileMenuBar()}>
                                 {/* <img alt="" src="/images/menu.png"></img> */}
                                 {!showMobileMenu ? <div className="icon iconfont icon-menu text-word-gray" style={{ fontSize: '24px' }}></div> : <div style={{ fontSize: '20px' }} className="text-word-gray icon iconfont icon-guanbi"></div>}
                             </div>

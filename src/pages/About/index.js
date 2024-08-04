@@ -60,10 +60,10 @@ const Home = () => {
                         <div className="text-gradient text-2-2 font-black w-20-2 text-center pb-0-2 leading-point-114 lg:text-left lg:text-4-0  lg:w-41-4">Digital Fiat Currency Bridge</div>
                         <div className="lg:flex lg:justify-start lg:items-center lg:mt-1-6">
                             <div className="mt-1-3 lg:mt-auto">
-                                <div className="green-button jump-button" onClick={() => toWhy()}>Why Choose 3AT</div>
+                                <div className="green-button jump-button duration-300 ease-in-out active:opacity-25 active:translate-y-0-5" onClick={() => toWhy()}>Why Choose 3AT</div>
                             </div>
                             <div className="mt-0-4 lg:mt-auto lg:ml-1-6">
-                                <div className="orange-button jump-button" onClick={() => toHow()}>How 3AT Works</div>
+                                <div className="orange-button jump-button duration-300 ease-in-out active:opacity-25 active:translate-y-0-5" onClick={() => toHow()}>How 3AT Works</div>
                             </div>
                         </div>
                     </div>
