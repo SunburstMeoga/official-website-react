@@ -8,7 +8,7 @@ const ThreeATTrendLine = () => {
 
     const fetchData = async () => {
         try {
-            const response = await axios.get('https://api-wallet.pgchain.app/api/volumns/usd3'); // 替换为你的API地址
+            const response = await axios.get('https://api.blocksafer.com/api/volumns/usd3'); // 替换为你的API地址
             const data = response.data.daily_transaction_volumes;
 
             // 将对象的键和值分别保存到两个数组中

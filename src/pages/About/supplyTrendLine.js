@@ -8,7 +8,7 @@ const SupplyTrendLine = () => {
 
     const fetchData = async () => {
         try {
-            const response = await axios.get('https://api-wallet.pgchain.app/api/bridges/in-volumn?to_token_id=71204&to_chain_id=703&days=7');
+            const response = await axios.get('https://api.blocksafer.com/api/bridges/in-volumn?to_token_id=71204&to_chain_id=703&days=7');
             const data = response.data.bsc_bridgess;
             // console.log(response.data)
 
