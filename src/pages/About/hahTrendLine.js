@@ -101,7 +101,7 @@ const HAHTrendLine = () => {
             <div className='px-1-3 py-0-8'>
                 <div className='text-word-gray font-bold flex justify-start items-baseline'>
                     <div className='text-2-1'>HAH</div>
-                    <div className='text-1-0 ml-0-4'>total amount</div>
+                    {/* <div className='text-1-0 ml-0-4'>total amount</div> */}
                 </div>
                 <div
                     id='chart3'
