@@ -71,9 +71,9 @@ const TopBar = () => {
                             <img alt="" src="/images/logo.png"></img>
                         </div>
                         <div className="flex justify-center items-center ">
-                            <div className="w-2-0 h-2-0 ">
+                            {/* <div className="w-2-0 h-2-0 ">
                                 <img alt="" src="/images/user.png"></img>
-                            </div>
+                            </div> */}
                             <div className="w-2-0 ml-1-2 duration-300 ease-in-out active:opacity-25 active:translate-y-0-5" onClick={() => toggleMobileMenuBar()}>
                                 {/* <img alt="" src="/images/menu.png"></img> */}
                                 {!showMobileMenu ? <div className="icon iconfont icon-menu text-word-gray" style={{ fontSize: '24px' }}></div> : <div style={{ fontSize: '20px' }} className="text-word-gray icon iconfont icon-guanbi"></div>}
@@ -194,13 +194,13 @@ const TopBar = () => {
                             </div>
                         </div>
                         <div className="flex justify-end items-center">
-                            <div className="flex justify-between items-center mr-2-0 cursor-pointer">
+                            {/* <div className="flex justify-between items-center mr-2-0 cursor-pointer">
                                 <div className="text-title-gray text-1-0">Sign in</div>
                                 <div className="w-1-0 ml-1-0">
                                     <img src="/images/__after.png" alt=""></img>
                                 </div>
                             </div>
-                            <div className="green-button rounded-full w-9-5 h-3-1 cursor-pointer flex justify-items-center">中文 / English</div>
+                            <div className="green-button rounded-full w-9-5 h-3-1 cursor-pointer flex justify-items-center">中文 / English</div> */}
                         </div>
                     </div>
                 </div>
