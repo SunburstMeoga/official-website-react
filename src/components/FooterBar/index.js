@@ -3,7 +3,15 @@ import React from "react";
 const FooterBar = ({ isWhite }) => {
     return (
         <div>
-            <div className="md:hidden">
+            <div className="md:hidden bg-primary-green w-full">
+                <div className="text-word-gray w-full px-1-5 pt-1-5">
+                    <div className="font-black w-full text-left text-1-3">Partners</div>
+                    <div className="w-5-0">
+                        <a href="https://blocksafer.com/" target="_blank">
+                            <img src="/images/mobile/partners.png"></img>
+                        </a>
+                    </div>
+                </div>
                 <div className="w-full flex justify-center items-center pb-3-6 pt-1-9">
                     <div className="w-17-8 flex flex-col items-center">
                         <div className={["mb-2-5 font-medium text-0-8", isWhite ? "text-white" : "text-word-gray"].join(' ')}>
@@ -60,6 +68,17 @@ const FooterBar = ({ isWhite }) => {
                                     Hwo 3AT Works
                                 </div>
                             </div>
+                            <div className="flex flex-col justify-start items-start text-word-gray mr-5-2">
+                                <div className="text-1-2 mt-1-2 font-black cursor-pointer">
+                                    Partners
+                                </div>
+                                <div className="w-8-0">
+                                    <a href="https://blocksafer.com/" target="_blank">
+                                        <img src="/images/mobile/partners.png"></img>
+                                    </a>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
 

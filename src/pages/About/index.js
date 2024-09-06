@@ -298,10 +298,11 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-full flex justify-center text-center lg:hidden">
-                    <div className="">
-                        <FooterBar></FooterBar>
-                    </div>
+
+            </div>
+            <div className="w-full flex justify-center text-center lg:hidden">
+                <div className="w-full">
+                    <FooterBar></FooterBar>
                 </div>
             </div>
         </div>
