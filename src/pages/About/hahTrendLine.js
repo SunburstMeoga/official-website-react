@@ -18,7 +18,7 @@ const HAHTrendLine = () => {
 
             // setDates(keys);
             // setValues(values);
-            const response = await axios.get('https://api.blocksafer.com/api/bsc/balance?token_address=0xcc201Ea56965D7c107C02CE0C2C4CF9A022D1119&wallet_address=0x589cC0C4CC800DD8315fD17083e783F5071Ff10b');
+            const response = await axios.get('https://api.blocksafer.com/api/bsc/balance?token_address=0xcc201Ea56965D7c107C02CE0C2C4CF9A022D1119&wallet_address=0x2Da189204B1ffF42743667f6d78d48e33c0791A0');
             console.log(response)
             let number = response.data.balance
             console.log(number);
