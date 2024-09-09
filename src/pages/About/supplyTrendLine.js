@@ -5,20 +5,22 @@ import * as echarts from 'echarts';
 const SupplyTrendLine = () => {
     const [dates, setDates] = useState([]);
     const [values, setValues] = useState([]);
-
+    let [balance, setBalance] = useState(0)
     const fetchData = async () => {
         try {
-            const response = await axios.get('https://api.blocksafer.com/api/bridges/in-volumn?to_token_id=71204&to_chain_id=703&days=7');
-            const data = response.data.bsc_bridgess;
-            // console.log(response.data)
-
+            // const response = await axios.get('https://api.blocksafer.com/api/bridges/in-volumn?to_token_id=71204&to_chain_id=703&days=7');
+            const response = await axios.get('https://api.blocksafer.com/api/hah/total-supply?token_address=0xcc201Ea56965D7c107C02CE0C2C4CF9A022D1119');
+            // const data = response.data.bsc_bridgess;
+            console.log(response.data)
+            let number = response.data.total_supply.match(/\d+(\.\d+)?/)[0];
+            console.log(number); // 793922.37312
+            setBalance(balance = number)
             // 假设返回的数据格式类似于 { "2024-08-01": 100, "2024-08-02": 150, ... }
             // 将对象的键和值分别保存到两个数组中
-            const keys = Object.keys(data);
-            const values = Object.values(data);
-
-            setDates(keys);
-            setValues(values);
+            // const keys = Object.keys(data);
+            // const values = Object.values(data);
+            // setDates(keys);
+            // setValues(values);
         } catch (error) {
             console.error("Error fetching data: ", error);
         }
@@ -99,22 +101,26 @@ const SupplyTrendLine = () => {
 
     useEffect(() => {
         if (dates.length > 0 && values.length > 0) {
-            initChart(); // 在数据加载完成后初始化图表
+            // initChart(); // 在数据加载完成后初始化图表
         }
     }, [dates, values]);
 
     return (
         <div>
             <div className='px-1-3 py-0-8'>
-                <div className='text-word-gray font-bold flex justify-start items-baseline'>
-                    <div className='text-2-1'>USDT</div>
-                    <div className='text-1-0 ml-0-4'>Balance</div>
+                <div className='text-word-gray font-bold flex justify-start items-baseline mb-1-0'>
+                    {/* <div className='text-2-1'>USDT</div> */}
+                    <div className='text-1-0 ml-0-4'>Total USD3 on HAH</div>
                 </div>
-                <div
+                <div className='text-word-gray font-bold flex flex-row justify-start items-baseline px-0-3'>
+                    <div className='text-2-0'>{balance}</div>
+                    <div className='text-0-8 ml-0-4'>USD3</div>
+                </div>
+                {/* <div
                     id='chart1'
                     className=''
                     style={{ width: '100%', height: '150%', margin: '0', padding: '0' }}
-                ></div>
+                ></div> */}
             </div>
         </div>
     );
