@@ -72,15 +72,15 @@ const Home = () => {
                 <div className="w-full lg:bg-home-bg  lg:justify-center lg:items-center lg:-mt-1-0">
                     <div className="w-full flex flex-col justify-start items-center mt-2-2 pt-1-4 lg:flex-row lg:w-90-9 lg:justify-between lg:mr-auto lg:ml-auto ">
                         <div className="lg:flex lg:justify-between lg:w-59-6 ">
-                            <div className="w-23-5 lg:w-28-1 lg:h-16-0 bg-white rounded-2xl box-shadow-green white-opaity-40">
+                            <div className="w-23-5 lg:w-28-1  bg-white rounded-2xl box-shadow-green white-opaity-40">
                                 <SupplyTrendLine />
                             </div>
-                            <div className="w-23-5 lg:w-28-1 lg:h-16-0 bg-white rounded-2xl box-shadow-green mt-1-4 white-opaity-40 lg:mt-auto">
+                            <div className="w-23-5 lg:w-28-1  bg-white rounded-2xl box-shadow-green mt-1-4 white-opaity-40 lg:mt-auto">
                                 <ThreeATTrendLine />
                             </div>
                         </div>
                         <div className=" lg:w-29-7 lg:flex lg:justify-end">
-                            <div className="w-23-5 lg:w-28-1 lg:h-16-0 bg-white rounded-2xl box-shadow-green mt-1-4 white-opaity-40 lg:mt-auto ">
+                            <div className="w-23-5 lg:w-28-1  bg-white rounded-2xl box-shadow-green mt-1-4 white-opaity-40 lg:mt-auto ">
                                 <HAHTrendLine />
                             </div>
                         </div>
