@@ -111,7 +111,7 @@ const HAHTrendLine = () => {
             <div className='px-1-3 py-0-8'>
                 <div className='text-primary-green font-bold flex justify-start items-baseline mb-1-0'>
                     {/* <div className='text-2-1'>USDT</div> */}
-                    <div className='text-1-0 ml-0-4'>USD3 balance on BSC</div>
+                    <div className='text-1-0 ml-0-4'>Deposit Reserves</div>
                 </div>
                 <div className='text-primary-green font-bold flex flex-row justify-start items-baseline px-0-3'>
                     <div className='text-2-0'>{Number(balance).toFixed(5)}</div>
