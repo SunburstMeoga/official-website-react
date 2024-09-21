@@ -13,7 +13,7 @@ const SupplyTrendLine = () => {
             // const data = response.data.bsc_bridgess;
             console.log(response.data)
             let number = response.data.total_supply.match(/\d+(\.\d+)?/)[0];
-            console.log(number); // 793922.37312
+            console.log(number);
             setBalance(balance = number)
             // 假设返回的数据格式类似于 { "2024-08-01": 100, "2024-08-02": 150, ... }
             // 将对象的键和值分别保存到两个数组中
