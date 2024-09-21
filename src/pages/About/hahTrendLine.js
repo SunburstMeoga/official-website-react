@@ -26,7 +26,7 @@ const HAHTrendLine = () => {
             const responseTwo = await axios.get('https://api.blocksafer.com/api/bsc/balance?token_address=0x55d398326f99059fF775485246999027B3197955&wallet_address=0x589cC0C4CC800DD8315fD17083e783F5071Ff10b');
             let numberOne = responseOne.data.total_supply.match(/\d+(\.\d+)?/)[0];
             let numberTwo = responseTwo.data.balance
-            setBalance(balance = (numberOne / numberTwo) * 100)
+            setBalance(balance = (numberTwo / numberOne) * 100)
         } catch (error) {
             console.error("Error fetching data: ", error);
         }
