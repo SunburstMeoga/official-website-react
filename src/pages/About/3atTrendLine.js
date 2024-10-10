@@ -20,7 +20,7 @@ const ThreeATTrendLine = () => {
             // setValues(values);
             const response = await axios.get('https://api.blocksafer.com/api/bsc/balance?token_address=0x55d398326f99059fF775485246999027B3197955&wallet_address=0x589cC0C4CC800DD8315fD17083e783F5071Ff10b');
             console.log(response)
-            let number = response.data.balance
+            let number = Number(response.data.balance) + 16420.27
             console.log(number);
             setBalance(balance = number)
         } catch (error) {
