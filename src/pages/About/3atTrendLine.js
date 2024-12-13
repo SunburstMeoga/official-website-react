@@ -31,6 +31,7 @@ const ThreeATTrendLine = () => {
     const initChart = () => {
         let element = document.getElementById('chart2');
         let myChart = echarts.init(element);
+
         myChart.clear();
 
         // 计算最小正值以避免显示零
